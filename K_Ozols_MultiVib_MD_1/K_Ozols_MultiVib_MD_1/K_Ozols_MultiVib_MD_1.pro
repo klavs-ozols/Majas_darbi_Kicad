@@ -1,4 +1,4 @@
-update=13.03.2018. 1:17:20
+update=13.03.2018. 16:35:18
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=C:/Users/Klavs/Desktop/veA/2_kurss_2_sem_EL_bak/Plasu_izgatavosanas_kurss/LIBRARIIES
+LibDir=../../LIBRARIIES
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,4 +59,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=C:/Users/Klavs/Desktop/veA/2_kurss_2_sem_EL_bak/Plasu_izgatavosanas_kurss/LIBRARIIES/dmc20402
+LibName33=C:/Users/Klavs/Desktop/veA/2_kurss_2_sem_EL_bak/Plasu_izgatavosanas_kurss/Majas_darbi_Kicad/LIBRARIIES/dmc20402
+[general]
+version=1
