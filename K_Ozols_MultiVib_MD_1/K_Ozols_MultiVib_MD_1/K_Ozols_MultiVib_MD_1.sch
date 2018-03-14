@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:dmc20402
+LIBS:K_Ozols_MultiVib_MD_1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -176,46 +177,55 @@ Connection ~ 5950 2750
 Wire Wire Line
 	5550 3100 5550 3300
 Wire Wire Line
-	5550 3600 5550 4750
-Wire Wire Line
 	5550 3750 5600 3750
 Wire Wire Line
-	5950 3600 5950 3750
+	5950 3600 5950 3900
 Wire Wire Line
-	5900 3750 6150 3750
-Wire Wire Line
-	6250 3750 6350 3750
-Wire Wire Line
-	6700 3600 6700 4750
+	6150 3750 6350 3750
 Wire Wire Line
 	6700 3750 6650 3750
-Wire Wire Line
-	6150 4750 6150 4850
 Connection ~ 6250 3750
-Wire Wire Line
-	6700 4750 6350 4750
 Connection ~ 6700 3750
-Wire Wire Line
-	6600 3900 6600 4850
-Wire Wire Line
-	6600 4850 6150 4850
-Wire Wire Line
-	5550 4750 5950 4750
 Connection ~ 5550 3750
 Wire Wire Line
-	6250 3600 6250 3900
-Wire Wire Line
-	6250 3900 6600 3900
-Wire Wire Line
-	6350 4050 6350 4000
-Wire Wire Line
-	6350 4000 4800 4000
-Wire Wire Line
-	4800 4000 4800 3750
-Wire Wire Line
-	5950 4050 5950 4000
-Connection ~ 5950 4000
-Wire Wire Line
-	6150 3750 6150 4050
+	4800 3750 4800 4750
 Connection ~ 5950 3750
+Wire Wire Line
+	5950 3750 5900 3750
+Wire Wire Line
+	5550 3600 5550 3950
+Wire Wire Line
+	6250 3600 6250 3750
+Wire Wire Line
+	4800 4750 5950 4750
+Wire Wire Line
+	6150 4750 6150 4850
+Wire Wire Line
+	6150 4850 5700 4850
+Wire Wire Line
+	5700 4850 5700 3900
+Wire Wire Line
+	5700 3900 5950 3900
+Wire Wire Line
+	6700 3850 6000 3850
+Wire Wire Line
+	6000 3850 6000 4050
+Wire Wire Line
+	6000 4050 5950 4050
+Connection ~ 6700 3850
+Wire Wire Line
+	6700 3600 6700 3850
+Wire Wire Line
+	6350 4750 6350 4900
+Wire Wire Line
+	6350 4900 5600 4900
+Wire Wire Line
+	5600 4900 5600 4750
+Connection ~ 5600 4750
+Wire Wire Line
+	6150 4050 6150 3750
+Wire Wire Line
+	6350 4050 6350 3950
+Wire Wire Line
+	6350 3950 5550 3950
 $EndSCHEMATC

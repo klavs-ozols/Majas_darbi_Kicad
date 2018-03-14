@@ -1,1 +1,221 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dmc20402
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DMC20402 U1
+U 1 1 5AA70AC1
+P 6150 4400
+F 0 "U1" V 5800 4400 60  0000 C CNN
+F 1 "DMC20402" V 6500 4350 60  0000 C CNN
+F 2 "" H 6150 4400 60  0001 C CNN
+F 3 "" H 6150 4400 60  0001 C CNN
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery BT1
+U 1 1 5AA70B26
+P 4800 3550
+F 0 "BT1" H 4900 3650 50  0000 L CNN
+F 1 "9 V" H 4900 3550 50  0000 L CNN
+F 2 "" V 4800 3610 50  0001 C CNN
+F 3 "" V 4800 3610 50  0001 C CNN
+	1    4800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5AA70BB9
+P 5550 2950
+F 0 "D1" H 5550 3050 50  0000 C CNN
+F 1 "LED" H 5550 2850 50  0000 C CNN
+F 2 "" H 5550 2950 50  0001 C CNN
+F 3 "" H 5550 2950 50  0001 C CNN
+	1    5550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5AA70C0F
+P 6700 2950
+F 0 "D2" H 6700 3050 50  0000 C CNN
+F 1 "LED" H 6700 2850 50  0000 C CNN
+F 2 "" H 6700 2950 50  0001 C CNN
+F 3 "" H 6700 2950 50  0001 C CNN
+	1    6700 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5AA70C57
+P 5550 3450
+F 0 "R1" V 5630 3450 50  0000 C CNN
+F 1 "470R" V 5550 3450 50  0000 C CNN
+F 2 "" V 5480 3450 50  0001 C CNN
+F 3 "" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5AA70C8D
+P 5950 3450
+F 0 "R2" V 6030 3450 50  0000 C CNN
+F 1 "47K" V 5950 3450 50  0000 C CNN
+F 2 "" V 5880 3450 50  0001 C CNN
+F 3 "" H 5950 3450 50  0001 C CNN
+	1    5950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5AA70CD1
+P 6250 3450
+F 0 "R3" V 6330 3450 50  0000 C CNN
+F 1 "47K" V 6250 3450 50  0000 C CNN
+F 2 "" V 6180 3450 50  0001 C CNN
+F 3 "" H 6250 3450 50  0001 C CNN
+	1    6250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5AA70D02
+P 6700 3450
+F 0 "R4" V 6780 3450 50  0000 C CNN
+F 1 "470R" V 6700 3450 50  0000 C CNN
+F 2 "" V 6630 3450 50  0001 C CNN
+F 3 "" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 5AA70D60
+P 5750 3750
+F 0 "C1" H 5775 3850 50  0000 L CNN
+F 1 "47 uF" H 5775 3650 50  0000 L CNN
+F 2 "" H 5750 3750 50  0001 C CNN
+F 3 "" H 5750 3750 50  0001 C CNN
+	1    5750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 5AA70DEC
+P 6500 3750
+F 0 "C2" H 6525 3850 50  0000 L CNN
+F 1 "47 uF" H 6525 3650 50  0000 L CNN
+F 2 "" H 6500 3750 50  0001 C CNN
+F 3 "" H 6500 3750 50  0001 C CNN
+	1    6500 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3350 4800 2750
+Wire Wire Line
+	4800 2750 6700 2750
+Wire Wire Line
+	5550 2750 5550 2800
+Connection ~ 5550 2750
+Wire Wire Line
+	6700 2750 6700 2800
+Wire Wire Line
+	6700 3100 6700 3300
+Wire Wire Line
+	6250 2750 6250 3300
+Connection ~ 6250 2750
+Wire Wire Line
+	5950 2750 5950 3300
+Connection ~ 5950 2750
+Wire Wire Line
+	5550 3100 5550 3300
+Wire Wire Line
+	5550 3600 5550 4750
+Wire Wire Line
+	5550 3750 5600 3750
+Wire Wire Line
+	5950 3600 5950 3750
+Wire Wire Line
+	5900 3750 6150 3750
+Wire Wire Line
+	6250 3750 6350 3750
+Wire Wire Line
+	6700 3600 6700 4750
+Wire Wire Line
+	6700 3750 6650 3750
+Wire Wire Line
+	6150 4750 6150 4850
+Connection ~ 6250 3750
+Wire Wire Line
+	6700 4750 6350 4750
+Connection ~ 6700 3750
+Wire Wire Line
+	6600 3900 6600 4850
+Wire Wire Line
+	6600 4850 6150 4850
+Wire Wire Line
+	5550 4750 5950 4750
+Connection ~ 5550 3750
+Wire Wire Line
+	6250 3600 6250 3900
+Wire Wire Line
+	6250 3900 6600 3900
+Wire Wire Line
+	6350 4050 6350 4000
+Wire Wire Line
+	6350 4000 4800 4000
+Wire Wire Line
+	4800 4000 4800 3750
+Wire Wire Line
+	5950 4050 5950 4000
+Connection ~ 5950 4000
+Wire Wire Line
+	6150 3750 6150 4050
+Connection ~ 5950 3750
+$EndSCHEMATC
