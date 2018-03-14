@@ -151,11 +151,11 @@ L CP1 C2
 U 1 1 5AA70DEC
 P 6500 3750
 F 0 "C2" H 6525 3850 50  0000 L CNN
-F 1 "47 uF" H 6525 3650 50  0000 L CNN
+F 1 "47 uF" H 6250 3650 50  0000 L CNN
 F 2 "" H 6500 3750 50  0001 C CNN
 F 3 "" H 6500 3750 50  0001 C CNN
 	1    6500 3750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4800 3350 4800 2750
@@ -182,10 +182,7 @@ Wire Wire Line
 	5950 3600 5950 3900
 Wire Wire Line
 	6150 3750 6350 3750
-Wire Wire Line
-	6700 3750 6650 3750
 Connection ~ 6250 3750
-Connection ~ 6700 3750
 Connection ~ 5550 3750
 Wire Wire Line
 	4800 3750 4800 4750
@@ -228,4 +225,7 @@ Wire Wire Line
 	6350 4050 6350 3950
 Wire Wire Line
 	6350 3950 5550 3950
+Wire Wire Line
+	6650 3750 6700 3750
+Connection ~ 6700 3750
 $EndSCHEMATC
