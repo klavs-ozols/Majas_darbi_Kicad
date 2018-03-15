@@ -209,7 +209,6 @@ Wire Wire Line
 	6000 3850 6000 4050
 Wire Wire Line
 	6000 4050 5950 4050
-Connection ~ 6700 3850
 Wire Wire Line
 	6700 3600 6700 3850
 Wire Wire Line
