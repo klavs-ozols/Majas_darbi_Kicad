@@ -1,0 +1,42 @@
+(export (version D)
+  (design
+    (source C:/Users/Klavs/Desktop/veA/2_kurss_2_sem_EL_bak/Plasu_izgatavosanas_kurss/K_Ozols_Battery_Holder_MD3/K_Ozols_Battery_Holder_MD3.sch)
+    (date "28.03.2018. 14:46:30")
+    (tool "Eeschema 4.0.7")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source K_Ozols_Battery_Holder_MD3.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref BT1)
+      (value "3.3 V")
+      (footprint Battery_Holders:1060_c)
+      (datasheet https://eu.mouser.com/ds/2/215/060-745916.pdf)
+      (libsource (lib device) (part Battery))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5ABB716A)))
+  (libparts
+    (libpart (lib device) (part Battery)
+      (description "Battery (multiple cells)")
+      (docs ~)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) Battery))
+      (pins
+        (pin (num 1) (name +) (type passive))
+        (pin (num 2) (name -) (type passive)))))
+  (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+  (nets
+    (net (code 1) (name +3V3)
+      (node (ref BT1) (pin 1)))
+    (net (code 2) (name GND)
+      (node (ref BT1) (pin 2)))))
