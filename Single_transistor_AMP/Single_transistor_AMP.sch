@@ -96,7 +96,7 @@ U 1 1 5AAA30A6
 P 4650 2900
 F 0 "C1" H 4660 2970 50  0000 L CNN
 F 1 "1 uF" H 4660 2820 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 4650 2900 50  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L10.0mm_W2.5mm_P7.50mm_MKS4" H 4650 2900 50  0001 C CNN
 F 3 "https://eu.mouser.com/ds/2/40/spingrd-776981.pdf" H 4650 2900 50  0001 C CNN
 	1    4650 2900
 	0    1    1    0   
@@ -107,7 +107,7 @@ U 1 1 5AAA30FF
 P 6000 3500
 F 0 "C2" H 6010 3570 50  0000 L CNN
 F 1 "20 uF" H 6010 3420 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm" H 6000 3500 50  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L10.0mm_W2.5mm_P7.50mm_MKS4" H 6000 3500 50  0001 C CNN
 F 3 "https://eu.mouser.com/ds/2/281/c49e-506.pdf" H 6000 3500 50  0001 C CNN
 	1    6000 3500
 	-1   0    0    1   

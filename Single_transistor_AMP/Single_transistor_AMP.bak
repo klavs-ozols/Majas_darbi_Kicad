@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Single_transistor_AMP-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -130,7 +131,7 @@ Wire Wire Line
 	6000 3200 5600 3200
 Connection ~ 5600 3200
 Wire Wire Line
-	6000 3900 6000 3600
+	6000 3600 6000 4150
 Wire Wire Line
 	5600 3650 5600 4000
 Connection ~ 5600 3900
@@ -146,7 +147,7 @@ F 3 "" H 5600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3900 6000 3900
+	5100 3900 6100 3900
 Wire Wire Line
 	5100 3900 5100 3300
 Wire Wire Line
@@ -161,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 2250 5600 2250
 Wire Wire Line
-	5600 2600 6100 2600
+	5600 2600 6200 2600
 Connection ~ 5600 2600
 $Comp
 L +9V #PWR02
@@ -176,7 +177,7 @@ F 3 "" H 5100 2200 50  0001 C CNN
 $EndComp
 Connection ~ 5100 2250
 Wire Wire Line
-	4150 2900 4550 2900
+	3800 2900 4550 2900
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 5AAA41CD
@@ -192,28 +193,6 @@ Wire Wire Line
 	5500 2250 5500 2200
 Connection ~ 5500 2250
 $Comp
-L Conn_01x01 J2
-U 1 1 5AAA46B5
-P 6300 2600
-F 0 "J2" H 6300 2700 50  0000 C CNN
-F 1 "Izeja" H 6300 2500 50  0000 C CNN
-F 2 "Connectors:1pin" H 6300 2600 50  0001 C CNN
-F 3 "https://eu.mouser.com/ds/2/181/M22-251-1134335.pdf" H 6300 2600 50  0001 C CNN
-	1    6300 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J1
-U 1 1 5AAA4731
-P 3950 2900
-F 0 "J1" H 3950 3000 50  0000 C CNN
-F 1 "ieeja" H 3950 2800 50  0000 C CNN
-F 2 "Connectors:1pin" H 3950 2900 50  0001 C CNN
-F 3 "https://eu.mouser.com/ds/2/181/M22-251-1134335.pdf" H 3950 2900 50  0001 C CNN
-	1    3950 2900
-	-1   0    0    1   
-$EndComp
-$Comp
 L PWR_FLAG #FLG04
 U 1 1 5AAA47E1
 P 5650 3950
@@ -228,40 +207,120 @@ Wire Wire Line
 	5650 3950 5600 3950
 Connection ~ 5600 3950
 $Comp
-L Conn_01x02 J3
-U 1 1 5AAA4A96
-P 6750 3150
-F 0 "J3" H 6750 3250 50  0000 C CNN
-F 1 "Barosana" H 6750 2950 50  0000 C CNN
-F 2 "Connectors:AK300-2" H 6750 3150 50  0001 C CNN
-F 3 "http://www.fastelettronica.com/PTR_morsetti.pdf" H 6750 3150 50  0001 C CNN
-	1    6750 3150
+L Conn_01x02 J2
+U 1 1 5ADF7E08
+P 6400 2600
+F 0 "J2" H 6400 2700 50  0000 C CNN
+F 1 "Izeja" H 6400 2400 50  0000 C CNN
+F 2 "Connectors:AK300-2" H 6400 2600 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/16/PCBMETRC-24178.pdf" H 6400 2600 50  0001 C CNN
+	1    6400 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L +9V #PWR05
-U 1 1 5AAA4AF5
-P 6450 3150
-F 0 "#PWR05" H 6450 3000 50  0001 C CNN
-F 1 "+9V" H 6450 3290 50  0000 C CNN
-F 2 "" H 6450 3150 50  0001 C CNN
-F 3 "" H 6450 3150 50  0001 C CNN
-	1    6450 3150
+L GND #PWR05
+U 1 1 5ADF7EF4
+P 6150 2750
+F 0 "#PWR05" H 6150 2500 50  0001 C CNN
+F 1 "GND" H 6150 2600 50  0000 C CNN
+F 2 "" H 6150 2750 50  0001 C CNN
+F 3 "" H 6150 2750 50  0001 C CNN
+	1    6150 2750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6200 2700 6150 2700
+Wire Wire Line
+	6150 2700 6150 2750
+$Comp
+L Conn_01x04 J1
+U 1 1 5ADF7F72
+P 3600 2800
+F 0 "J1" H 3600 3000 50  0000 C CNN
+F 1 "Barosana un ieeja" H 3600 2500 50  0000 C CNN
+F 2 "Connectors:AK300-4" H 3600 2800 50  0001 C CNN
+F 3 "https://www.alliedelec.com/m/d/5562820d7d96e18ed6aa6b65b62d0d03.pdf" H 3600 2800 50  0001 C CNN
+	1    3600 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2800 4000 2800
+Wire Wire Line
+	4000 2800 4000 2700
+Wire Wire Line
+	4000 2700 3800 2700
 $Comp
 L GND #PWR06
-U 1 1 5AAA4B1D
-P 6450 3250
-F 0 "#PWR06" H 6450 3000 50  0001 C CNN
-F 1 "GND" H 6450 3100 50  0000 C CNN
-F 2 "" H 6450 3250 50  0001 C CNN
-F 3 "" H 6450 3250 50  0001 C CNN
-	1    6450 3250
+U 1 1 5ADF80F6
+P 4100 2750
+F 0 "#PWR06" H 4100 2500 50  0001 C CNN
+F 1 "GND" H 4100 2600 50  0000 C CNN
+F 2 "" H 4100 2750 50  0001 C CNN
+F 3 "" H 4100 2750 50  0001 C CNN
+	1    4100 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2750 4000 2750
+Connection ~ 4000 2750
+$Comp
+L +9V #PWR07
+U 1 1 5ADF8144
+P 4150 2600
+F 0 "#PWR07" H 4150 2450 50  0001 C CNN
+F 1 "+9V" H 4150 2740 50  0000 C CNN
+F 2 "" H 4150 2600 50  0001 C CNN
+F 3 "" H 4150 2600 50  0001 C CNN
+	1    4150 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 3150 6450 3150
+	3800 2600 4150 2600
+$Comp
+L Conn_01x01 J3
+U 1 1 5ADF8EFF
+P 6650 3750
+F 0 "J3" H 6650 3850 50  0000 C CNN
+F 1 "Stiprinajums1" H 6650 3650 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 6650 3750 50  0001 C CNN
+F 3 "" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J4
+U 1 1 5ADF8F56
+P 6650 4050
+F 0 "J4" H 6650 4150 50  0000 C CNN
+F 1 "Stiprinajums2" H 6650 3950 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 6650 4050 50  0001 C CNN
+F 3 "" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5ADF8F8B
+P 6650 4350
+F 0 "J5" H 6650 4450 50  0000 C CNN
+F 1 "Stiprinajums3" H 6650 4250 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 6650 4350 50  0001 C CNN
+F 3 "" H 6650 4350 50  0001 C CNN
+	1    6650 4350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6550 3250 6450 3250
+	6000 3750 6450 3750
+Connection ~ 6000 3750
+Wire Wire Line
+	6100 3900 6100 4050
+Connection ~ 6000 3900
+Wire Wire Line
+	6000 4150 6100 4150
+Wire Wire Line
+	6100 4050 6450 4050
+Wire Wire Line
+	6100 4150 6100 4350
+Wire Wire Line
+	6100 4350 6450 4350
 $EndSCHEMATC
