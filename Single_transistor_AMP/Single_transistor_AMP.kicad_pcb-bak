@@ -6,7 +6,7 @@
     (area 80.823999 118.034999 131.012001 161.492001)
     (thickness 1.6)
     (drawings 6)
-    (tracks 22)
+    (tracks 20)
     (zones 0)
     (modules 12)
     (nets 7)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.7)
+    (last_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
     (user_trace_width 0.7)
@@ -502,7 +502,7 @@
   )
 
   (module Connectors:AK300-2 (layer F.Cu) (tedit 587FD45E) (tstamp 5ADFFFB9)
-    (at 95.504 126.746)
+    (at 102.95 126.365)
     (descr CONNECTOR)
     (tags CONNECTOR)
     (path /5ADF7E08)
@@ -649,7 +649,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5AE8C026)
-    (at 108.204 122.428)
+    (at 116.967 122.428)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /5ADF8F8B)
@@ -766,8 +766,6 @@
   (segment (start 86.36 135.89) (end 86.36 141.224) (width 1) (layer F.Cu) (net 5))
   (segment (start 93.98 135.89) (end 95.504 137.414) (width 0.7) (layer F.Cu) (net 6))
   (segment (start 95.504 137.414) (end 106.553 137.414) (width 0.7) (layer F.Cu) (net 6))
-  (segment (start 95.504 126.746) (end 95.504 134.366) (width 0.7) (layer F.Cu) (net 6))
-  (segment (start 95.504 134.366) (end 93.98 135.89) (width 0.7) (layer F.Cu) (net 6))
 
   (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.2))

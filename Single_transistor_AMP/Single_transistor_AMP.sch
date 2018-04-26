@@ -320,7 +320,21 @@ Wire Wire Line
 Wire Wire Line
 	6100 4050 6450 4050
 Wire Wire Line
-	6100 4150 6100 4350
+	6100 4150 6100 4700
 Wire Wire Line
 	6100 4350 6450 4350
+$Comp
+L Conn_01x01 J6
+U 1 1 5AE1919A
+P 6650 4700
+F 0 "J6" H 6650 4800 50  0000 C CNN
+F 1 "Stiprinajums4" H 6650 4600 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 6650 4700 50  0001 C CNN
+F 3 "" H 6650 4700 50  0001 C CNN
+	1    6650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4700 6450 4700
+Connection ~ 6100 4350
 $EndSCHEMATC
