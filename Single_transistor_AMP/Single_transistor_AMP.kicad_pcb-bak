@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 18)
+    (links 19)
     (no_connects 0)
     (area 80.823999 118.034999 131.012001 161.492001)
     (thickness 1.6)
     (drawings 6)
-    (tracks 20)
+    (tracks 23)
     (zones 0)
-    (modules 12)
+    (modules 13)
     (nets 7)
   )
 
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.7)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
     (user_trace_width 0.7)
@@ -649,7 +649,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5AE8C026)
-    (at 116.967 122.428)
+    (at 115.57 122.047)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /5ADF8F8B)
@@ -739,6 +739,23 @@
     )
   )
 
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5AE196DA)
+    (at 96.52 121.92)
+    (descr "Mounting Hole 2.2mm, M2")
+    (tags "mounting hole 2.2mm m2")
+    (path /5AE1919A)
+    (fp_text reference J6 (at 0 -3.048) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Stiprinajums4 (at 0 3.2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask)
+      (net 3 GND))
+  )
+
   (gr_line (start 80.899 139.7) (end 93.472 118.11) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 93.472 161.417) (end 80.899 139.7) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 130.937 139.7) (end 118.364 161.417) (layer Edge.Cuts) (width 0.15))
@@ -764,6 +781,9 @@
   (segment (start 89.58 141.224) (end 87.349949 141.224) (width 1) (layer F.Cu) (net 5))
   (segment (start 87.349949 141.224) (end 86.36 141.224) (width 1) (layer F.Cu) (net 5))
   (segment (start 86.36 135.89) (end 86.36 141.224) (width 1) (layer F.Cu) (net 5))
+  (segment (start 102.95 126.365) (end 102.95 127.355) (width 0.7) (layer F.Cu) (net 6))
+  (segment (start 102.95 127.355) (end 94.415 135.89) (width 0.7) (layer F.Cu) (net 6))
+  (segment (start 94.415 135.89) (end 93.98 135.89) (width 0.7) (layer F.Cu) (net 6))
   (segment (start 93.98 135.89) (end 95.504 137.414) (width 0.7) (layer F.Cu) (net 6))
   (segment (start 95.504 137.414) (end 106.553 137.414) (width 0.7) (layer F.Cu) (net 6))
 
