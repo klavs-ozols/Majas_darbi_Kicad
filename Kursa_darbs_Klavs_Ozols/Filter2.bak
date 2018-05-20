@@ -1,0 +1,274 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ICL7660SIPAZ
+LIBS:TL074
+LIBS:Amplifier_Operational
+LIBS:1N4148
+LIBS:LM3915
+LIBS:LM317
+LIBS:Kursa_darbs_Klavs_Ozols-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TL074 U?
+U 3 1 5B00377D
+P 3450 2700
+F 0 "U?" H 3450 2900 50  0000 L CNN
+F 1 "TL074" H 3450 2500 50  0000 L CNN
+F 2 "" H 3400 2800 50  0001 C CNN
+F 3 "" H 3500 2900 50  0001 C CNN
+	3    3450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TL074 U?
+U 4 1 5B0037C4
+P 5600 2700
+F 0 "U?" H 5600 2900 50  0000 L CNN
+F 1 "TL074" H 5600 2500 50  0000 L CNN
+F 2 "" H 5550 2800 50  0001 C CNN
+F 3 "" H 5650 2900 50  0001 C CNN
+	4    5600 2700
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 2800 0    60   Input ~ 0
+Audio
+Text HLabel 3200 2050 0    60   Input ~ 0
++8V
+Text HLabel 3200 3500 0    60   Input ~ 0
+-8V
+Text HLabel 2200 2350 0    60   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B00385F
+P 2300 2800
+F 0 "R?" V 2380 2800 50  0000 C CNN
+F 1 "6.8 k" V 2300 2800 50  0000 C CNN
+F 2 "" V 2230 2800 50  0001 C CNN
+F 3 "" H 2300 2800 50  0001 C CNN
+	1    2300 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5B0038C1
+P 2550 2550
+F 0 "R?" V 2630 2550 50  0000 C CNN
+F 1 "5.1 k" V 2550 2550 50  0000 C CNN
+F 2 "" V 2480 2550 50  0001 C CNN
+F 3 "" H 2550 2550 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B00394A
+P 2950 3000
+F 0 "R?" V 3030 3000 50  0000 C CNN
+F 1 "62k" V 2950 3000 50  0000 C CNN
+F 2 "" V 2880 3000 50  0001 C CNN
+F 3 "" H 2950 3000 50  0001 C CNN
+	1    2950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B00398D
+P 4950 3200
+F 0 "C?" H 4960 3270 50  0000 L CNN
+F 1 "220 nF" H 4960 3120 50  0000 L CNN
+F 2 "" H 4950 3200 50  0001 C CNN
+F 3 "" H 4950 3200 50  0001 C CNN
+	1    4950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B0039BA
+P 2750 3250
+F 0 "C?" H 2760 3320 50  0000 L CNN
+F 1 "220 nF" H 2760 3170 50  0000 L CNN
+F 2 "" H 2750 3250 50  0001 C CNN
+F 3 "" H 2750 3250 50  0001 C CNN
+	1    2750 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2800 1800 2800
+Wire Wire Line
+	3150 2600 3000 2600
+Wire Wire Line
+	3000 2600 3000 2350
+Wire Wire Line
+	2200 2350 5300 2350
+Wire Wire Line
+	2550 2400 2550 2350
+Connection ~ 2550 2350
+Wire Wire Line
+	2450 2800 2650 2800
+Wire Wire Line
+	2550 2700 2550 3250
+Wire Wire Line
+	2550 3250 2650 3250
+$Comp
+L C_Small C?
+U 1 1 5B003A5D
+P 2750 2800
+F 0 "C?" H 2760 2870 50  0000 L CNN
+F 1 "220 nF" H 2760 2720 50  0000 L CNN
+F 2 "" H 2750 2800 50  0001 C CNN
+F 3 "" H 2750 2800 50  0001 C CNN
+	1    2750 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 2800
+Wire Wire Line
+	2850 2800 3150 2800
+Wire Wire Line
+	2950 2850 2950 2800
+Connection ~ 2950 2800
+Wire Wire Line
+	2950 3150 2950 3250
+Wire Wire Line
+	2850 3250 3950 3250
+Wire Wire Line
+	3750 2700 4100 2700
+$Comp
+L R R?
+U 1 1 5B003B5A
+P 4250 2700
+F 0 "R?" V 4330 2700 50  0000 C CNN
+F 1 "6.8 k" V 4250 2700 50  0000 C CNN
+F 2 "" V 4180 2700 50  0001 C CNN
+F 3 "" H 4250 2700 50  0001 C CNN
+	1    4250 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3250 3950 2700
+Connection ~ 2950 3250
+Connection ~ 3950 2700
+$Comp
+L C_Small C?
+U 1 1 5B003BCF
+P 4950 2800
+F 0 "C?" H 4960 2870 50  0000 L CNN
+F 1 "220 nF" H 4960 2720 50  0000 L CNN
+F 2 "" H 4950 2800 50  0001 C CNN
+F 3 "" H 4950 2800 50  0001 C CNN
+	1    4950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5B003C75
+P 5200 3000
+F 0 "R?" V 5280 3000 50  0000 C CNN
+F 1 "62k" V 5200 3000 50  0000 C CNN
+F 2 "" V 5130 3000 50  0001 C CNN
+F 3 "" H 5200 3000 50  0001 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B003CC0
+P 4750 2550
+F 0 "R?" V 4830 2550 50  0000 C CNN
+F 1 "5.1 k" V 4750 2550 50  0000 C CNN
+F 2 "" V 4680 2550 50  0001 C CNN
+F 3 "" H 4750 2550 50  0001 C CNN
+	1    4750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2700 4850 2700
+Wire Wire Line
+	4850 2700 4850 2800
+Connection ~ 4750 2700
+Wire Wire Line
+	4750 2700 4750 3200
+Wire Wire Line
+	4750 3200 4850 3200
+Wire Wire Line
+	5050 2800 5300 2800
+Wire Wire Line
+	5200 2850 5200 2800
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 3150 5200 3200
+Wire Wire Line
+	5050 3200 6150 3200
+Wire Wire Line
+	5900 2700 7150 2700
+Wire Wire Line
+	6150 3200 6150 2700
+Connection ~ 5200 3200
+Connection ~ 6150 2700
+Wire Wire Line
+	4750 2350 4750 2400
+Connection ~ 3000 2350
+Wire Wire Line
+	5300 2350 5300 2600
+Connection ~ 4750 2350
+Wire Wire Line
+	3200 2050 5500 2050
+Wire Wire Line
+	3350 2050 3350 2400
+Wire Wire Line
+	5500 2050 5500 2400
+Connection ~ 3350 2050
+Wire Wire Line
+	3200 3500 5500 3500
+Wire Wire Line
+	3350 3500 3350 3000
+Wire Wire Line
+	5500 3500 5500 3000
+Connection ~ 3350 3500
+Text HLabel 7150 2700 2    60   Output ~ 0
+Audio50Hz
+$EndSCHEMATC
