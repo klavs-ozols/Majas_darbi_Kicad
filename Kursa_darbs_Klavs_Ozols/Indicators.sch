@@ -67,7 +67,7 @@ Text HLabel 2050 2600 3    60   Input ~ 0
 12V
 Text HLabel 1900 2600 3    60   Input ~ 0
 GND
-Text HLabel 2200 2600 3    60   Input ~ 0
+Text HLabel 2100 3300 0    60   Input ~ 0
 GND
 Text HLabel 2350 2600 3    60   Input ~ 0
 Audio10Hz
@@ -363,7 +363,7 @@ L POT RV1
 U 1 1 5B01BACC
 P 3000 3050
 F 0 "RV1" V 2825 3050 50  0000 C CNN
-F 1 "4.7k" V 2900 3050 50  0000 C CNN
+F 1 "10k" V 2900 3050 50  0000 C CNN
 F 2 "" H 3000 3050 50  0001 C CNN
 F 3 "" H 3000 3050 50  0001 C CNN
 	1    3000 3050
@@ -373,13 +373,9 @@ Wire Wire Line
 	2850 3050 2650 3050
 Wire Wire Line
 	2650 3050 2650 2950
-Wire Wire Line
-	2800 3050 2800 2600
 Connection ~ 2800 3050
 Wire Wire Line
-	3000 2900 2850 2900
-Wire Wire Line
-	2850 2900 2850 3050
+	2800 2900 3000 2900
 Text HLabel 3200 3050 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -399,7 +395,7 @@ Text HLabel 2050 5300 3    60   Input ~ 0
 12V
 Text HLabel 1900 5300 3    60   Input ~ 0
 GND
-Text HLabel 2200 5300 3    60   Input ~ 0
+Text HLabel 2200 5950 3    60   Input ~ 0
 GND
 Text HLabel 2350 5300 3    60   Input ~ 0
 Audio500Hz
@@ -600,7 +596,7 @@ L POT RV2
 U 1 1 5B01C6DF
 P 3000 5750
 F 0 "RV2" V 2825 5750 50  0000 C CNN
-F 1 "4.7k" V 2900 5750 50  0000 C CNN
+F 1 "10k" V 2900 5750 50  0000 C CNN
 F 2 "" H 3000 5750 50  0001 C CNN
 F 3 "" H 3000 5750 50  0001 C CNN
 	1    3000 5750
@@ -610,13 +606,9 @@ Wire Wire Line
 	2850 5750 2650 5750
 Wire Wire Line
 	2650 5750 2650 5650
-Wire Wire Line
-	2800 5750 2800 5300
 Connection ~ 2800 5750
 Wire Wire Line
-	3000 5600 2850 5600
-Wire Wire Line
-	2850 5600 2850 5750
+	2800 5600 3000 5600
 Text HLabel 3200 5750 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -636,7 +628,7 @@ Text HLabel 5050 2700 3    60   Input ~ 0
 12V
 Text HLabel 4900 2700 3    60   Input ~ 0
 GND
-Text HLabel 5200 2700 3    60   Input ~ 0
+Text HLabel 5150 3350 0    60   Input ~ 0
 GND
 Text HLabel 5350 2700 3    60   Input ~ 0
 Audio50Hz
@@ -828,7 +820,7 @@ L POT RV3
 U 1 1 5B01D66E
 P 6000 3150
 F 0 "RV3" V 5825 3150 50  0000 C CNN
-F 1 "4.7k" V 5900 3150 50  0000 C CNN
+F 1 "10k" V 5900 3150 50  0000 C CNN
 F 2 "" H 6000 3150 50  0001 C CNN
 F 3 "" H 6000 3150 50  0001 C CNN
 	1    6000 3150
@@ -838,13 +830,9 @@ Wire Wire Line
 	5850 3150 5650 3150
 Wire Wire Line
 	5650 3150 5650 3050
-Wire Wire Line
-	5800 3150 5800 2700
 Connection ~ 5800 3150
 Wire Wire Line
-	6000 3000 5850 3000
-Wire Wire Line
-	5850 3000 5850 3150
+	5800 3000 6000 3000
 Text HLabel 6200 3150 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -891,7 +879,7 @@ Text HLabel 8050 2750 3    60   Input ~ 0
 12V
 Text HLabel 7900 2750 3    60   Input ~ 0
 GND
-Text HLabel 8200 2750 3    60   Input ~ 0
+Text HLabel 8150 3400 0    60   Input ~ 0
 GND
 Text HLabel 8350 2750 3    60   Input ~ 0
 Audio200Hz
@@ -1083,7 +1071,7 @@ L POT RV5
 U 1 1 5B01F2F6
 P 9000 3200
 F 0 "RV5" V 8825 3200 50  0000 C CNN
-F 1 "4.7k" V 8900 3200 50  0000 C CNN
+F 1 "10k" V 8900 3200 50  0000 C CNN
 F 2 "" H 9000 3200 50  0001 C CNN
 F 3 "" H 9000 3200 50  0001 C CNN
 	1    9000 3200
@@ -1093,13 +1081,9 @@ Wire Wire Line
 	8850 3200 8650 3200
 Wire Wire Line
 	8650 3200 8650 3100
-Wire Wire Line
-	8800 3200 8800 2750
 Connection ~ 8800 3200
 Wire Wire Line
 	9000 3050 8850 3050
-Wire Wire Line
-	8850 3050 8850 3200
 Text HLabel 9200 3200 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -1321,13 +1305,9 @@ Wire Wire Line
 	5950 5750 5750 5750
 Wire Wire Line
 	5750 5750 5750 5650
-Wire Wire Line
-	5900 5750 5900 5300
 Connection ~ 5900 5750
 Wire Wire Line
-	6100 5600 5950 5600
-Wire Wire Line
-	5950 5600 5950 5750
+	5900 5600 6100 5600
 Text HLabel 6300 5750 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -1347,7 +1327,7 @@ Text HLabel 8100 5400 3    60   Input ~ 0
 12V
 Text HLabel 7950 5400 3    60   Input ~ 0
 GND
-Text HLabel 8250 5400 3    60   Input ~ 0
+Text HLabel 8250 6100 3    60   Input ~ 0
 GND
 Text HLabel 8400 5400 3    60   Input ~ 0
 Audio2.5kHz
@@ -1539,7 +1519,7 @@ L POT RV6
 U 1 1 5B01FAB4
 P 9050 5850
 F 0 "RV6" V 8875 5850 50  0000 C CNN
-F 1 "4.7k" V 8950 5850 50  0000 C CNN
+F 1 "10k" V 8950 5850 50  0000 C CNN
 F 2 "" H 9050 5850 50  0001 C CNN
 F 3 "" H 9050 5850 50  0001 C CNN
 	1    9050 5850
@@ -1549,13 +1529,9 @@ Wire Wire Line
 	8900 5850 8700 5850
 Wire Wire Line
 	8700 5850 8700 5750
-Wire Wire Line
-	8850 5850 8850 5400
 Connection ~ 8850 5850
 Wire Wire Line
-	9050 5700 8900 5700
-Wire Wire Line
-	8900 5700 8900 5850
+	8850 5700 9050 5700
 Text HLabel 9250 5850 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -1674,5 +1650,183 @@ Wire Wire Line
 Wire Wire Line
 	11150 3450 10800 3450
 Connection ~ 9650 750 
-NoConn ~ 10900 1250
+$Comp
+L POT RV?
+U 1 1 5B0A2AFE
+P 2100 5750
+F 0 "RV?" V 1925 5750 50  0000 C CNN
+F 1 "10k" V 2000 5750 50  0000 C CNN
+F 2 "" H 2100 5750 50  0001 C CNN
+F 3 "" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 5550 1950 5750
+Wire Wire Line
+	2100 5900 2200 5900
+Wire Wire Line
+	2200 5900 2200 5950
+Wire Wire Line
+	2200 5300 2200 5550
+Wire Wire Line
+	2200 5550 1950 5550
+Wire Wire Line
+	2100 5550 2100 5600
+Connection ~ 2100 5550
+$Comp
+L POT RV?
+U 1 1 5B0A42FC
+P 8150 5850
+F 0 "RV?" V 7975 5850 50  0000 C CNN
+F 1 "10k" V 8050 5850 50  0000 C CNN
+F 2 "" H 8150 5850 50  0001 C CNN
+F 3 "" H 8150 5850 50  0001 C CNN
+	1    8150 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 5400 8250 5650
+Wire Wire Line
+	8250 5650 8000 5650
+Wire Wire Line
+	8000 5650 8000 5850
+Wire Wire Line
+	8150 6000 8150 6100
+Wire Wire Line
+	8150 6100 8250 6100
+Wire Wire Line
+	8150 5700 8150 5650
+Connection ~ 8150 5650
+$Comp
+L POT RV?
+U 1 1 5B0A4FAB
+P 8200 3200
+F 0 "RV?" V 8025 3200 50  0000 C CNN
+F 1 "10k" V 8100 3200 50  0000 C CNN
+F 2 "" H 8200 3200 50  0001 C CNN
+F 3 "" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 5B0A55F9
+P 5200 3150
+F 0 "RV?" V 5025 3150 50  0000 C CNN
+F 1 "10k" V 5100 3150 50  0000 C CNN
+F 2 "" H 5200 3150 50  0001 C CNN
+F 3 "" H 5200 3150 50  0001 C CNN
+	1    5200 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 5B0A5AC2
+P 2200 3050
+F 0 "RV?" V 2025 3050 50  0000 C CNN
+F 1 "10k" V 2100 3050 50  0000 C CNN
+F 2 "" H 2200 3050 50  0001 C CNN
+F 3 "" H 2200 3050 50  0001 C CNN
+	1    2200 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 3200 2200 3300
+Wire Wire Line
+	2200 3300 2100 3300
+Wire Wire Line
+	2200 2900 2200 2600
+Wire Wire Line
+	2050 3050 2050 2850
+Wire Wire Line
+	2050 2850 2200 2850
+Connection ~ 2200 2850
+Wire Wire Line
+	5150 3350 5200 3350
+Wire Wire Line
+	5200 3350 5200 3300
+Wire Wire Line
+	5200 2700 5200 3000
+Wire Wire Line
+	5200 2900 5100 2900
+Wire Wire Line
+	5100 2900 5100 3050
+Wire Wire Line
+	5100 3050 5050 3050
+Wire Wire Line
+	5050 3050 5050 3150
+Connection ~ 5200 2900
+Wire Wire Line
+	8150 3400 8200 3400
+Wire Wire Line
+	8200 3400 8200 3350
+Wire Wire Line
+	8200 3050 8200 2750
+Wire Wire Line
+	8200 3000 8050 3000
+Wire Wire Line
+	8050 3000 8050 3200
+Connection ~ 8200 3000
+Wire Wire Line
+	10900 1250 10900 1400
+Connection ~ 10900 1400
+Wire Wire Line
+	8800 3100 8700 3100
+Wire Wire Line
+	8700 3100 8700 3200
+Connection ~ 8700 3200
+Wire Wire Line
+	8800 3100 8800 2750
+Wire Wire Line
+	8850 3050 8850 3150
+Wire Wire Line
+	8850 3150 8800 3150
+Wire Wire Line
+	8800 3150 8800 3200
+Wire Wire Line
+	5800 3000 5800 3150
+Wire Wire Line
+	5800 2700 5800 2950
+Wire Wire Line
+	5800 2950 5750 2950
+Wire Wire Line
+	5750 2950 5750 3150
+Connection ~ 5750 3150
+Wire Wire Line
+	2800 2900 2800 3050
+Wire Wire Line
+	2800 2600 2800 2850
+Wire Wire Line
+	2800 2850 2750 2850
+Wire Wire Line
+	2750 2850 2750 3050
+Connection ~ 2750 3050
+Wire Wire Line
+	2800 5300 2800 5550
+Wire Wire Line
+	2800 5550 2750 5550
+Wire Wire Line
+	2750 5550 2750 5750
+Connection ~ 2750 5750
+Wire Wire Line
+	2800 5600 2800 5750
+Wire Wire Line
+	5900 5600 5900 5750
+Wire Wire Line
+	5900 5300 5900 5550
+Wire Wire Line
+	5900 5550 5850 5550
+Wire Wire Line
+	5850 5550 5850 5750
+Connection ~ 5850 5750
+Wire Wire Line
+	8850 5400 8850 5650
+Wire Wire Line
+	8850 5650 8800 5650
+Wire Wire Line
+	8800 5650 8800 5850
+Connection ~ 8800 5850
+Wire Wire Line
+	8850 5700 8850 5850
 $EndSCHEMATC

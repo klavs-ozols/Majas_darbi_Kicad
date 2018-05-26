@@ -63,17 +63,17 @@ Audio
 $Comp
 L TL074 U1
 U 1 1 5AFF3B0D
-P 6250 4350
+P 6300 4300
 AR Path="/5AFF36EE/5AFF3B0D" Ref="U1"  Part="1" 
 AR Path="/5AFFA8C4/5AFF3B0D" Ref="U?"  Part="1" 
 AR Path="/5AFFC9F6/5AFF3B0D" Ref="U?"  Part="1" 
 AR Path="/5B002850/5AFF3B0D" Ref="U?"  Part="1" 
 AR Path="/5B000D4C/5AFF3B0D" Ref="U?"  Part="1" 
-F 0 "U1" H 6250 4550 50  0000 L CNN
-F 1 "TL074" H 6250 4150 50  0000 L CNN
-F 2 "" H 6200 4450 50  0001 C CNN
-F 3 "" H 6300 4550 50  0001 C CNN
-	1    6250 4350
+F 0 "U1" H 6300 4500 50  0000 L CNN
+F 1 "TL074" H 6300 4100 50  0000 L CNN
+F 2 "" H 6250 4400 50  0001 C CNN
+F 3 "" H 6350 4500 50  0001 C CNN
+	1    6300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -111,17 +111,17 @@ $EndComp
 $Comp
 L R R3
 U 1 1 5AFF3D80
-P 5300 4000
+P 5450 4050
 AR Path="/5AFF36EE/5AFF3D80" Ref="R3"  Part="1" 
 AR Path="/5AFFA8C4/5AFF3D80" Ref="R?"  Part="1" 
 AR Path="/5AFFC9F6/5AFF3D80" Ref="R?"  Part="1" 
 AR Path="/5B002850/5AFF3D80" Ref="R?"  Part="1" 
 AR Path="/5B000D4C/5AFF3D80" Ref="R?"  Part="1" 
-F 0 "R3" V 5380 4000 50  0000 C CNN
-F 1 "62k" V 5300 4000 50  0000 C CNN
-F 2 "" V 5230 4000 50  0001 C CNN
-F 3 "" H 5300 4000 50  0001 C CNN
-	1    5300 4000
+F 0 "R3" V 5530 4050 50  0000 C CNN
+F 1 "62k" V 5450 4050 50  0000 C CNN
+F 2 "" V 5380 4050 50  0001 C CNN
+F 3 "" H 5450 4050 50  0001 C CNN
+	1    5450 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -156,51 +156,6 @@ F 3 "" H 5050 3850 50  0001 C CNN
 	1    5050 3850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3900 4800 8300 4800
-Wire Wire Line
-	4650 4150 4900 4150
-Wire Wire Line
-	4800 3850 4800 4200
-Connection ~ 4800 4150
-Wire Wire Line
-	5300 4150 5200 4150
-Wire Wire Line
-	5200 3850 6700 3850
-Wire Wire Line
-	4900 3850 4800 3850
-Wire Wire Line
-	4800 4800 4800 4500
-Wire Wire Line
-	6150 4050 6150 3600
-Wire Wire Line
-	4100 3600 8600 3600
-Wire Wire Line
-	4100 3600 4100 4250
-Wire Wire Line
-	4100 4250 3900 4250
-Wire Wire Line
-	3900 4650 8500 4650
-Wire Wire Line
-	3900 4650 3900 4550
-Wire Wire Line
-	6700 3850 6700 4350
-Connection ~ 5300 3850
-Wire Wire Line
-	5950 4450 5300 4450
-Wire Wire Line
-	5300 4450 5300 4150
-Wire Wire Line
-	4800 4550 5900 4550
-Wire Wire Line
-	5900 4550 5900 4250
-Wire Wire Line
-	5900 4250 5950 4250
-Connection ~ 4800 4550
-Wire Wire Line
-	4350 4150 4350 4050
-Wire Wire Line
-	4350 4050 3900 4050
 $Comp
 L R R4
 U 1 1 5AFF41F2
@@ -265,43 +220,22 @@ F 3 "" H 7750 4300 50  0001 C CNN
 	1    7750 4300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6550 4350 7000 4350
-Wire Wire Line
-	7000 4350 7000 4300
-Connection ~ 6700 4350
-Wire Wire Line
-	7300 4300 7600 4300
-Wire Wire Line
-	7400 3750 7400 4350
-Connection ~ 7400 4300
-Wire Wire Line
-	7400 3750 7600 3750
 $Comp
 L R R6
 U 1 1 5AFF4633
-P 8100 3900
+P 8200 3950
 AR Path="/5AFF36EE/5AFF4633" Ref="R6"  Part="1" 
 AR Path="/5AFFA8C4/5AFF4633" Ref="R?"  Part="1" 
 AR Path="/5AFFC9F6/5AFF4633" Ref="R?"  Part="1" 
 AR Path="/5B002850/5AFF4633" Ref="R?"  Part="1" 
 AR Path="/5B000D4C/5AFF4633" Ref="R?"  Part="1" 
-F 0 "R6" V 8180 3900 50  0000 C CNN
-F 1 "62k" V 8100 3900 50  0000 C CNN
-F 2 "" V 8030 3900 50  0001 C CNN
-F 3 "" H 8100 3900 50  0001 C CNN
-	1    8100 3900
+F 0 "R6" V 8280 3950 50  0000 C CNN
+F 1 "62k" V 8200 3950 50  0000 C CNN
+F 2 "" V 8130 3950 50  0001 C CNN
+F 3 "" H 8200 3950 50  0001 C CNN
+	1    8200 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 3750 9150 3750
-Wire Wire Line
-	8100 4050 8100 4500
-Wire Wire Line
-	8100 4300 7900 4300
-Wire Wire Line
-	7400 4800 7400 4650
-Connection ~ 4800 4800
 $Comp
 L TL074 U1
 U 2 1 5AFF4742
@@ -318,6 +252,67 @@ F 3 "" H 8750 4600 50  0001 C CNN
 	2    8700 4400
 	1    0    0    -1  
 $EndComp
+Text HLabel 9350 4400 2    60   Output ~ 0
+Audio10Hz
+Wire Wire Line
+	3900 4800 8300 4800
+Wire Wire Line
+	4650 4150 4900 4150
+Wire Wire Line
+	4800 3850 4800 4200
+Connection ~ 4800 4150
+Wire Wire Line
+	5200 4150 5350 4150
+Wire Wire Line
+	5200 3850 6700 3850
+Wire Wire Line
+	4900 3850 4800 3850
+Wire Wire Line
+	4800 4800 4800 4500
+Wire Wire Line
+	4100 3600 8600 3600
+Wire Wire Line
+	4100 3600 4100 4250
+Wire Wire Line
+	4100 4250 3900 4250
+Wire Wire Line
+	3900 4650 8500 4650
+Wire Wire Line
+	3900 4650 3900 4550
+Wire Wire Line
+	6700 3850 6700 4350
+Wire Wire Line
+	5300 4450 6000 4450
+Wire Wire Line
+	5300 4450 5300 4150
+Wire Wire Line
+	4800 4550 5900 4550
+Wire Wire Line
+	5900 4550 5900 4250
+Wire Wire Line
+	5900 4250 5950 4250
+Connection ~ 4800 4550
+Wire Wire Line
+	4350 4150 4350 4050
+Wire Wire Line
+	4350 4050 3900 4050
+Wire Wire Line
+	7000 4350 7000 4300
+Connection ~ 6700 4350
+Wire Wire Line
+	7300 4300 7600 4300
+Wire Wire Line
+	7400 3750 7400 4350
+Connection ~ 7400 4300
+Wire Wire Line
+	7400 3750 7600 3750
+Wire Wire Line
+	7900 3750 9150 3750
+Wire Wire Line
+	8100 4300 7900 4300
+Wire Wire Line
+	7400 4800 7400 4650
+Connection ~ 4800 4800
 Wire Wire Line
 	8400 4300 8300 4300
 Wire Wire Line
@@ -330,16 +325,44 @@ Wire Wire Line
 	8500 4650 8500 4700
 Wire Wire Line
 	8500 4700 8600 4700
-Connection ~ 6150 4650
 Wire Wire Line
 	8600 3600 8600 4100
 Connection ~ 6150 3600
-Text HLabel 9350 4400 2    60   Output ~ 0
-Audio10Hz
 Wire Wire Line
 	9350 4400 9000 4400
 Wire Wire Line
 	9150 3750 9150 4400
-Connection ~ 8100 3750
 Connection ~ 9150 4400
+Wire Wire Line
+	6200 4600 6200 4650
+Connection ~ 6200 4650
+Wire Wire Line
+	5950 4250 5950 4200
+Wire Wire Line
+	5950 4200 6000 4200
+Wire Wire Line
+	6000 4450 6000 4400
+Wire Wire Line
+	6150 4000 6200 4000
+Wire Wire Line
+	6150 3600 6150 4000
+Wire Wire Line
+	6600 4350 7000 4350
+Wire Wire Line
+	6600 4350 6600 4300
+Wire Wire Line
+	5450 3850 5450 3900
+Connection ~ 5450 3850
+Wire Wire Line
+	5450 4200 5350 4200
+Wire Wire Line
+	5350 4200 5350 4150
+Connection ~ 5300 4150
+Wire Wire Line
+	8200 3750 8200 3800
+Connection ~ 8200 3750
+Wire Wire Line
+	8200 4100 8100 4100
+Wire Wire Line
+	8100 4100 8100 4500
 $EndSCHEMATC

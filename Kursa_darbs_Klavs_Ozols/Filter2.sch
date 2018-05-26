@@ -137,23 +137,6 @@ F 3 "" H 2750 3250 50  0001 C CNN
 	1    2750 3250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 2800 1800 2800
-Wire Wire Line
-	3150 2600 3000 2600
-Wire Wire Line
-	3000 2600 3000 2350
-Wire Wire Line
-	2200 2350 5300 2350
-Wire Wire Line
-	2550 2400 2550 2350
-Connection ~ 2550 2350
-Wire Wire Line
-	2450 2800 2650 2800
-Wire Wire Line
-	2550 2700 2550 3250
-Wire Wire Line
-	2550 3250 2650 3250
 $Comp
 L C_Small C15
 U 1 1 5B003A5D
@@ -165,18 +148,6 @@ F 3 "" H 2750 2800 50  0001 C CNN
 	1    2750 2800
 	0    1    1    0   
 $EndComp
-Connection ~ 2550 2800
-Wire Wire Line
-	2850 2800 3150 2800
-Wire Wire Line
-	2950 2850 2950 2800
-Connection ~ 2950 2800
-Wire Wire Line
-	2950 3150 2950 3250
-Wire Wire Line
-	2850 3250 3950 3250
-Wire Wire Line
-	3750 2700 4100 2700
 $Comp
 L R R10
 U 1 1 5B003B5A
@@ -188,10 +159,6 @@ F 3 "" H 4250 2700 50  0001 C CNN
 	1    4250 2700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3950 3250 3950 2700
-Connection ~ 2950 3250
-Connection ~ 3950 2700
 $Comp
 L C_Small C17
 U 1 1 5B003BCF
@@ -217,21 +184,56 @@ $EndComp
 $Comp
 L R R11
 U 1 1 5B003CC0
-P 4750 2550
-F 0 "R11" V 4830 2550 50  0000 C CNN
-F 1 "5.1 k" V 4750 2550 50  0000 C CNN
-F 2 "" V 4680 2550 50  0001 C CNN
-F 3 "" H 4750 2550 50  0001 C CNN
-	1    4750 2550
-	1    0    0    -1  
+P 4650 2450
+F 0 "R11" V 4730 2450 50  0000 C CNN
+F 1 "5.1 k" V 4650 2450 50  0000 C CNN
+F 2 "" V 4580 2450 50  0001 C CNN
+F 3 "" H 4650 2450 50  0001 C CNN
+	1    4650 2450
+	0    1    1    0   
 $EndComp
+Text HLabel 7150 2700 2    60   Output ~ 0
+Audio50Hz
+Wire Wire Line
+	2150 2800 1800 2800
+Wire Wire Line
+	3150 2600 3000 2600
+Wire Wire Line
+	3000 2600 3000 2350
+Wire Wire Line
+	2200 2350 5300 2350
+Wire Wire Line
+	2550 2400 2550 2350
+Connection ~ 2550 2350
+Wire Wire Line
+	2450 2800 2650 2800
+Wire Wire Line
+	2550 2700 2550 3250
+Wire Wire Line
+	2550 3250 2650 3250
+Connection ~ 2550 2800
+Wire Wire Line
+	2850 2800 3150 2800
+Wire Wire Line
+	2950 2850 2950 2800
+Connection ~ 2950 2800
+Wire Wire Line
+	2950 3150 2950 3250
+Wire Wire Line
+	2850 3250 3950 3250
+Wire Wire Line
+	3750 2700 4100 2700
+Wire Wire Line
+	3950 3250 3950 2700
+Connection ~ 2950 3250
+Connection ~ 3950 2700
 Wire Wire Line
 	4400 2700 4850 2700
 Wire Wire Line
 	4850 2700 4850 2800
 Connection ~ 4750 2700
 Wire Wire Line
-	4750 2700 4750 3200
+	4750 2650 4750 3200
 Wire Wire Line
 	4750 3200 4850 3200
 Wire Wire Line
@@ -249,12 +251,9 @@ Wire Wire Line
 	6150 3200 6150 2700
 Connection ~ 5200 3200
 Connection ~ 6150 2700
-Wire Wire Line
-	4750 2350 4750 2400
 Connection ~ 3000 2350
 Wire Wire Line
 	5300 2350 5300 2600
-Connection ~ 4750 2350
 Wire Wire Line
 	3200 2050 5500 2050
 Wire Wire Line
@@ -269,6 +268,11 @@ Wire Wire Line
 Wire Wire Line
 	5500 3500 5500 3000
 Connection ~ 3350 3500
-Text HLabel 7150 2700 2    60   Output ~ 0
-Audio50Hz
+Wire Wire Line
+	4800 2350 4800 2450
+Connection ~ 4800 2350
+Wire Wire Line
+	4500 2450 4500 2650
+Wire Wire Line
+	4500 2650 4750 2650
 $EndSCHEMATC

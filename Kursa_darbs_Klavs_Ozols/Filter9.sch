@@ -116,7 +116,7 @@ F 1 "62k" V 3400 3550 50  0000 C CNN
 F 2 "" V 3330 3550 50  0001 C CNN
 F 3 "" H 3400 3550 50  0001 C CNN
 	1    3400 3550
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Text HLabel 2000 2950 0    60   Input ~ 0
 GND
@@ -126,35 +126,6 @@ Text HLabel 2000 2600 0    60   Input ~ 0
 +8V
 Text HLabel 2000 3950 0    60   Input ~ 0
 -8V
-Wire Wire Line
-	3100 3400 3650 3400
-Connection ~ 3400 3400
-Wire Wire Line
-	3100 3700 4450 3700
-Wire Wire Line
-	2550 3400 2800 3400
-Wire Wire Line
-	2650 3350 2650 3700
-Connection ~ 2650 3400
-Wire Wire Line
-	2650 3700 2800 3700
-Wire Wire Line
-	2000 2950 3650 2950
-Wire Wire Line
-	2650 2950 2650 3050
-Wire Wire Line
-	3650 2850 3650 3200
-Connection ~ 2650 2950
-Wire Wire Line
-	3850 3000 3850 2600
-Wire Wire Line
-	2000 2600 4500 2600
-Wire Wire Line
-	3850 3600 3850 3950
-Wire Wire Line
-	3850 3950 2000 3950
-Wire Wire Line
-	2250 3400 2000 3400
 $Comp
 L R R52
 U 1 1 5B022D4A
@@ -208,8 +179,50 @@ F 1 "62k" V 5900 3450 50  0000 C CNN
 F 2 "" V 5830 3450 50  0001 C CNN
 F 3 "" H 5900 3450 50  0001 C CNN
 	1    5900 3450
+	0    1    1    0   
+$EndComp
+Text HLabel 7250 3200 2    60   Output ~ 0
+Audio25kHz
+$Comp
+L TL074 U10
+U 2 1 5B02BFF0
+P 6450 3200
+F 0 "U10" H 6450 3400 50  0000 L CNN
+F 1 "TL074" H 6450 3000 50  0000 L CNN
+F 2 "" H 6400 3300 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	2    6450 3200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3100 3400 3650 3400
+Connection ~ 3400 3400
+Wire Wire Line
+	3100 3700 4450 3700
+Wire Wire Line
+	2550 3400 2800 3400
+Wire Wire Line
+	2650 3350 2650 3700
+Connection ~ 2650 3400
+Wire Wire Line
+	2650 3700 2800 3700
+Wire Wire Line
+	2000 2950 3650 2950
+Wire Wire Line
+	2650 2950 2650 3050
+Wire Wire Line
+	3650 2850 3650 3200
+Connection ~ 2650 2950
+Wire Wire Line
+	3850 3000 3850 2600
+Wire Wire Line
+	2000 2600 4500 2600
+Wire Wire Line
+	3850 3600 3850 3950
+Wire Wire Line
+	3850 3950 2000 3950
+Wire Wire Line
+	2250 3400 2000 3400
 Wire Wire Line
 	5600 3300 6150 3300
 Connection ~ 5900 3300
@@ -248,23 +261,34 @@ Connection ~ 3650 2950
 Wire Wire Line
 	4500 2500 4500 2600
 Connection ~ 3850 2600
-Text HLabel 7250 3200 2    60   Output ~ 0
-Audio25kHz
 Wire Wire Line
 	7250 3200 6750 3200
 Wire Wire Line
 	7000 3600 7000 3200
 Connection ~ 7000 3200
 Connection ~ 5900 3600
-$Comp
-L TL074 U10
-U 2 1 5B02BFF0
-P 6450 3200
-F 0 "U10" H 6450 3400 50  0000 L CNN
-F 1 "TL074" H 6450 3000 50  0000 L CNN
-F 2 "" H 6400 3300 50  0001 C CNN
-F 3 "" H 6500 3400 50  0001 C CNN
-	2    6450 3200
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	3400 3400 3400 3450
+Wire Wire Line
+	3400 3450 3250 3450
+Wire Wire Line
+	3250 3450 3250 3550
+Wire Wire Line
+	3550 3550 3550 3650
+Wire Wire Line
+	3550 3650 3400 3650
+Wire Wire Line
+	3400 3650 3400 3700
+Wire Wire Line
+	5750 3450 5750 3350
+Wire Wire Line
+	5750 3350 5900 3350
+Wire Wire Line
+	5900 3350 5900 3300
+Wire Wire Line
+	6050 3450 6050 3550
+Wire Wire Line
+	6050 3550 5900 3550
+Wire Wire Line
+	5900 3550 5900 3600
 $EndSCHEMATC

@@ -150,7 +150,7 @@ F 1 "1 uF" H 3625 1900 50  0000 L CNN
 F 2 "" H 3638 1850 50  0001 C CNN
 F 3 "" H 3600 2000 50  0001 C CNN
 	1    3600 2000
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R67
@@ -161,7 +161,7 @@ F 1 "47k" V 3200 2000 50  0000 C CNN
 F 2 "" V 3130 2000 50  0001 C CNN
 F 3 "" H 3200 2000 50  0001 C CNN
 	1    3200 2000
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 1200 650  0    60   Input ~ 0
 +8V_2
@@ -256,7 +256,7 @@ F 1 "1 uF" H 3675 3600 50  0000 L CNN
 F 2 "" H 3688 3550 50  0001 C CNN
 F 3 "" H 3650 3700 50  0001 C CNN
 	1    3650 3700
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R68
@@ -267,7 +267,7 @@ F 1 "47k" V 3250 3700 50  0000 C CNN
 F 2 "" V 3180 3700 50  0001 C CNN
 F 3 "" H 3250 3700 50  0001 C CNN
 	1    3250 3700
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 3800 3550 2    60   Output ~ 0
 Audio50Hz-R
@@ -369,7 +369,7 @@ F 1 "1 uF" H 3775 5300 50  0000 L CNN
 F 2 "" H 3788 5250 50  0001 C CNN
 F 3 "" H 3750 5400 50  0001 C CNN
 	1    3750 5400
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R69
@@ -380,7 +380,7 @@ F 1 "47k" V 3350 5400 50  0000 C CNN
 F 2 "" V 3280 5400 50  0001 C CNN
 F 3 "" H 3350 5400 50  0001 C CNN
 	1    3350 5400
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 3900 5250 2    60   Output ~ 0
 Audio200Hz-R
@@ -471,7 +471,7 @@ F 1 "1 uF" H 3775 7000 50  0000 L CNN
 F 2 "" H 3788 6950 50  0001 C CNN
 F 3 "" H 3750 7100 50  0001 C CNN
 	1    3750 7100
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R70
@@ -482,7 +482,7 @@ F 1 "47k" V 3350 7100 50  0000 C CNN
 F 2 "" V 3280 7100 50  0001 C CNN
 F 3 "" H 3350 7100 50  0001 C CNN
 	1    3350 7100
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 3900 6950 2    60   Output ~ 0
 Audio500Hz-R
@@ -573,7 +573,7 @@ F 1 "1 uF" H 7075 1900 50  0000 L CNN
 F 2 "" H 7088 1850 50  0001 C CNN
 F 3 "" H 7050 2000 50  0001 C CNN
 	1    7050 2000
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R80
@@ -584,7 +584,7 @@ F 1 "47k" V 6650 2000 50  0000 C CNN
 F 2 "" V 6580 2000 50  0001 C CNN
 F 3 "" H 6650 2000 50  0001 C CNN
 	1    6650 2000
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 7200 1850 2    60   Output ~ 0
 Audio1kHz-R
@@ -675,7 +675,7 @@ F 1 "1 uF" H 7225 3600 50  0000 L CNN
 F 2 "" H 7238 3550 50  0001 C CNN
 F 3 "" H 7200 3700 50  0001 C CNN
 	1    7200 3700
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R82
@@ -686,7 +686,7 @@ F 1 "47k" V 6800 3700 50  0000 C CNN
 F 2 "" V 6730 3700 50  0001 C CNN
 F 3 "" H 6800 3700 50  0001 C CNN
 	1    6800 3700
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 7350 3550 2    60   Output ~ 0
 Audio2.5kHz-R
@@ -788,7 +788,7 @@ F 1 "1 uF" H 7175 5200 50  0000 L CNN
 F 2 "" H 7188 5150 50  0001 C CNN
 F 3 "" H 7150 5300 50  0001 C CNN
 	1    7150 5300
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R81
@@ -799,7 +799,7 @@ F 1 "47k" V 6750 5300 50  0000 C CNN
 F 2 "" V 6680 5300 50  0001 C CNN
 F 3 "" H 6750 5300 50  0001 C CNN
 	1    6750 5300
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 4750 3950 0    60   Input ~ 0
 +8V_3
@@ -894,7 +894,7 @@ F 1 "1 uF" H 10325 3250 50  0000 L CNN
 F 2 "" H 10338 3200 50  0001 C CNN
 F 3 "" H 10300 3350 50  0001 C CNN
 	1    10300 3350
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R90
@@ -905,7 +905,7 @@ F 1 "47k" V 9900 3350 50  0000 C CNN
 F 2 "" V 9830 3350 50  0001 C CNN
 F 3 "" H 9900 3350 50  0001 C CNN
 	1    9900 3350
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 10450 3200 2    60   Output ~ 0
 Audio10kHz-R
@@ -996,7 +996,7 @@ F 1 "1 uF" H 10225 5300 50  0000 L CNN
 F 2 "" H 10238 5250 50  0001 C CNN
 F 3 "" H 10200 5400 50  0001 C CNN
 	1    10200 5400
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R89
@@ -1007,7 +1007,7 @@ F 1 "47k" V 9800 5400 50  0000 C CNN
 F 2 "" V 9730 5400 50  0001 C CNN
 F 3 "" H 9800 5400 50  0001 C CNN
 	1    9800 5400
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 10350 5250 2    60   Output ~ 0
 Audio25kHz-R
@@ -1597,4 +1597,220 @@ Wire Wire Line
 Connection ~ 8350 4800
 Wire Wire Line
 	8350 2750 9400 2750
+Wire Wire Line
+	3200 1850 3200 1900
+Wire Wire Line
+	3200 1900 3050 1900
+Wire Wire Line
+	3050 1900 3050 2000
+Wire Wire Line
+	3200 2150 3200 2100
+Wire Wire Line
+	3200 2100 3350 2100
+Wire Wire Line
+	3350 2100 3350 2000
+Wire Wire Line
+	3450 2000 3450 1900
+Wire Wire Line
+	3450 1900 3600 1900
+Wire Wire Line
+	3600 1900 3600 1850
+Wire Wire Line
+	3750 2000 3750 2100
+Wire Wire Line
+	3750 2100 3600 2100
+Wire Wire Line
+	3600 2100 3600 2150
+Wire Wire Line
+	6500 2000 6500 1900
+Wire Wire Line
+	6500 1900 6650 1900
+Wire Wire Line
+	6650 1900 6650 1850
+Wire Wire Line
+	6800 2000 6800 2100
+Wire Wire Line
+	6800 2100 6650 2100
+Wire Wire Line
+	6650 2100 6650 2150
+Wire Wire Line
+	6900 2000 6900 1900
+Wire Wire Line
+	6900 1900 7050 1900
+Wire Wire Line
+	7050 1900 7050 1850
+Wire Wire Line
+	7200 2000 7200 2100
+Wire Wire Line
+	7200 2100 7050 2100
+Wire Wire Line
+	7050 2100 7050 2150
+Wire Wire Line
+	9750 3250 9750 3350
+Wire Wire Line
+	9750 3250 9900 3250
+Wire Wire Line
+	9900 3250 9900 3200
+Wire Wire Line
+	10050 3350 10050 3450
+Wire Wire Line
+	10050 3450 9900 3450
+Wire Wire Line
+	9900 3450 9900 3500
+Wire Wire Line
+	10150 3350 10150 3250
+Wire Wire Line
+	10150 3250 10300 3250
+Wire Wire Line
+	10300 3250 10300 3200
+Wire Wire Line
+	10450 3350 10450 3450
+Wire Wire Line
+	10450 3450 10300 3450
+Wire Wire Line
+	10300 3450 10300 3500
+Wire Wire Line
+	6650 3700 6650 3600
+Wire Wire Line
+	6650 3600 6800 3600
+Wire Wire Line
+	6800 3600 6800 3550
+Wire Wire Line
+	6950 3700 6950 3750
+Wire Wire Line
+	6950 3750 6800 3750
+Wire Wire Line
+	6800 3750 6800 3850
+Wire Wire Line
+	7050 3700 7050 3600
+Wire Wire Line
+	7050 3600 7200 3600
+Wire Wire Line
+	7200 3600 7200 3550
+Wire Wire Line
+	7350 3700 7350 3800
+Wire Wire Line
+	7350 3800 7200 3800
+Wire Wire Line
+	7200 3800 7200 3850
+Wire Wire Line
+	3500 3700 3500 3600
+Wire Wire Line
+	3500 3600 3650 3600
+Wire Wire Line
+	3650 3600 3650 3550
+Wire Wire Line
+	3800 3700 3800 3800
+Wire Wire Line
+	3800 3800 3650 3800
+Wire Wire Line
+	3650 3800 3650 3850
+Wire Wire Line
+	3400 3700 3400 3600
+Wire Wire Line
+	3400 3600 3250 3600
+Wire Wire Line
+	3250 3600 3250 3550
+Wire Wire Line
+	3100 3700 3100 3750
+Wire Wire Line
+	3100 3750 3250 3750
+Wire Wire Line
+	3250 3750 3250 3850
+Wire Wire Line
+	3600 5400 3600 5300
+Wire Wire Line
+	3600 5300 3750 5300
+Wire Wire Line
+	3750 5300 3750 5250
+Wire Wire Line
+	3200 5400 3200 5300
+Wire Wire Line
+	3200 5300 3350 5300
+Wire Wire Line
+	3350 5300 3350 5250
+Wire Wire Line
+	3500 5400 3500 5450
+Wire Wire Line
+	3500 5450 3350 5450
+Wire Wire Line
+	3350 5450 3350 5550
+Wire Wire Line
+	3900 5400 3900 5500
+Wire Wire Line
+	3900 5500 3750 5500
+Wire Wire Line
+	3750 5500 3750 5550
+Wire Wire Line
+	7000 5300 7000 5200
+Wire Wire Line
+	7000 5200 7150 5200
+Wire Wire Line
+	7150 5200 7150 5150
+Wire Wire Line
+	7300 5300 7300 5400
+Wire Wire Line
+	7300 5400 7150 5400
+Wire Wire Line
+	7150 5400 7150 5450
+Wire Wire Line
+	6600 5300 6600 5200
+Wire Wire Line
+	6600 5200 6750 5200
+Wire Wire Line
+	6750 5200 6750 5150
+Wire Wire Line
+	6900 5300 6900 5400
+Wire Wire Line
+	6900 5400 6750 5400
+Wire Wire Line
+	6750 5400 6750 5450
+Wire Wire Line
+	9650 5400 9650 5300
+Wire Wire Line
+	9650 5300 9800 5300
+Wire Wire Line
+	9800 5300 9800 5250
+Wire Wire Line
+	9950 5400 9950 5450
+Wire Wire Line
+	9950 5450 9800 5450
+Wire Wire Line
+	9800 5450 9800 5550
+Wire Wire Line
+	10050 5400 10050 5300
+Wire Wire Line
+	10050 5300 10200 5300
+Wire Wire Line
+	10200 5300 10200 5250
+Wire Wire Line
+	10350 5400 10350 5500
+Wire Wire Line
+	10350 5500 10200 5500
+Wire Wire Line
+	10200 5500 10200 5550
+Wire Wire Line
+	3200 7100 3200 7000
+Wire Wire Line
+	3200 7000 3350 7000
+Wire Wire Line
+	3350 7000 3350 6950
+Wire Wire Line
+	3500 7100 3500 7200
+Wire Wire Line
+	3500 7200 3350 7200
+Wire Wire Line
+	3350 7200 3350 7250
+Wire Wire Line
+	3600 7100 3600 7000
+Wire Wire Line
+	3600 7000 3750 7000
+Wire Wire Line
+	3750 7000 3750 6950
+Wire Wire Line
+	3900 7100 3900 7200
+Wire Wire Line
+	3900 7200 3750 7200
+Wire Wire Line
+	3750 7200 3750 7250
 $EndSCHEMATC

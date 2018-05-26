@@ -167,16 +167,14 @@ Wire Wire Line
 $Comp
 L CP1 C14
 U 1 1 5AFF755C
-P 5600 1200
-F 0 "C14" H 5625 1300 50  0000 L CNN
-F 1 "470 uF" H 5625 1100 50  0000 L CNN
-F 2 "" H 5600 1200 50  0001 C CNN
-F 3 "" H 5600 1200 50  0001 C CNN
-	1    5600 1200
-	1    0    0    -1  
+P 5850 1300
+F 0 "C14" H 5875 1400 50  0000 L CNN
+F 1 "470 uF" H 5875 1200 50  0000 L CNN
+F 2 "" H 5850 1300 50  0001 C CNN
+F 3 "" H 5850 1300 50  0001 C CNN
+	1    5850 1300
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5550 2300 5550 1350
 Wire Wire Line
 	5250 1050 6750 1050
 Wire Wire Line
@@ -184,15 +182,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 650  6750 650 
 Connection ~ 3600 1050
-Connection ~ 5600 1050
-Connection ~ 5600 1350
 Text HLabel 6750 650  2    60   Output ~ 0
 +8V
 Text HLabel 6750 1050 2    60   Output ~ 0
 -8V
-Wire Wire Line
-	5550 1350 5600 1350
-Connection ~ 3150 1200
 Connection ~ 3300 2050
 $Comp
 L ICL7660SIPAZ U4
@@ -241,19 +234,17 @@ Wire Wire Line
 Connection ~ 3300 3600
 Wire Wire Line
 	3300 3900 5450 3900
-Wire Wire Line
-	5450 3900 5450 2900
 Connection ~ 3300 3900
 $Comp
 L CP1 C12
 U 1 1 5B0060F9
-P 5450 2750
-F 0 "C12" H 5475 2850 50  0000 L CNN
-F 1 "470 uF" H 5475 2650 50  0000 L CNN
-F 2 "" H 5450 2750 50  0001 C CNN
-F 3 "" H 5450 2750 50  0001 C CNN
-	1    5450 2750
-	1    0    0    -1  
+P 5700 2850
+F 0 "C12" H 5725 2950 50  0000 L CNN
+F 1 "470 uF" H 5725 2750 50  0000 L CNN
+F 2 "" H 5700 2850 50  0001 C CNN
+F 3 "" H 5700 2850 50  0001 C CNN
+	1    5700 2850
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5250 2600 6900 2600
@@ -261,7 +252,6 @@ Text HLabel 6900 2350 2    60   Output ~ 0
 +8V_1
 Text HLabel 6900 2600 2    60   Output ~ 0
 -8V_1
-Connection ~ 5450 2600
 Wire Wire Line
 	3150 2350 6900 2350
 Connection ~ 3150 2350
@@ -295,13 +285,13 @@ $EndComp
 $Comp
 L CP1 C11
 U 1 1 5B02199A
-P 5400 4400
-F 0 "C11" H 5425 4500 50  0000 L CNN
-F 1 "470 uF" H 5425 4300 50  0000 L CNN
-F 2 "" H 5400 4400 50  0001 C CNN
-F 3 "" H 5400 4400 50  0001 C CNN
-	1    5400 4400
-	1    0    0    -1  
+P 5650 4450
+F 0 "C11" H 5675 4550 50  0000 L CNN
+F 1 "470 uF" H 5675 4350 50  0000 L CNN
+F 2 "" H 5650 4450 50  0001 C CNN
+F 3 "" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5250 4250 6700 4250
@@ -330,7 +320,6 @@ Text HLabel 6700 4250 2    60   Output ~ 0
 Wire Wire Line
 	3150 4000 6700 4000
 Connection ~ 3150 4000
-Connection ~ 5400 4250
 $Comp
 L ICL7660SIPAZ U6
 U 1 1 5B038826
@@ -361,13 +350,13 @@ $EndComp
 $Comp
 L CP1 C13
 U 1 1 5B038988
-P 5500 6050
-F 0 "C13" H 5525 6150 50  0000 L CNN
-F 1 "470 uF" H 5525 5950 50  0000 L CNN
-F 2 "" H 5500 6050 50  0001 C CNN
-F 3 "" H 5500 6050 50  0001 C CNN
-	1    5500 6050
-	1    0    0    -1  
+P 5750 6100
+F 0 "C13" H 5775 6200 50  0000 L CNN
+F 1 "470 uF" H 5775 6000 50  0000 L CNN
+F 2 "" H 5750 6100 50  0001 C CNN
+F 3 "" H 5750 6100 50  0001 C CNN
+	1    5750 6100
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 7200 5400 6200
@@ -405,7 +394,6 @@ Wire Wire Line
 	5900 5900 5900 5850
 Wire Wire Line
 	5900 5850 6000 5850
-Connection ~ 5500 5900
 Text HLabel 6000 5650 2    60   Output ~ 0
 +8V_3
 Wire Wire Line
@@ -426,4 +414,42 @@ NoConn ~ 3900 6550
 NoConn ~ 3900 6750
 Wire Wire Line
 	3150 5950 3900 5950
+Wire Wire Line
+	5750 1150 5750 1050
+Connection ~ 5750 1050
+Wire Wire Line
+	5550 1450 5850 1450
+Connection ~ 5550 1450
+Wire Wire Line
+	5550 2300 5550 1450
+Wire Wire Line
+	5650 2600 5650 2700
+Connection ~ 5650 2600
+Wire Wire Line
+	5450 3000 5700 3000
+Connection ~ 5450 3000
+Wire Wire Line
+	5450 3900 5450 3000
+Wire Wire Line
+	5650 5900 5650 5950
+Connection ~ 5650 5900
+Wire Wire Line
+	5500 6250 5750 6250
+Wire Wire Line
+	5500 6200 5500 6250
+Wire Wire Line
+	5650 4300 5650 4250
+Connection ~ 5650 4250
+Wire Wire Line
+	5650 4600 5500 4600
+Wire Wire Line
+	5500 4600 5500 4550
+Wire Wire Line
+	5500 4550 5400 4550
+Wire Wire Line
+	5650 2700 5700 2700
+Wire Wire Line
+	5850 1150 5750 1150
+Wire Wire Line
+	5650 5950 5750 5950
 $EndSCHEMATC

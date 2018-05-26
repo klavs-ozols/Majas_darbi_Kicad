@@ -113,7 +113,7 @@ F 1 "62k" V 4500 2850 50  0000 C CNN
 F 2 "" V 4430 2850 50  0001 C CNN
 F 3 "" H 4500 2850 50  0001 C CNN
 	1    4500 2850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L TL074 U8
@@ -179,7 +179,7 @@ F 1 "62k" V 7200 2750 50  0000 C CNN
 F 2 "" V 7130 2750 50  0001 C CNN
 F 3 "" H 7200 2750 50  0001 C CNN
 	1    7200 2750
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L TL074 U8
@@ -206,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 2650 4900 2650
 Wire Wire Line
-	4500 2650 4500 2700
+	4500 2650 4500 2750
 Wire Wire Line
 	4250 3000 5700 3000
 Wire Wire Line
@@ -246,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 2550 7600 2550
 Wire Wire Line
-	7200 2550 7200 2600
+	7200 2550 7200 2650
 Wire Wire Line
 	6950 2900 8400 2900
 Wire Wire Line
@@ -277,4 +277,24 @@ Connection ~ 5100 3150
 Text HLabel 8900 2450 2    60   Output ~ 0
 Audio1kHz
 Connection ~ 8400 2450
+Wire Wire Line
+	4350 2850 4350 2750
+Wire Wire Line
+	4350 2750 4500 2750
+Wire Wire Line
+	4650 2850 4650 2900
+Wire Wire Line
+	4650 2900 4500 2900
+Wire Wire Line
+	4500 2900 4500 3000
+Wire Wire Line
+	7200 2650 7050 2650
+Wire Wire Line
+	7050 2650 7050 2750
+Wire Wire Line
+	7350 2750 7350 2850
+Wire Wire Line
+	7350 2850 7200 2850
+Wire Wire Line
+	7200 2850 7200 2900
 $EndSCHEMATC
