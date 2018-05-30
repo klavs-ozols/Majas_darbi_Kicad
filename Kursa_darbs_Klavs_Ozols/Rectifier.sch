@@ -701,17 +701,17 @@ F 3 "" H 6400 4500 50  0001 C CNN
 	4    6350 4300
 	1    0    0    -1  
 $EndComp
-Text HLabel 4800 4400 0    60   Input ~ 0
+Text HLabel 4700 4400 0    60   Input ~ 0
 Audio4.5kHz
 $Comp
 L C C56
 U 1 1 5B02E4FB
-P 5100 4400
-F 0 "C56" H 5125 4500 50  0000 L CNN
-F 1 "1 uF" H 5125 4300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5138 4250 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5100 4400 50  0001 C CNN
-	1    5100 4400
+P 5150 4350
+F 0 "C56" H 5175 4450 50  0000 L CNN
+F 1 "1 uF" H 5175 4250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5188 4200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5150 4350 50  0001 C CNN
+	1    5150 4350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1175,8 +1175,6 @@ Wire Wire Line
 	1350 3850 3650 3850
 Connection ~ 3250 3850
 Connection ~ 1350 3850
-Wire Wire Line
-	1350 2150 1350 6500
 Connection ~ 3650 3550
 Wire Wire Line
 	1150 4500 1550 4500
@@ -1194,8 +1192,6 @@ Wire Wire Line
 	2850 4050 2850 4100
 Wire Wire Line
 	550  4050 2850 4050
-Wire Wire Line
-	1350 4800 2850 4800
 Wire Wire Line
 	2850 4800 2850 4700
 Wire Wire Line
@@ -1244,8 +1240,6 @@ Wire Wire Line
 	2850 5750 2850 5800
 Wire Wire Line
 	550  5750 2850 5750
-Wire Wire Line
-	1350 6500 2850 6500
 Wire Wire Line
 	2850 6500 2850 6400
 Wire Wire Line
@@ -1339,8 +1333,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 2350 6300 2350
 Wire Wire Line
-	4700 3100 6300 3100
-Wire Wire Line
 	6300 3100 6300 3000
 Wire Wire Line
 	6100 2550 6100 2600
@@ -1374,10 +1366,6 @@ Wire Wire Line
 	4900 2550 4900 3850
 Connection ~ 7200 3550
 Wire Wire Line
-	4950 4400 4800 4400
-Wire Wire Line
-	5350 4400 5250 4400
-Wire Wire Line
 	6050 4400 5650 4400
 Wire Wire Line
 	6650 4300 6850 4300
@@ -1386,13 +1374,7 @@ Wire Wire Line
 	6500 5150 7300 5150
 Connection ~ 6750 5150
 Wire Wire Line
-	6250 4000 6250 3950
-Wire Wire Line
 	4750 3950 6500 3950
-Wire Wire Line
-	4750 4700 7300 4700
-Wire Wire Line
-	6250 4700 6250 4600
 Wire Wire Line
 	6050 4150 6050 4200
 Wire Wire Line
@@ -1529,7 +1511,7 @@ Connection ~ 1450 3850
 Wire Wire Line
 	2650 4250 1450 4250
 Wire Wire Line
-	2650 5950 1450 5950
+	1350 5950 2650 5950
 Connection ~ 4050 2150
 Connection ~ 4050 2550
 Wire Wire Line
@@ -1561,7 +1543,6 @@ Wire Wire Line
 	4850 4150 4850 5450
 Connection ~ 550  2250
 Connection ~ 550  4050
-Connection ~ 1350 4800
 Connection ~ 1250 550 
 Wire Wire Line
 	4600 650  6150 650 
@@ -1576,8 +1557,6 @@ Wire Wire Line
 	1550 1400 1550 2250
 Wire Wire Line
 	1550 2250 4700 2250
-Wire Wire Line
-	4700 1400 4700 3100
 Connection ~ 4700 1400
 Connection ~ 1550 1400
 Wire Wire Line
@@ -1585,10 +1564,8 @@ Wire Wire Line
 Connection ~ 4700 2250
 Wire Wire Line
 	6500 3950 6500 4050
-Connection ~ 6250 3950
 Wire Wire Line
 	7300 4700 7300 4800
-Connection ~ 6250 4700
 Wire Wire Line
 	7800 2000 7800 4050
 Connection ~ 7800 4050
@@ -1813,4 +1790,44 @@ Wire Wire Line
 	3900 7200 3750 7200
 Wire Wire Line
 	3750 7200 3750 7250
+Wire Wire Line
+	2850 4800 1300 4800
+Wire Wire Line
+	1300 4800 1300 2500
+Wire Wire Line
+	1300 2500 1250 2500
+Wire Wire Line
+	1250 2500 1250 1400
+Connection ~ 1250 1400
+Wire Wire Line
+	4700 2250 4700 1400
+Wire Wire Line
+	4800 4700 4800 3100
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 3100 6300 3100
+Wire Wire Line
+	4750 4700 7300 4700
+Wire Wire Line
+	6250 4600 4950 4600
+Wire Wire Line
+	4950 4600 4950 1400
+Connection ~ 4950 1400
+Wire Wire Line
+	6250 4000 5700 4000
+Wire Wire Line
+	5700 4000 5700 650 
+Connection ~ 5700 650 
+Wire Wire Line
+	1350 2150 1350 5950
+Text HLabel 2850 6500 0    60   Input ~ 0
+-8V_2
+Wire Wire Line
+	5300 4400 5300 4350
+Wire Wire Line
+	5350 4400 5300 4400
+Wire Wire Line
+	5000 4350 4700 4350
+Wire Wire Line
+	4700 4350 4700 4400
 $EndSCHEMATC

@@ -66,7 +66,7 @@ U 1 1 5B0138CC
 P 3600 2650
 F 0 "R25" V 3680 2650 50  0000 C CNN
 F 1 "6.8k" V 3600 2650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3530 2650 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3530 2650 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3600 2650 50  0001 C CNN
 	1    3600 2650
 	0    1    1    0   
@@ -77,7 +77,7 @@ U 1 1 5B0138FA
 P 3800 2400
 F 0 "R26" V 3900 2400 50  0000 C CNN
 F 1 "5.1k" V 3800 2400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3730 2400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3730 2400 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3800 2400 50  0001 C CNN
 	1    3800 2400
 	1    0    0    -1  
@@ -88,7 +88,7 @@ U 1 1 5B013960
 P 4100 3000
 F 0 "C28" H 4125 3100 50  0000 L CNN
 F 1 "10nF" H 4125 2900 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 4138 2850 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 4138 2850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 4100 3000 50  0001 C CNN
 	1    4100 3000
 	0    1    1    0   
@@ -99,7 +99,7 @@ U 1 1 5B013998
 P 4100 2650
 F 0 "C27" H 4125 2750 50  0000 L CNN
 F 1 "10nF" H 4125 2550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 4138 2500 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 4138 2500 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 4100 2650 50  0001 C CNN
 	1    4100 2650
 	0    1    1    0   
@@ -110,7 +110,7 @@ U 1 1 5B013C38
 P 4500 2850
 F 0 "R27" V 4600 2850 50  0000 C CNN
 F 1 "62k" V 4500 2850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 4430 2850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4430 2850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 4500 2850 50  0001 C CNN
 	1    4500 2850
 	0    1    1    0   
@@ -132,7 +132,7 @@ U 1 1 5B014512
 P 6300 2550
 F 0 "R28" V 6380 2550 50  0000 C CNN
 F 1 "6.8k" V 6300 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6230 2550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6230 2550 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 6300 2550 50  0001 C CNN
 	1    6300 2550
 	0    1    1    0   
@@ -143,7 +143,7 @@ U 1 1 5B014518
 P 6500 2300
 F 0 "R29" V 6600 2300 50  0000 C CNN
 F 1 "5.1k" V 6500 2300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6430 2300 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6430 2300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 6500 2300 50  0001 C CNN
 	1    6500 2300
 	1    0    0    -1  
@@ -154,7 +154,7 @@ U 1 1 5B01451E
 P 6800 2900
 F 0 "C30" H 6825 3000 50  0000 L CNN
 F 1 "10nF" H 6825 2800 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 6838 2750 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 6838 2750 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 6800 2900 50  0001 C CNN
 	1    6800 2900
 	0    1    1    0   
@@ -165,7 +165,7 @@ U 1 1 5B014524
 P 6800 2550
 F 0 "C29" H 6825 2650 50  0000 L CNN
 F 1 "10nF" H 6825 2450 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 6838 2400 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 6838 2400 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 6800 2550 50  0001 C CNN
 	1    6800 2550
 	0    1    1    0   
@@ -176,7 +176,7 @@ U 1 1 5B014530
 P 7200 2750
 F 0 "R30" V 7300 2750 50  0000 C CNN
 F 1 "62k" V 7200 2750 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 7130 2750 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 7130 2750 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 7200 2750 50  0001 C CNN
 	1    7200 2750
 	0    1    1    0   

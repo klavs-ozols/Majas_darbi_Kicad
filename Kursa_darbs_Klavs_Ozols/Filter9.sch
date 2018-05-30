@@ -113,7 +113,7 @@ U 1 1 5B022AB9
 P 3400 3550
 F 0 "R51" V 3480 3550 50  0000 C CNN
 F 1 "62k" V 3400 3550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3330 3550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3330 3550 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3400 3550 50  0001 C CNN
 	1    3400 3550
 	0    1    1    0   

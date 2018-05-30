@@ -71,7 +71,7 @@ U 1 1 5B02C5E4
 P 1550 1100
 F 0 "C47" H 1575 1200 50  0000 L CNN
 F 1 "1 uF" H 1575 1000 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 1588 950 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 1588 950 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 1550 1100 50  0001 C CNN
 	1    1550 1100
 	0    1    1    0   
@@ -82,7 +82,7 @@ U 1 1 5B02C624
 P 1950 1100
 F 0 "R55" V 2030 1100 50  0000 C CNN
 F 1 "22k" V 1950 1100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 1880 1100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 1880 1100 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 1950 1100 50  0001 C CNN
 	1    1950 1100
 	0    1    1    0   
@@ -109,7 +109,7 @@ U 1 1 5B02C70D
 P 2400 1700
 F 0 "R59" V 2480 1700 50  0000 C CNN
 F 1 "220k" V 2400 1700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2330 1700 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2330 1700 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2400 1700 50  0001 C CNN
 	1    2400 1700
 	0    1    1    0   
@@ -136,7 +136,7 @@ U 1 1 5B02C836
 P 2800 1850
 F 0 "R63" V 2880 1850 50  0000 C CNN
 F 1 "1k" V 2800 1850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2730 1850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2730 1850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2800 1850 50  0001 C CNN
 	1    2800 1850
 	0    1    1    0   
@@ -147,7 +147,7 @@ U 1 1 5B02C96E
 P 3600 2000
 F 0 "C51" H 3625 2100 50  0000 L CNN
 F 1 "1 uF" H 3625 1900 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 3638 1850 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 3638 1850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 3600 2000 50  0001 C CNN
 	1    3600 2000
 	0    -1   -1   0   
@@ -158,7 +158,7 @@ U 1 1 5B02CA06
 P 3200 2000
 F 0 "R67" V 3280 2000 50  0000 C CNN
 F 1 "47k" V 3200 2000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3130 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3130 2000 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3200 2000 50  0001 C CNN
 	1    3200 2000
 	0    -1   -1   0   
@@ -177,7 +177,7 @@ U 1 1 5B02D6BD
 P 1600 2800
 F 0 "C48" H 1625 2900 50  0000 L CNN
 F 1 "1 uF" H 1625 2700 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 1638 2650 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 1638 2650 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 1600 2800 50  0001 C CNN
 	1    1600 2800
 	0    1    1    0   
@@ -188,7 +188,7 @@ U 1 1 5B02D6C3
 P 2000 2800
 F 0 "R56" V 2080 2800 50  0000 C CNN
 F 1 "22k" V 2000 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 1930 2800 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 1930 2800 50  0001 C CNN
 F 3 "" H 2000 2800 50  0001 C CNN
 	1    2000 2800
 	0    1    1    0   
@@ -215,7 +215,7 @@ U 1 1 5B02D6D4
 P 2450 3400
 F 0 "R60" V 2530 3400 50  0000 C CNN
 F 1 "220k" V 2450 3400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2380 3400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2380 3400 50  0001 C CNN
 F 3 "" H 2450 3400 50  0001 C CNN
 	1    2450 3400
 	0    1    1    0   
@@ -242,7 +242,7 @@ U 1 1 5B02D6E5
 P 2850 3550
 F 0 "R64" V 2930 3550 50  0000 C CNN
 F 1 "1k" V 2850 3550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2780 3550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2780 3550 50  0001 C CNN
 F 3 "" H 2850 3550 50  0001 C CNN
 	1    2850 3550
 	0    1    1    0   
@@ -253,7 +253,7 @@ U 1 1 5B02D6EB
 P 3650 3700
 F 0 "C52" H 3675 3800 50  0000 L CNN
 F 1 "1 uF" H 3675 3600 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 3688 3550 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 3688 3550 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 3650 3700 50  0001 C CNN
 	1    3650 3700
 	0    -1   -1   0   
@@ -264,7 +264,7 @@ U 1 1 5B02D6F1
 P 3250 3700
 F 0 "R68" V 3330 3700 50  0000 C CNN
 F 1 "47k" V 3250 3700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3180 3700 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3180 3700 50  0001 C CNN
 F 3 "" H 3250 3700 50  0001 C CNN
 	1    3250 3700
 	0    -1   -1   0   
@@ -290,7 +290,7 @@ U 1 1 5B02D9F6
 P 1700 4500
 F 0 "C49" H 1725 4600 50  0000 L CNN
 F 1 "1 uF" H 1725 4400 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 1738 4350 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 1738 4350 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 1700 4500 50  0001 C CNN
 	1    1700 4500
 	0    1    1    0   
@@ -301,7 +301,7 @@ U 1 1 5B02D9FC
 P 2100 4500
 F 0 "R57" V 2180 4500 50  0000 C CNN
 F 1 "22k" V 2100 4500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2030 4500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2030 4500 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2100 4500 50  0001 C CNN
 	1    2100 4500
 	0    1    1    0   
@@ -328,7 +328,7 @@ U 1 1 5B02DA0D
 P 2550 5100
 F 0 "R61" V 2630 5100 50  0000 C CNN
 F 1 "220k" V 2550 5100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2480 5100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2480 5100 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2550 5100 50  0001 C CNN
 	1    2550 5100
 	0    1    1    0   
@@ -355,7 +355,7 @@ U 1 1 5B02DA1E
 P 2950 5250
 F 0 "R65" V 3030 5250 50  0000 C CNN
 F 1 "1k" V 2950 5250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2880 5250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2880 5250 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2950 5250 50  0001 C CNN
 	1    2950 5250
 	0    1    1    0   
@@ -366,7 +366,7 @@ U 1 1 5B02DA24
 P 3750 5400
 F 0 "C53" H 3775 5500 50  0000 L CNN
 F 1 "1 uF" H 3775 5300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 3788 5250 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 3788 5250 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 3750 5400 50  0001 C CNN
 	1    3750 5400
 	0    -1   -1   0   
@@ -377,7 +377,7 @@ U 1 1 5B02DA2A
 P 3350 5400
 F 0 "R69" V 3430 5400 50  0000 C CNN
 F 1 "47k" V 3350 5400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3280 5400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3280 5400 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3350 5400 50  0001 C CNN
 	1    3350 5400
 	0    -1   -1   0   
@@ -392,7 +392,7 @@ U 1 1 5B02DBCB
 P 1700 6200
 F 0 "C50" H 1725 6300 50  0000 L CNN
 F 1 "1 uF" H 1725 6100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 1738 6050 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 1738 6050 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 1700 6200 50  0001 C CNN
 	1    1700 6200
 	0    1    1    0   
@@ -403,7 +403,7 @@ U 1 1 5B02DBD1
 P 2100 6200
 F 0 "R58" V 2180 6200 50  0000 C CNN
 F 1 "22k" V 2100 6200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2030 6200 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2030 6200 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2100 6200 50  0001 C CNN
 	1    2100 6200
 	0    1    1    0   
@@ -430,7 +430,7 @@ U 1 1 5B02DBE2
 P 2550 6800
 F 0 "R62" V 2630 6800 50  0000 C CNN
 F 1 "220k" V 2550 6800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2480 6800 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2480 6800 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2550 6800 50  0001 C CNN
 	1    2550 6800
 	0    1    1    0   
@@ -457,7 +457,7 @@ U 1 1 5B02DBF3
 P 2950 6950
 F 0 "R66" V 3030 6950 50  0000 C CNN
 F 1 "1k" V 2950 6950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2880 6950 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2880 6950 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2950 6950 50  0001 C CNN
 	1    2950 6950
 	0    1    1    0   
@@ -468,7 +468,7 @@ U 1 1 5B02DBF9
 P 3750 7100
 F 0 "C54" H 3775 7200 50  0000 L CNN
 F 1 "1 uF" H 3775 7000 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 3788 6950 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 3788 6950 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 3750 7100 50  0001 C CNN
 	1    3750 7100
 	0    -1   -1   0   
@@ -479,7 +479,7 @@ U 1 1 5B02DBFF
 P 3350 7100
 F 0 "R70" V 3430 7100 50  0000 C CNN
 F 1 "47k" V 3350 7100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3280 7100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3280 7100 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3350 7100 50  0001 C CNN
 	1    3350 7100
 	0    -1   -1   0   
@@ -494,7 +494,7 @@ U 1 1 5B02DE9C
 P 5000 1100
 F 0 "C55" H 5025 1200 50  0000 L CNN
 F 1 "1 uF" H 5025 1000 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 5038 950 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5038 950 50  0001 C CNN
 F 3 "" H 5000 1100 50  0001 C CNN
 	1    5000 1100
 	0    1    1    0   
@@ -505,7 +505,7 @@ U 1 1 5B02DEA2
 P 5400 1100
 F 0 "R71" V 5480 1100 50  0000 C CNN
 F 1 "22k" V 5400 1100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5330 1100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5330 1100 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5400 1100 50  0001 C CNN
 	1    5400 1100
 	0    1    1    0   
@@ -532,7 +532,7 @@ U 1 1 5B02DEB3
 P 5850 1700
 F 0 "R74" V 5930 1700 50  0000 C CNN
 F 1 "220k" V 5850 1700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5780 1700 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5780 1700 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5850 1700 50  0001 C CNN
 	1    5850 1700
 	0    1    1    0   
@@ -559,7 +559,7 @@ U 1 1 5B02DEC4
 P 6250 1850
 F 0 "R77" V 6330 1850 50  0000 C CNN
 F 1 "1k" V 6250 1850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6180 1850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6180 1850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 6250 1850 50  0001 C CNN
 	1    6250 1850
 	0    1    1    0   
@@ -570,7 +570,7 @@ U 1 1 5B02DECA
 P 7050 2000
 F 0 "C58" H 7075 2100 50  0000 L CNN
 F 1 "1 uF" H 7075 1900 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 7088 1850 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 7088 1850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 7050 2000 50  0001 C CNN
 	1    7050 2000
 	0    -1   -1   0   
@@ -581,7 +581,7 @@ U 1 1 5B02DED0
 P 6650 2000
 F 0 "R80" V 6730 2000 50  0000 C CNN
 F 1 "47k" V 6650 2000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6580 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6580 2000 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 6650 2000 50  0001 C CNN
 	1    6650 2000
 	0    -1   -1   0   
@@ -596,7 +596,7 @@ U 1 1 5B02E23C
 P 5150 2800
 F 0 "C57" H 5175 2900 50  0000 L CNN
 F 1 "1 uF" H 5175 2700 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 5188 2650 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5188 2650 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5150 2800 50  0001 C CNN
 	1    5150 2800
 	0    1    1    0   
@@ -607,7 +607,7 @@ U 1 1 5B02E242
 P 5550 2800
 F 0 "R73" V 5630 2800 50  0000 C CNN
 F 1 "22k" V 5550 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5480 2800 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5480 2800 50  0001 C CNN
 F 3 "" H 5550 2800 50  0001 C CNN
 	1    5550 2800
 	0    1    1    0   
@@ -634,7 +634,7 @@ U 1 1 5B02E253
 P 6000 3400
 F 0 "R76" V 6080 3400 50  0000 C CNN
 F 1 "220k" V 6000 3400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5930 3400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5930 3400 50  0001 C CNN
 F 3 "" H 6000 3400 50  0001 C CNN
 	1    6000 3400
 	0    1    1    0   
@@ -661,7 +661,7 @@ U 1 1 5B02E264
 P 6400 3550
 F 0 "R79" V 6480 3550 50  0000 C CNN
 F 1 "1k" V 6400 3550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6330 3550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6330 3550 50  0001 C CNN
 F 3 "" H 6400 3550 50  0001 C CNN
 	1    6400 3550
 	0    1    1    0   
@@ -672,7 +672,7 @@ U 1 1 5B02E26A
 P 7200 3700
 F 0 "C60" H 7225 3800 50  0000 L CNN
 F 1 "1 uF" H 7225 3600 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 7238 3550 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 7238 3550 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 7200 3700 50  0001 C CNN
 	1    7200 3700
 	0    -1   -1   0   
@@ -683,7 +683,7 @@ U 1 1 5B02E270
 P 6800 3700
 F 0 "R82" V 6880 3700 50  0000 C CNN
 F 1 "47k" V 6800 3700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6730 3700 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6730 3700 50  0001 C CNN
 F 3 "" H 6800 3700 50  0001 C CNN
 	1    6800 3700
 	0    -1   -1   0   
@@ -701,17 +701,17 @@ F 3 "" H 6400 4500 50  0001 C CNN
 	4    6350 4300
 	1    0    0    -1  
 $EndComp
-Text HLabel 4800 4400 0    60   Input ~ 0
+Text HLabel 4700 4400 0    60   Input ~ 0
 Audio4.5kHz
 $Comp
 L C C56
 U 1 1 5B02E4FB
-P 5100 4400
-F 0 "C56" H 5125 4500 50  0000 L CNN
-F 1 "1 uF" H 5125 4300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 5138 4250 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5100 4400 50  0001 C CNN
-	1    5100 4400
+P 5150 4350
+F 0 "C56" H 5175 4450 50  0000 L CNN
+F 1 "1 uF" H 5175 4250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5188 4200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5150 4350 50  0001 C CNN
+	1    5150 4350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -720,7 +720,7 @@ U 1 1 5B02E501
 P 5500 4400
 F 0 "R72" V 5580 4400 50  0000 C CNN
 F 1 "22k" V 5500 4400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5430 4400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5430 4400 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5500 4400 50  0001 C CNN
 	1    5500 4400
 	0    1    1    0   
@@ -747,7 +747,7 @@ U 1 1 5B02E512
 P 5950 5000
 F 0 "R75" V 6030 5000 50  0000 C CNN
 F 1 "220k" V 5950 5000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5880 5000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5880 5000 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5950 5000 50  0001 C CNN
 	1    5950 5000
 	0    1    1    0   
@@ -774,7 +774,7 @@ U 1 1 5B02E523
 P 6350 5150
 F 0 "R78" V 6430 5150 50  0000 C CNN
 F 1 "1k" V 6350 5150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6280 5150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6280 5150 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 6350 5150 50  0001 C CNN
 	1    6350 5150
 	0    1    1    0   
@@ -785,7 +785,7 @@ U 1 1 5B02E529
 P 7150 5300
 F 0 "C59" H 7175 5400 50  0000 L CNN
 F 1 "1 uF" H 7175 5200 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 7188 5150 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 7188 5150 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 7150 5300 50  0001 C CNN
 	1    7150 5300
 	0    -1   -1   0   
@@ -796,7 +796,7 @@ U 1 1 5B02E52F
 P 6750 5300
 F 0 "R81" V 6830 5300 50  0000 C CNN
 F 1 "47k" V 6750 5300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6680 5300 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 6680 5300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 6750 5300 50  0001 C CNN
 	1    6750 5300
 	0    -1   -1   0   
@@ -815,7 +815,7 @@ U 1 1 5B02EB87
 P 8250 2450
 F 0 "C62" H 8275 2550 50  0000 L CNN
 F 1 "1 uF" H 8275 2350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 8288 2300 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 8288 2300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 8250 2450 50  0001 C CNN
 	1    8250 2450
 	0    1    1    0   
@@ -826,7 +826,7 @@ U 1 1 5B02EB8D
 P 8650 2450
 F 0 "R84" V 8730 2450 50  0000 C CNN
 F 1 "22k" V 8650 2450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8580 2450 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8580 2450 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8650 2450 50  0001 C CNN
 	1    8650 2450
 	0    1    1    0   
@@ -853,7 +853,7 @@ U 1 1 5B02EB9E
 P 9100 3050
 F 0 "R86" V 9180 3050 50  0000 C CNN
 F 1 "220k" V 9100 3050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 9030 3050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 9030 3050 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 9100 3050 50  0001 C CNN
 	1    9100 3050
 	0    1    1    0   
@@ -880,7 +880,7 @@ U 1 1 5B02EBAF
 P 9500 3200
 F 0 "R88" V 9580 3200 50  0000 C CNN
 F 1 "1k" V 9500 3200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 9430 3200 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 9430 3200 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 9500 3200 50  0001 C CNN
 	1    9500 3200
 	0    1    1    0   
@@ -891,7 +891,7 @@ U 1 1 5B02EBB5
 P 10300 3350
 F 0 "C64" H 10325 3450 50  0000 L CNN
 F 1 "1 uF" H 10325 3250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 10338 3200 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 10338 3200 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 10300 3350 50  0001 C CNN
 	1    10300 3350
 	0    -1   -1   0   
@@ -902,7 +902,7 @@ U 1 1 5B02EBBB
 P 9900 3350
 F 0 "R90" V 9980 3350 50  0000 C CNN
 F 1 "47k" V 9900 3350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 9830 3350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 9830 3350 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 9900 3350 50  0001 C CNN
 	1    9900 3350
 	0    -1   -1   0   
@@ -917,7 +917,7 @@ U 1 1 5B02F0D7
 P 8150 4500
 F 0 "C61" H 8175 4600 50  0000 L CNN
 F 1 "1 uF" H 8175 4400 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 8188 4350 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 8188 4350 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 8150 4500 50  0001 C CNN
 	1    8150 4500
 	0    1    1    0   
@@ -928,7 +928,7 @@ U 1 1 5B02F0DD
 P 8550 4500
 F 0 "R83" V 8630 4500 50  0000 C CNN
 F 1 "22k" V 8550 4500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8480 4500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8480 4500 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8550 4500 50  0001 C CNN
 	1    8550 4500
 	0    1    1    0   
@@ -955,7 +955,7 @@ U 1 1 5B02F0EE
 P 9000 5100
 F 0 "R85" V 9080 5100 50  0000 C CNN
 F 1 "220k" V 9000 5100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8930 5100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8930 5100 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 9000 5100 50  0001 C CNN
 	1    9000 5100
 	0    1    1    0   
@@ -982,7 +982,7 @@ U 1 1 5B02F0FF
 P 9400 5250
 F 0 "R87" V 9480 5250 50  0000 C CNN
 F 1 "1k" V 9400 5250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 9330 5250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 9330 5250 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 9400 5250 50  0001 C CNN
 	1    9400 5250
 	0    1    1    0   
@@ -993,7 +993,7 @@ U 1 1 5B02F105
 P 10200 5400
 F 0 "C63" H 10225 5500 50  0000 L CNN
 F 1 "1 uF" H 10225 5300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal" H 10238 5250 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 10238 5250 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 10200 5400 50  0001 C CNN
 	1    10200 5400
 	0    -1   -1   0   
@@ -1004,7 +1004,7 @@ U 1 1 5B02F10B
 P 9800 5400
 F 0 "R89" V 9880 5400 50  0000 C CNN
 F 1 "47k" V 9800 5400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 9730 5400 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 9730 5400 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 9800 5400 50  0001 C CNN
 	1    9800 5400
 	0    -1   -1   0   
@@ -1175,8 +1175,6 @@ Wire Wire Line
 	1350 3850 3650 3850
 Connection ~ 3250 3850
 Connection ~ 1350 3850
-Wire Wire Line
-	1350 2150 1350 6500
 Connection ~ 3650 3550
 Wire Wire Line
 	1150 4500 1550 4500
@@ -1194,8 +1192,6 @@ Wire Wire Line
 	2850 4050 2850 4100
 Wire Wire Line
 	550  4050 2850 4050
-Wire Wire Line
-	1350 4800 2850 4800
 Wire Wire Line
 	2850 4800 2850 4700
 Wire Wire Line
@@ -1244,8 +1240,6 @@ Wire Wire Line
 	2850 5750 2850 5800
 Wire Wire Line
 	550  5750 2850 5750
-Wire Wire Line
-	1350 6500 2850 6500
 Wire Wire Line
 	2850 6500 2850 6400
 Wire Wire Line
@@ -1339,8 +1333,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 2350 6300 2350
 Wire Wire Line
-	4700 3100 6300 3100
-Wire Wire Line
 	6300 3100 6300 3000
 Wire Wire Line
 	6100 2550 6100 2600
@@ -1374,10 +1366,6 @@ Wire Wire Line
 	4900 2550 4900 3850
 Connection ~ 7200 3550
 Wire Wire Line
-	4950 4400 4800 4400
-Wire Wire Line
-	5350 4400 5250 4400
-Wire Wire Line
 	6050 4400 5650 4400
 Wire Wire Line
 	6650 4300 6850 4300
@@ -1386,13 +1374,7 @@ Wire Wire Line
 	6500 5150 7300 5150
 Connection ~ 6750 5150
 Wire Wire Line
-	6250 4000 6250 3950
-Wire Wire Line
 	4750 3950 6500 3950
-Wire Wire Line
-	4750 4700 7300 4700
-Wire Wire Line
-	6250 4700 6250 4600
 Wire Wire Line
 	6050 4150 6050 4200
 Wire Wire Line
@@ -1529,7 +1511,7 @@ Connection ~ 1450 3850
 Wire Wire Line
 	2650 4250 1450 4250
 Wire Wire Line
-	2650 5950 1450 5950
+	1350 5950 2650 5950
 Connection ~ 4050 2150
 Connection ~ 4050 2550
 Wire Wire Line
@@ -1561,7 +1543,6 @@ Wire Wire Line
 	4850 4150 4850 5450
 Connection ~ 550  2250
 Connection ~ 550  4050
-Connection ~ 1350 4800
 Connection ~ 1250 550 
 Wire Wire Line
 	4600 650  6150 650 
@@ -1576,8 +1557,6 @@ Wire Wire Line
 	1550 1400 1550 2250
 Wire Wire Line
 	1550 2250 4700 2250
-Wire Wire Line
-	4700 1400 4700 3100
 Connection ~ 4700 1400
 Connection ~ 1550 1400
 Wire Wire Line
@@ -1585,10 +1564,8 @@ Wire Wire Line
 Connection ~ 4700 2250
 Wire Wire Line
 	6500 3950 6500 4050
-Connection ~ 6250 3950
 Wire Wire Line
 	7300 4700 7300 4800
-Connection ~ 6250 4700
 Wire Wire Line
 	7800 2000 7800 4050
 Connection ~ 7800 4050
@@ -1813,4 +1790,44 @@ Wire Wire Line
 	3900 7200 3750 7200
 Wire Wire Line
 	3750 7200 3750 7250
+Wire Wire Line
+	2850 4800 1300 4800
+Wire Wire Line
+	1300 4800 1300 2500
+Wire Wire Line
+	1300 2500 1250 2500
+Wire Wire Line
+	1250 2500 1250 1400
+Connection ~ 1250 1400
+Wire Wire Line
+	4700 2250 4700 1400
+Wire Wire Line
+	4800 4700 4800 3100
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 3100 6300 3100
+Wire Wire Line
+	4750 4700 7300 4700
+Wire Wire Line
+	6250 4600 4950 4600
+Wire Wire Line
+	4950 4600 4950 1400
+Connection ~ 4950 1400
+Wire Wire Line
+	6250 4000 5700 4000
+Wire Wire Line
+	5700 4000 5700 650 
+Connection ~ 5700 650 
+Wire Wire Line
+	1350 2150 1350 5950
+Text HLabel 2850 6500 0    60   Input ~ 0
+-8V_2
+Wire Wire Line
+	5300 4400 5300 4350
+Wire Wire Line
+	5350 4400 5300 4400
+Wire Wire Line
+	5000 4350 4700 4350
+Wire Wire Line
+	4700 4350 4700 4400
 $EndSCHEMATC

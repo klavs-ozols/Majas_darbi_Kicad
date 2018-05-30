@@ -77,7 +77,7 @@ U 1 1 5B016846
 P 2650 2800
 F 0 "R91" V 2730 2800 50  0000 C CNN
 F 1 "1.2k" V 2650 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2580 2800 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2580 2800 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2650 2800 50  0001 C CNN
 	1    2650 2800
 	1    0    0    -1  
@@ -405,7 +405,7 @@ U 1 1 5B01C674
 P 2650 5500
 F 0 "R92" V 2730 5500 50  0000 C CNN
 F 1 "1.2k" V 2650 5500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 2580 5500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2580 5500 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2650 5500 50  0001 C CNN
 	1    2650 5500
 	1    0    0    -1  
@@ -638,7 +638,7 @@ U 1 1 5B01D603
 P 5650 2900
 F 0 "R93" V 5730 2900 50  0000 C CNN
 F 1 "1.2k" V 5650 2900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5580 2900 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5580 2900 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5650 2900 50  0001 C CNN
 	1    5650 2900
 	1    0    0    -1  
@@ -889,7 +889,7 @@ U 1 1 5B01F295
 P 8650 2950
 F 0 "R95" V 8730 2950 50  0000 C CNN
 F 1 "1.2k" V 8650 2950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8580 2950 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8580 2950 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8650 2950 50  0001 C CNN
 	1    8650 2950
 	1    0    0    -1  
@@ -1111,7 +1111,7 @@ U 1 1 5B01F705
 P 5750 5500
 F 0 "R94" V 5830 5500 50  0000 C CNN
 F 1 "1.2k" V 5750 5500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 5680 5500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5680 5500 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5750 5500 50  0001 C CNN
 	1    5750 5500
 	1    0    0    -1  
@@ -1335,7 +1335,7 @@ U 1 1 5B01FA53
 P 8700 5600
 F 0 "R96" V 8780 5600 50  0000 C CNN
 F 1 "1.2k" V 8700 5600 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8630 5600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8630 5600 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8700 5600 50  0001 C CNN
 	1    8700 5600
 	1    0    0    -1  

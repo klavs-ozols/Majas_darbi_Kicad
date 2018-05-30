@@ -261,20 +261,6 @@ Connection ~ 2950 2350
 Connection ~ 3150 2100
 Text HLabel 6500 2550 2    60   Output ~ 0
 Audio4.5kHz
-$Comp
-L PWR_FLAG #FLG04
-U 1 1 5B046DF8
-P 2300 2000
-F 0 "#FLG04" H 2300 2075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2300 2150 50  0000 C CNN
-F 2 "" H 2300 2000 50  0001 C CNN
-F 3 "" H 2300 2000 50  0001 C CNN
-	1    2300 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 2000 2300 2100
-Connection ~ 2300 2100
 Wire Wire Line
 	4400 2300 4400 2250
 Wire Wire Line
