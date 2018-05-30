@@ -64,14 +64,9 @@ $Comp
 L TL074 U1
 U 1 1 5AFF3B0D
 P 6300 4300
-AR Path="/5AFF36EE/5AFF3B0D" Ref="U1"  Part="1" 
-AR Path="/5AFFA8C4/5AFF3B0D" Ref="U?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF3B0D" Ref="U?"  Part="1" 
-AR Path="/5B002850/5AFF3B0D" Ref="U?"  Part="1" 
-AR Path="/5B000D4C/5AFF3B0D" Ref="U?"  Part="1" 
 F 0 "U1" H 6300 4500 50  0000 L CNN
 F 1 "TL074" H 6300 4100 50  0000 L CNN
-F 2 "" H 6250 4400 50  0001 C CNN
+F 2 "TL074:DIL14" H 6250 4400 50  0001 C CNN
 F 3 "" H 6350 4500 50  0001 C CNN
 	1    6300 4300
 	1    0    0    -1  
@@ -80,15 +75,10 @@ $Comp
 L R R1
 U 1 1 5AFF3C54
 P 4500 4150
-AR Path="/5AFF36EE/5AFF3C54" Ref="R1"  Part="1" 
-AR Path="/5AFFA8C4/5AFF3C54" Ref="R?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF3C54" Ref="R?"  Part="1" 
-AR Path="/5B002850/5AFF3C54" Ref="R?"  Part="1" 
-AR Path="/5B000D4C/5AFF3C54" Ref="R?"  Part="1" 
 F 0 "R1" V 4580 4150 50  0000 C CNN
 F 1 "6,8k" V 4500 4150 50  0000 C CNN
-F 2 "" V 4430 4150 50  0001 C CNN
-F 3 "" H 4500 4150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4430 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 4500 4150 50  0001 C CNN
 	1    4500 4150
 	0    1    1    0   
 $EndComp
@@ -96,15 +86,10 @@ $Comp
 L R R2
 U 1 1 5AFF3D3F
 P 4800 4350
-AR Path="/5AFF36EE/5AFF3D3F" Ref="R2"  Part="1" 
-AR Path="/5AFFA8C4/5AFF3D3F" Ref="R?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF3D3F" Ref="R?"  Part="1" 
-AR Path="/5B002850/5AFF3D3F" Ref="R?"  Part="1" 
-AR Path="/5B000D4C/5AFF3D3F" Ref="R?"  Part="1" 
 F 0 "R2" V 4880 4350 50  0000 C CNN
 F 1 "5,1k" V 4800 4350 50  0000 C CNN
-F 2 "" V 4730 4350 50  0001 C CNN
-F 3 "" H 4800 4350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4730 4350 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 4800 4350 50  0001 C CNN
 	1    4800 4350
 	1    0    0    -1  
 $EndComp
@@ -112,15 +97,10 @@ $Comp
 L R R3
 U 1 1 5AFF3D80
 P 5450 4050
-AR Path="/5AFF36EE/5AFF3D80" Ref="R3"  Part="1" 
-AR Path="/5AFFA8C4/5AFF3D80" Ref="R?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF3D80" Ref="R?"  Part="1" 
-AR Path="/5B002850/5AFF3D80" Ref="R?"  Part="1" 
-AR Path="/5B000D4C/5AFF3D80" Ref="R?"  Part="1" 
 F 0 "R3" V 5530 4050 50  0000 C CNN
 F 1 "62k" V 5450 4050 50  0000 C CNN
-F 2 "" V 5380 4050 50  0001 C CNN
-F 3 "" H 5450 4050 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5380 4050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5450 4050 50  0001 C CNN
 	1    5450 4050
 	1    0    0    -1  
 $EndComp
@@ -128,15 +108,10 @@ $Comp
 L C C2
 U 1 1 5AFF3DD4
 P 5050 4150
-AR Path="/5AFF36EE/5AFF3DD4" Ref="C2"  Part="1" 
-AR Path="/5AFFA8C4/5AFF3DD4" Ref="C?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF3DD4" Ref="C?"  Part="1" 
-AR Path="/5B002850/5AFF3DD4" Ref="C?"  Part="1" 
-AR Path="/5B000D4C/5AFF3DD4" Ref="C?"  Part="1" 
 F 0 "C2" H 5075 4250 50  0000 L CNN
 F 1 "100 nF" H 5050 4050 50  0000 L CNN
-F 2 "" H 5088 4000 50  0001 C CNN
-F 3 "" H 5050 4150 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5088 4000 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 5050 4150 50  0001 C CNN
 	1    5050 4150
 	0    1    1    0   
 $EndComp
@@ -144,15 +119,10 @@ $Comp
 L C C1
 U 1 1 5AFF3E5A
 P 5050 3850
-AR Path="/5AFF36EE/5AFF3E5A" Ref="C1"  Part="1" 
-AR Path="/5AFFA8C4/5AFF3E5A" Ref="C?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF3E5A" Ref="C?"  Part="1" 
-AR Path="/5B002850/5AFF3E5A" Ref="C?"  Part="1" 
-AR Path="/5B000D4C/5AFF3E5A" Ref="C?"  Part="1" 
 F 0 "C1" H 5075 3950 50  0000 L CNN
 F 1 "100 nF" H 5050 3750 50  0000 L CNN
-F 2 "" H 5088 3700 50  0001 C CNN
-F 3 "" H 5050 3850 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5088 3700 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 5050 3850 50  0001 C CNN
 	1    5050 3850
 	0    1    1    0   
 $EndComp
@@ -160,15 +130,10 @@ $Comp
 L R R4
 U 1 1 5AFF41F2
 P 7150 4300
-AR Path="/5AFF36EE/5AFF41F2" Ref="R4"  Part="1" 
-AR Path="/5AFFA8C4/5AFF41F2" Ref="R?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF41F2" Ref="R?"  Part="1" 
-AR Path="/5B002850/5AFF41F2" Ref="R?"  Part="1" 
-AR Path="/5B000D4C/5AFF41F2" Ref="R?"  Part="1" 
 F 0 "R4" V 7230 4300 50  0000 C CNN
 F 1 "6,8k" V 7150 4300 50  0000 C CNN
-F 2 "" V 7080 4300 50  0001 C CNN
-F 3 "" H 7150 4300 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 7080 4300 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 7150 4300 50  0001 C CNN
 	1    7150 4300
 	0    1    1    0   
 $EndComp
@@ -176,15 +141,10 @@ $Comp
 L R R5
 U 1 1 5AFF426B
 P 7400 4500
-AR Path="/5AFF36EE/5AFF426B" Ref="R5"  Part="1" 
-AR Path="/5AFFA8C4/5AFF426B" Ref="R?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF426B" Ref="R?"  Part="1" 
-AR Path="/5B002850/5AFF426B" Ref="R?"  Part="1" 
-AR Path="/5B000D4C/5AFF426B" Ref="R?"  Part="1" 
 F 0 "R5" V 7480 4500 50  0000 C CNN
 F 1 "5,1k" V 7400 4500 50  0000 C CNN
-F 2 "" V 7330 4500 50  0001 C CNN
-F 3 "" H 7400 4500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 7330 4500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 7400 4500 50  0001 C CNN
 	1    7400 4500
 	1    0    0    -1  
 $EndComp
@@ -192,15 +152,10 @@ $Comp
 L C C3
 U 1 1 5AFF440D
 P 7750 3750
-AR Path="/5AFF36EE/5AFF440D" Ref="C3"  Part="1" 
-AR Path="/5AFFA8C4/5AFF440D" Ref="C?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF440D" Ref="C?"  Part="1" 
-AR Path="/5B002850/5AFF440D" Ref="C?"  Part="1" 
-AR Path="/5B000D4C/5AFF440D" Ref="C?"  Part="1" 
 F 0 "C3" H 7775 3850 50  0000 L CNN
 F 1 "100 nF" H 7750 3650 50  0000 L CNN
-F 2 "" H 7788 3600 50  0001 C CNN
-F 3 "" H 7750 3750 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 7788 3600 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 7750 3750 50  0001 C CNN
 	1    7750 3750
 	0    1    1    0   
 $EndComp
@@ -208,15 +163,10 @@ $Comp
 L C C4
 U 1 1 5AFF447A
 P 7750 4300
-AR Path="/5AFF36EE/5AFF447A" Ref="C4"  Part="1" 
-AR Path="/5AFFA8C4/5AFF447A" Ref="C?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF447A" Ref="C?"  Part="1" 
-AR Path="/5B002850/5AFF447A" Ref="C?"  Part="1" 
-AR Path="/5B000D4C/5AFF447A" Ref="C?"  Part="1" 
 F 0 "C4" H 7775 4400 50  0000 L CNN
 F 1 "100 nF" H 7750 4200 50  0000 L CNN
-F 2 "" H 7788 4150 50  0001 C CNN
-F 3 "" H 7750 4300 50  0001 C CNN
+F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 7788 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 7750 4300 50  0001 C CNN
 	1    7750 4300
 	0    1    1    0   
 $EndComp
@@ -224,15 +174,10 @@ $Comp
 L R R6
 U 1 1 5AFF4633
 P 8200 3950
-AR Path="/5AFF36EE/5AFF4633" Ref="R6"  Part="1" 
-AR Path="/5AFFA8C4/5AFF4633" Ref="R?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF4633" Ref="R?"  Part="1" 
-AR Path="/5B002850/5AFF4633" Ref="R?"  Part="1" 
-AR Path="/5B000D4C/5AFF4633" Ref="R?"  Part="1" 
 F 0 "R6" V 8280 3950 50  0000 C CNN
 F 1 "62k" V 8200 3950 50  0000 C CNN
-F 2 "" V 8130 3950 50  0001 C CNN
-F 3 "" H 8200 3950 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8130 3950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8200 3950 50  0001 C CNN
 	1    8200 3950
 	1    0    0    -1  
 $EndComp
@@ -240,14 +185,9 @@ $Comp
 L TL074 U1
 U 2 1 5AFF4742
 P 8700 4400
-AR Path="/5AFF36EE/5AFF4742" Ref="U1"  Part="2" 
-AR Path="/5AFFA8C4/5AFF4742" Ref="U?"  Part="1" 
-AR Path="/5AFFC9F6/5AFF4742" Ref="U?"  Part="1" 
-AR Path="/5B002850/5AFF4742" Ref="U?"  Part="1" 
-AR Path="/5B000D4C/5AFF4742" Ref="U?"  Part="1" 
 F 0 "U1" H 8700 4600 50  0000 L CNN
 F 1 "TL074" H 8700 4200 50  0000 L CNN
-F 2 "" H 8650 4500 50  0001 C CNN
+F 2 "TL074:DIL14" H 8650 4500 50  0001 C CNN
 F 3 "" H 8750 4600 50  0001 C CNN
 	2    8700 4400
 	1    0    0    -1  

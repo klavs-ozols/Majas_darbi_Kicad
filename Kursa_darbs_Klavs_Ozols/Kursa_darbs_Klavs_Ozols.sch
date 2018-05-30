@@ -58,8 +58,8 @@ U 1 1 5AFECA33
 P 800 1550
 F 0 "J1" H 800 1650 50  0000 C CNN
 F 1 "Barosana" H 800 1350 50  0000 C CNN
-F 2 "" H 800 1550 50  0001 C CNN
-F 3 "" H 800 1550 50  0001 C CNN
+F 2 "Connectors:BARREL_JACK" H 800 1550 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/222/STX3200-334669.pdf" H 800 1550 50  0001 C CNN
 	1    800  1550
 	-1   0    0    1   
 $EndComp
@@ -796,29 +796,6 @@ Wire Wire Line
 Connection ~ 1400 2650
 Wire Wire Line
 	1750 5250 3700 5250
-$Comp
-L Audio-Jack-2 J2
-U 1 1 5B042999
-P 1600 5400
-F 0 "J2" H 1575 5475 50  0000 C CNN
-F 1 "Audio-Jack-2" H 1575 5225 50  0000 C CNN
-F 2 "" H 1850 5400 50  0001 C CNN
-F 3 "" H 1850 5400 50  0001 C CNN
-	1    1600 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 5500 1800 5700
-Wire Wire Line
-	1800 5700 1350 5700
-Wire Wire Line
-	1350 5700 1350 5450
-Wire Wire Line
-	1750 5250 1750 5350
-Wire Wire Line
-	1750 5350 1800 5350
-Wire Wire Line
-	1800 5350 1800 5400
 Entry Wire Line
 	3950 5000 4050 5100
 Wire Wire Line
@@ -827,4 +804,28 @@ Wire Wire Line
 	3700 5000 3700 5250
 Text Label 3700 5000 0    60   ~ 0
 Audio
+$Comp
+L Audio-Jack-3 J2
+U 1 1 5B0C7932
+P 1550 5150
+F 0 "J2" H 1500 5325 50  0000 C CNN
+F 1 "Audio-Jack-3" H 1650 5000 50  0000 C CNN
+F 2 "Audio_Jack:Audio_Jack_3.5_mm_Stereo" H 1800 5250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/222/STX3120-334667.pdf" H 1800 5250 50  0001 C CNN
+	1    1550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5450 1350 5250
+Wire Wire Line
+	1750 5050 1800 5050
+Wire Wire Line
+	1800 5050 1800 5200
+Wire Wire Line
+	1800 5200 1750 5200
+Wire Wire Line
+	1750 5200 1750 5250
+Wire Wire Line
+	1750 5150 1800 5150
+Connection ~ 1800 5150
 $EndSCHEMATC
