@@ -1,0 +1,469 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ICL7660SIPAZ
+LIBS:TL074
+LIBS:Amplifier_Operational
+LIBS:1N4148
+LIBS:LM3915
+LIBS:LM317
+LIBS:Kursa_darbs_Klavs_Ozols-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1100 1500 0    60   Input ~ 0
+GND
+Text HLabel 1100 1250 0    60   Input ~ 0
++12V
+$Comp
+L L7808 U2
+U 1 1 5AFF724B
+P 2350 1200
+F 0 "U2" H 2200 1325 50  0000 C CNN
+F 1 "L7808" H 2350 1325 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 2375 1050 50  0001 L CIN
+F 3 "https://eu.mouser.com/datasheet/2/389/lm217-974117.pdf" H 2350 1150 50  0001 C CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5AFF728E
+P 1900 1400
+F 0 "C5" H 1925 1500 50  0000 L CNN
+F 1 "100 nF" H 1925 1300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 1938 1250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 1900 1400 50  0001 C CNN
+	1    1900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5AFF72B4
+P 2850 1400
+F 0 "C6" H 2875 1500 50  0000 L CNN
+F 1 "100 nF" H 2875 1300 50  0000 L CNN
+F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2888 1250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 2850 1400 50  0001 C CNN
+	1    2850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1200 1100 1200
+Wire Wire Line
+	1100 1200 1100 1250
+Wire Wire Line
+	1900 1250 1900 1200
+Connection ~ 1900 1200
+Wire Wire Line
+	1900 1550 1900 1650
+Wire Wire Line
+	1900 1650 2850 1650
+Wire Wire Line
+	2850 1650 2850 1550
+Wire Wire Line
+	2350 1500 2350 2050
+Connection ~ 2350 1650
+Wire Wire Line
+	2350 1800 1100 1800
+Wire Wire Line
+	1100 1800 1100 1500
+Wire Wire Line
+	2650 1200 3200 1200
+Wire Wire Line
+	2850 1250 2850 1200
+Connection ~ 2850 1200
+$Comp
+L ICL7660SIPAZ U3
+U 1 1 5AFF7338
+P 4550 1450
+F 0 "U3" H 4550 1950 50  0000 L BNN
+F 1 "ICL7660SIPAZ" H 4350 700 50  0000 L BNN
+F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4550 1450 50  0001 L BNN
+F 3 "Good" H 4550 1450 50  0001 L BNN
+F 4 "ICL7660SIPAZ" H 4550 1450 50  0001 L BNN "Field4"
+F 5 "Intersil" H 4550 1450 50  0001 L BNN "Field5"
+F 6 "DIP-8 Intersil" H 4550 1450 50  0001 L BNN "Field6"
+F 7 "ICL7660 Series 1.5 - 12 Vin 45 mA 10-35 kHz CMOS Voltage Converter - PDIP-8" H 4550 1450 50  0001 L BNN "Field7"
+F 8 "1.29 USD" H 4550 1450 50  0001 L BNN "Field8"
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1050 3850 1050
+Wire Wire Line
+	3200 1200 3200 1050
+$Comp
+L CP1 C7
+U 1 1 5AFF73F4
+P 3550 1500
+F 0 "C7" H 3575 1600 50  0000 L CNN
+F 1 "10 uF" H 3300 1400 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3550 1500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3550 1500 50  0001 C CNN
+	1    3550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1450 3750 1450
+Wire Wire Line
+	3750 1450 3750 1350
+Wire Wire Line
+	3750 1350 3550 1350
+Wire Wire Line
+	3850 1550 3700 1550
+Wire Wire Line
+	3700 1550 3700 1650
+Wire Wire Line
+	3700 1650 3550 1650
+Wire Wire Line
+	2350 2050 3850 2050
+Connection ~ 2350 1800
+Wire Wire Line
+	3850 2050 3850 2300
+Wire Wire Line
+	3850 2300 5550 2300
+$Comp
+L CP1 C14
+U 1 1 5AFF755C
+P 5850 1300
+F 0 "C14" H 5875 1400 50  0000 L CNN
+F 1 "470 uF" H 5875 1200 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5850 1300 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5850 1300 50  0001 C CNN
+	1    5850 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1050 6750 1050
+Wire Wire Line
+	3600 1050 3600 650 
+Wire Wire Line
+	3600 650  6750 650 
+Connection ~ 3600 1050
+Text HLabel 6750 650  2    60   Output ~ 0
++8V
+Text HLabel 6750 1050 2    60   Output ~ 0
+-8V
+Connection ~ 3300 2050
+$Comp
+L ICL7660SIPAZ U4
+U 1 1 5B005DCE
+P 4550 3000
+F 0 "U4" H 4550 3500 50  0000 L BNN
+F 1 "ICL7660SIPAZ" H 4350 2250 50  0000 L BNN
+F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4550 3000 50  0001 L BNN
+F 3 "Good" H 4550 3000 50  0001 L BNN
+F 4 "ICL7660SIPAZ" H 4550 3000 50  0001 L BNN "Field4"
+F 5 "Intersil" H 4550 3000 50  0001 L BNN "Field5"
+F 6 "DIP-8 Intersil" H 4550 3000 50  0001 L BNN "Field6"
+F 7 "ICL7660 Series 1.5 - 12 Vin 45 mA 10-35 kHz CMOS Voltage Converter - PDIP-8" H 4550 3000 50  0001 L BNN "Field7"
+F 8 "1.29 USD" H 4550 3000 50  0001 L BNN "Field8"
+	1    4550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C8
+U 1 1 5B005E60
+P 3600 3050
+F 0 "C8" H 3625 3150 50  0000 L CNN
+F 1 "10 uF" H 3350 2950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3600 3050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3600 3050 50  0001 C CNN
+	1    3600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3000 3800 3000
+Wire Wire Line
+	3800 3000 3800 2900
+Wire Wire Line
+	3800 2900 3600 2900
+Wire Wire Line
+	3850 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 3200
+Wire Wire Line
+	3800 3200 3600 3200
+Wire Wire Line
+	3150 2600 3850 2600
+Connection ~ 3150 2600
+Wire Wire Line
+	3850 3600 3300 3600
+Connection ~ 3300 3600
+Wire Wire Line
+	3300 3900 5450 3900
+Connection ~ 3300 3900
+$Comp
+L CP1 C12
+U 1 1 5B0060F9
+P 5700 2850
+F 0 "C12" H 5725 2950 50  0000 L CNN
+F 1 "470 uF" H 5725 2750 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5700 2850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5700 2850 50  0001 C CNN
+	1    5700 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2600 6900 2600
+Text HLabel 6900 2350 2    60   Output ~ 0
++8V_1
+Text HLabel 6900 2600 2    60   Output ~ 0
+-8V_1
+Wire Wire Line
+	3150 2350 6900 2350
+Connection ~ 3150 2350
+$Comp
+L ICL7660SIPAZ U5
+U 1 1 5B021872
+P 4550 4650
+F 0 "U5" H 4550 5150 50  0000 L BNN
+F 1 "ICL7660SIPAZ" H 4350 3900 50  0000 L BNN
+F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4550 4650 50  0001 L BNN
+F 3 "Good" H 4550 4650 50  0001 L BNN
+F 4 "ICL7660SIPAZ" H 4550 4650 50  0001 L BNN "Field4"
+F 5 "Intersil" H 4550 4650 50  0001 L BNN "Field5"
+F 6 "DIP-8 Intersil" H 4550 4650 50  0001 L BNN "Field6"
+F 7 "ICL7660 Series 1.5 - 12 Vin 45 mA 10-35 kHz CMOS Voltage Converter - PDIP-8" H 4550 4650 50  0001 L BNN "Field7"
+F 8 "1.29 USD" H 4550 4650 50  0001 L BNN "Field8"
+	1    4550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C9
+U 1 1 5B02190F
+P 3600 4750
+F 0 "C9" H 3625 4850 50  0000 L CNN
+F 1 "10 uF" H 3350 4650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3600 4750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3600 4750 50  0001 C CNN
+	1    3600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C11
+U 1 1 5B02199A
+P 5650 4450
+F 0 "C11" H 5675 4550 50  0000 L CNN
+F 1 "470 uF" H 5675 4350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5650 4450 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4250 6700 4250
+Wire Wire Line
+	5400 4550 5400 5550
+Wire Wire Line
+	5400 5550 3300 5550
+Connection ~ 3300 5550
+Wire Wire Line
+	3850 4650 3850 4600
+Wire Wire Line
+	3850 4600 3600 4600
+Wire Wire Line
+	3850 4750 3800 4750
+Wire Wire Line
+	3800 4750 3800 4900
+Wire Wire Line
+	3800 4900 3600 4900
+Wire Wire Line
+	3150 4250 3850 4250
+Connection ~ 3150 4250
+Text HLabel 6700 4000 2    60   Output ~ 0
++8V_2
+Text HLabel 6700 4250 2    60   Output ~ 0
+-8V_2
+Wire Wire Line
+	3150 4000 6700 4000
+Connection ~ 3150 4000
+$Comp
+L ICL7660SIPAZ U6
+U 1 1 5B038826
+P 4600 6350
+F 0 "U6" H 4600 6850 50  0000 L BNN
+F 1 "ICL7660SIPAZ" H 4400 5600 50  0000 L BNN
+F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4600 6350 50  0001 L BNN
+F 3 "Good" H 4600 6350 50  0001 L BNN
+F 4 "ICL7660SIPAZ" H 4600 6350 50  0001 L BNN "Field4"
+F 5 "Intersil" H 4600 6350 50  0001 L BNN "Field5"
+F 6 "DIP-8 Intersil" H 4600 6350 50  0001 L BNN "Field6"
+F 7 "ICL7660 Series 1.5 - 12 Vin 45 mA 10-35 kHz CMOS Voltage Converter - PDIP-8" H 4600 6350 50  0001 L BNN "Field7"
+F 8 "1.29 USD" H 4600 6350 50  0001 L BNN "Field8"
+	1    4600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C10
+U 1 1 5B0388A0
+P 3700 6400
+F 0 "C10" H 3725 6500 50  0000 L CNN
+F 1 "10 uF" H 3450 6300 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3700 6400 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3700 6400 50  0001 C CNN
+	1    3700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C13
+U 1 1 5B038988
+P 5750 6100
+F 0 "C13" H 5775 6200 50  0000 L CNN
+F 1 "470 uF" H 5775 6000 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5750 6100 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5750 6100 50  0001 C CNN
+	1    5750 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 7200 5400 6200
+Wire Wire Line
+	5400 6200 5500 6200
+Wire Wire Line
+	3300 2050 3300 7200
+Wire Wire Line
+	3300 6900 3900 6900
+Wire Wire Line
+	3900 6900 3900 6950
+Wire Wire Line
+	3300 7200 5400 7200
+Connection ~ 3300 6900
+Wire Wire Line
+	3150 1200 3150 5950
+Wire Wire Line
+	3900 6350 3900 6250
+Wire Wire Line
+	3900 6250 3700 6250
+Wire Wire Line
+	3900 6450 3850 6450
+Wire Wire Line
+	3850 6450 3850 6550
+Wire Wire Line
+	3850 6550 3700 6550
+Wire Wire Line
+	5300 5950 5300 5900
+Wire Wire Line
+	5300 5900 5900 5900
+Text HLabel 6000 5850 2    60   Output ~ 0
+-8V_3
+Wire Wire Line
+	5900 5900 5900 5850
+Wire Wire Line
+	5900 5850 6000 5850
+Text HLabel 6000 5650 2    60   Output ~ 0
++8V_3
+Wire Wire Line
+	6000 5650 3300 5650
+Connection ~ 3300 5650
+NoConn ~ 3850 1250
+NoConn ~ 3850 1650
+NoConn ~ 3850 1850
+NoConn ~ 3850 2800
+NoConn ~ 3850 3400
+NoConn ~ 3850 3200
+NoConn ~ 3850 4450
+NoConn ~ 3850 4850
+NoConn ~ 3850 5050
+NoConn ~ 3850 5250
+NoConn ~ 3900 6150
+NoConn ~ 3900 6550
+NoConn ~ 3900 6750
+Wire Wire Line
+	3150 5950 3900 5950
+Wire Wire Line
+	5750 1150 5750 1050
+Connection ~ 5750 1050
+Wire Wire Line
+	5550 1450 5850 1450
+Connection ~ 5550 1450
+Wire Wire Line
+	5550 2300 5550 1450
+Wire Wire Line
+	5650 2600 5650 2700
+Connection ~ 5650 2600
+Wire Wire Line
+	5450 3000 5700 3000
+Connection ~ 5450 3000
+Wire Wire Line
+	5450 3900 5450 3000
+Wire Wire Line
+	5650 5900 5650 5950
+Connection ~ 5650 5900
+Wire Wire Line
+	5500 6250 5750 6250
+Wire Wire Line
+	5500 6200 5500 6250
+Wire Wire Line
+	5650 4300 5650 4250
+Connection ~ 5650 4250
+Wire Wire Line
+	5650 4600 5500 4600
+Wire Wire Line
+	5500 4600 5500 4550
+Wire Wire Line
+	5500 4550 5400 4550
+Wire Wire Line
+	5650 2700 5700 2700
+Wire Wire Line
+	5850 1150 5750 1150
+Wire Wire Line
+	5650 5950 5750 5950
+Connection ~ 3150 1200
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5B13D791
+P 2550 1600
+F 0 "#FLG04" H 2550 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 1750 50  0000 C CNN
+F 2 "" H 2550 1600 50  0001 C CNN
+F 3 "" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1600 2350 1600
+Connection ~ 2350 1600
+$EndSCHEMATC

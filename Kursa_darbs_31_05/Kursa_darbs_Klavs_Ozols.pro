@@ -1,10 +1,6 @@
-update=Mon 31 Jul 2017 10:04:56 AM MDT
+update=20.05.2018. 14:41:28
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -27,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../LIBRARIIES;../LIBRARIIES;../LIBRARIIES;../LIBRARIIES;../LIBRARIIES;../LIBRARIIES
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,3 +61,9 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+LibName33=C:/Users/Klavs/Desktop/veA/2_kurss_2_sem_EL_bak/Plasu_izgatavosanas_kurss/Majas_darbi_Kicad/LIBRARIIES/ICL7660SIPAZ
+LibName34=TL074
+LibName35=Amplifier_Operational
+LibName36=1N4148
+LibName37=LM3915
+LibName38=LM317

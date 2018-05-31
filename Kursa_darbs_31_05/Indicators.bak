@@ -1,0 +1,1858 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ICL7660SIPAZ
+LIBS:TL074
+LIBS:Amplifier_Operational
+LIBS:1N4148
+LIBS:LM3915
+LIBS:LM317
+LIBS:Kursa_darbs_Klavs_Ozols-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM3915 U13
+U 1 1 5B06743E
+P 2350 1950
+F 0 "U13" H 2350 2850 60  0000 C CNN
+F 1 "LM3915" H 2350 1050 60  0000 C CNN
+F 2 "Housings_DIP:DIP-18_W7.62mm_LongPads" H 2350 2100 60  0001 C CNN
+F 3 "" H 2350 2100 60  0001 C CNN
+	1    2350 1950
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2050 2600 3    60   Input ~ 0
+12V
+Text HLabel 1900 2600 3    60   Input ~ 0
+GND
+Text HLabel 2100 3300 0    60   Input ~ 0
+GND
+Text HLabel 2350 2600 3    60   Input ~ 0
+Audio10Hz
+$Comp
+L R R91
+U 1 1 5B016846
+P 2650 2800
+F 0 "R91" V 2730 2800 50  0000 C CNN
+F 1 "1.2k" V 2650 2800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2580 2800 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2650 2800 50  0001 C CNN
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 2950 2600 3    60   Input ~ 0
+12V
+$Comp
+L LED D21
+U 1 1 5B0169A4
+P 950 850
+F 0 "D21" H 950 950 50  0000 C CNN
+F 1 "LED" H 950 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 950 850 50  0001 C CNN
+F 3 "" H 950 850 50  0001 C CNN
+	1    950  850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D23
+U 1 1 5B016A1F
+P 1250 850
+F 0 "D23" H 1250 950 50  0000 C CNN
+F 1 "LED" H 1250 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1250 850 50  0001 C CNN
+F 3 "" H 1250 850 50  0001 C CNN
+	1    1250 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D19
+U 1 1 5B016A46
+P 650 850
+F 0 "D19" H 650 950 50  0000 C CNN
+F 1 "LED" H 650 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 650 850 50  0001 C CNN
+F 3 "" H 650 850 50  0001 C CNN
+	1    650  850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D25
+U 1 1 5B016B36
+P 1550 850
+F 0 "D25" H 1550 950 50  0000 C CNN
+F 1 "LED" H 1550 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1550 850 50  0001 C CNN
+F 3 "" H 1550 850 50  0001 C CNN
+	1    1550 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D27
+U 1 1 5B016C3B
+P 1850 850
+F 0 "D27" H 1850 950 50  0000 C CNN
+F 1 "LED" H 1850 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1850 850 50  0001 C CNN
+F 3 "" H 1850 850 50  0001 C CNN
+	1    1850 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D29
+U 1 1 5B016C69
+P 2150 850
+F 0 "D29" H 2150 950 50  0000 C CNN
+F 1 "LED" H 2150 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2150 850 50  0001 C CNN
+F 3 "" H 2150 850 50  0001 C CNN
+	1    2150 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D31
+U 1 1 5B016C9C
+P 2450 850
+F 0 "D31" H 2450 950 50  0000 C CNN
+F 1 "LED" H 2450 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2450 850 50  0001 C CNN
+F 3 "" H 2450 850 50  0001 C CNN
+	1    2450 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D33
+U 1 1 5B016CD2
+P 2750 850
+F 0 "D33" H 2750 950 50  0000 C CNN
+F 1 "LED" H 2750 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2750 850 50  0001 C CNN
+F 3 "" H 2750 850 50  0001 C CNN
+	1    2750 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D35
+U 1 1 5B016D13
+P 3050 850
+F 0 "D35" H 3050 950 50  0000 C CNN
+F 1 "LED" H 3050 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3050 850 50  0001 C CNN
+F 3 "" H 3050 850 50  0001 C CNN
+	1    3050 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D37
+U 1 1 5B016D4F
+P 3350 850
+F 0 "D37" H 3350 950 50  0000 C CNN
+F 1 "LED" H 3350 750 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3350 850 50  0001 C CNN
+F 3 "" H 3350 850 50  0001 C CNN
+	1    3350 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 2600 1750 2700
+Wire Wire Line
+	1750 2700 650  2700
+Wire Wire Line
+	650  2700 650  1000
+Wire Wire Line
+	950  1000 950  1300
+Wire Wire Line
+	950  1300 1750 1300
+Wire Wire Line
+	1250 1000 1250 1250
+Wire Wire Line
+	1250 1250 1900 1250
+Wire Wire Line
+	1900 1250 1900 1300
+Wire Wire Line
+	1550 1000 1550 1200
+Wire Wire Line
+	1550 1200 2050 1200
+Wire Wire Line
+	2050 1200 2050 1300
+Wire Wire Line
+	1850 1000 1850 1150
+Wire Wire Line
+	1850 1150 2200 1150
+Wire Wire Line
+	2200 1150 2200 1300
+Wire Wire Line
+	2150 1000 2150 1100
+Wire Wire Line
+	2150 1100 2350 1100
+Wire Wire Line
+	2350 1100 2350 1300
+Wire Wire Line
+	2450 1000 2450 1300
+Wire Wire Line
+	2450 1300 2500 1300
+Wire Wire Line
+	2750 1000 2750 1250
+Wire Wire Line
+	2750 1250 2650 1250
+Wire Wire Line
+	2650 1250 2650 1300
+Wire Wire Line
+	3050 1000 3050 1200
+Wire Wire Line
+	3050 1200 2800 1200
+Wire Wire Line
+	2800 1200 2800 1300
+Wire Wire Line
+	3350 1000 3350 1250
+Wire Wire Line
+	3350 1250 2950 1250
+Wire Wire Line
+	2950 1250 2950 1300
+Wire Wire Line
+	650  700  4050 700 
+Connection ~ 950  700 
+Connection ~ 1250 700 
+Connection ~ 1550 700 
+Connection ~ 1850 700 
+Connection ~ 2150 700 
+Connection ~ 2450 700 
+Connection ~ 2750 700 
+Connection ~ 3050 700 
+Connection ~ 3350 700 
+$Comp
+L LM317_TO3 U19
+U 1 1 5B019472
+P 9850 1250
+F 0 "U19" H 9700 1375 50  0000 C CNN
+F 1 "LM317_TO3" H 9850 1375 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 9850 1450 50  0001 C CIN
+F 3 "" H 9850 1250 50  0001 C CNN
+	1    9850 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C66
+U 1 1 5B0195E5
+P 10050 1850
+F 0 "C66" H 10075 1950 50  0000 L CNN
+F 1 "10uF" H 10075 1750 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 10050 1850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 10050 1850 50  0001 C CNN
+	1    10050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C65
+U 1 1 5B019657
+P 10050 750
+F 0 "C65" H 10075 850 50  0000 L CNN
+F 1 "10 uF" H 10075 650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 10050 750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 10050 750 50  0001 C CNN
+	1    10050 750 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 750  9900 750 
+Wire Wire Line
+	9850 750  9850 950 
+Wire Wire Line
+	9850 1550 9850 2300
+Wire Wire Line
+	9850 1850 9900 1850
+Wire Wire Line
+	10200 1850 11100 1850
+Wire Wire Line
+	11100 750  11100 2300
+Wire Wire Line
+	11100 750  10200 750 
+Connection ~ 9850 1850
+Text HLabel 9850 2300 3    60   Input ~ 0
+12V
+Text HLabel 11100 2300 3    60   Input ~ 0
+GND
+Connection ~ 11100 1850
+$Comp
+L R R97
+U 1 1 5B0199A9
+P 10350 950
+F 0 "R97" V 10430 950 50  0000 C CNN
+F 1 "240" V 10350 950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 10280 950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 10350 950 50  0001 C CNN
+	1    10350 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 700  4050 750 
+Connection ~ 9850 750 
+Wire Wire Line
+	10200 950  9900 950 
+Wire Wire Line
+	9900 950  9900 900 
+Wire Wire Line
+	9900 900  9850 900 
+Connection ~ 9850 900 
+Wire Wire Line
+	10500 1250 10500 950 
+Wire Wire Line
+	10150 1250 10600 1250
+$Comp
+L POT RV12
+U 1 1 5B019D07
+P 10750 1250
+F 0 "RV12" V 10575 1250 50  0000 C CNN
+F 1 "4.7k" V 10650 1250 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 10750 1250 50  0001 C CNN
+F 3 "" H 10750 1250 50  0001 C CNN
+	1    10750 1250
+	0    1    1    0   
+$EndComp
+Connection ~ 10500 1250
+Wire Wire Line
+	10750 1400 11100 1400
+Connection ~ 11100 1400
+Wire Wire Line
+	2500 2600 2650 2600
+Wire Wire Line
+	2650 2600 2650 2650
+$Comp
+L POT RV3
+U 1 1 5B01BACC
+P 3000 3050
+F 0 "RV3" V 2825 3050 50  0000 C CNN
+F 1 "10k" V 2900 3050 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 3000 3050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 3000 3050 50  0001 C CNN
+	1    3000 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 3050 2650 3050
+Wire Wire Line
+	2650 3050 2650 2950
+Connection ~ 2800 3050
+Wire Wire Line
+	2800 2900 3000 2900
+Text HLabel 3200 3050 2    60   Input ~ 0
+GND
+Wire Wire Line
+	3200 3050 3150 3050
+$Comp
+L LM3915 U14
+U 1 1 5B01C66A
+P 2350 4650
+F 0 "U14" H 2350 5550 60  0000 C CNN
+F 1 "LM3915" H 2350 3750 60  0000 C CNN
+F 2 "LIBRARIIES:DIP-18_W7.62mm_Socket" H 2350 4800 60  0001 C CNN
+F 3 "" H 2350 4800 60  0001 C CNN
+	1    2350 4650
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2050 5300 3    60   Input ~ 0
+12V
+Text HLabel 1900 5300 3    60   Input ~ 0
+GND
+Text HLabel 2200 5950 3    60   Input ~ 0
+GND
+Text HLabel 2350 5300 3    60   Input ~ 0
+Audio500Hz
+$Comp
+L R R92
+U 1 1 5B01C674
+P 2650 5500
+F 0 "R92" V 2730 5500 50  0000 C CNN
+F 1 "1.2k" V 2650 5500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2580 5500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2650 5500 50  0001 C CNN
+	1    2650 5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 2950 5300 3    60   Input ~ 0
+12V
+$Comp
+L LED D22
+U 1 1 5B01C67B
+P 950 3550
+F 0 "D22" H 950 3650 50  0000 C CNN
+F 1 "LED" H 950 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 950 3550 50  0001 C CNN
+F 3 "" H 950 3550 50  0001 C CNN
+	1    950  3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D24
+U 1 1 5B01C681
+P 1250 3550
+F 0 "D24" H 1250 3650 50  0000 C CNN
+F 1 "LED" H 1250 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1250 3550 50  0001 C CNN
+F 3 "" H 1250 3550 50  0001 C CNN
+	1    1250 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D20
+U 1 1 5B01C687
+P 650 3550
+F 0 "D20" H 650 3650 50  0000 C CNN
+F 1 "LED" H 650 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 650 3550 50  0001 C CNN
+F 3 "" H 650 3550 50  0001 C CNN
+	1    650  3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D26
+U 1 1 5B01C68D
+P 1550 3550
+F 0 "D26" H 1550 3650 50  0000 C CNN
+F 1 "LED" H 1550 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1550 3550 50  0001 C CNN
+F 3 "" H 1550 3550 50  0001 C CNN
+	1    1550 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D28
+U 1 1 5B01C693
+P 1850 3550
+F 0 "D28" H 1850 3650 50  0000 C CNN
+F 1 "LED" H 1850 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 1850 3550 50  0001 C CNN
+F 3 "" H 1850 3550 50  0001 C CNN
+	1    1850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D30
+U 1 1 5B01C699
+P 2150 3550
+F 0 "D30" H 2150 3650 50  0000 C CNN
+F 1 "LED" H 2150 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2150 3550 50  0001 C CNN
+F 3 "" H 2150 3550 50  0001 C CNN
+	1    2150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D32
+U 1 1 5B01C69F
+P 2450 3550
+F 0 "D32" H 2450 3650 50  0000 C CNN
+F 1 "LED" H 2450 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2450 3550 50  0001 C CNN
+F 3 "" H 2450 3550 50  0001 C CNN
+	1    2450 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D34
+U 1 1 5B01C6A5
+P 2750 3550
+F 0 "D34" H 2750 3650 50  0000 C CNN
+F 1 "LED" H 2750 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 2750 3550 50  0001 C CNN
+F 3 "" H 2750 3550 50  0001 C CNN
+	1    2750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D36
+U 1 1 5B01C6AB
+P 3050 3550
+F 0 "D36" H 3050 3650 50  0000 C CNN
+F 1 "LED" H 3050 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3050 3550 50  0001 C CNN
+F 3 "" H 3050 3550 50  0001 C CNN
+	1    3050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D38
+U 1 1 5B01C6B1
+P 3350 3550
+F 0 "D38" H 3350 3650 50  0000 C CNN
+F 1 "LED" H 3350 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3350 3550 50  0001 C CNN
+F 3 "" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 5300 1750 5400
+Wire Wire Line
+	1750 5400 650  5400
+Wire Wire Line
+	650  5400 650  3700
+Wire Wire Line
+	950  3700 950  4000
+Wire Wire Line
+	950  4000 1750 4000
+Wire Wire Line
+	1250 3700 1250 3950
+Wire Wire Line
+	1250 3950 1900 3950
+Wire Wire Line
+	1900 3950 1900 4000
+Wire Wire Line
+	1550 3700 1550 3900
+Wire Wire Line
+	1550 3900 2050 3900
+Wire Wire Line
+	2050 3900 2050 4000
+Wire Wire Line
+	1850 3700 1850 3850
+Wire Wire Line
+	1850 3850 2200 3850
+Wire Wire Line
+	2200 3850 2200 4000
+Wire Wire Line
+	2150 3700 2150 3800
+Wire Wire Line
+	2150 3800 2350 3800
+Wire Wire Line
+	2350 3800 2350 4000
+Wire Wire Line
+	2450 3700 2450 4000
+Wire Wire Line
+	2450 4000 2500 4000
+Wire Wire Line
+	2750 3700 2750 3950
+Wire Wire Line
+	2750 3950 2650 3950
+Wire Wire Line
+	2650 3950 2650 4000
+Wire Wire Line
+	3050 3700 3050 3900
+Wire Wire Line
+	3050 3900 2800 3900
+Wire Wire Line
+	2800 3900 2800 4000
+Wire Wire Line
+	3350 3700 3350 3950
+Wire Wire Line
+	3350 3950 2950 3950
+Wire Wire Line
+	2950 3950 2950 4000
+Connection ~ 950  3400
+Connection ~ 1250 3400
+Connection ~ 1550 3400
+Connection ~ 1850 3400
+Connection ~ 2150 3400
+Connection ~ 2450 3400
+Connection ~ 2750 3400
+Connection ~ 3050 3400
+Connection ~ 3350 3400
+Wire Wire Line
+	2500 5300 2650 5300
+Wire Wire Line
+	2650 5300 2650 5350
+$Comp
+L POT RV4
+U 1 1 5B01C6DF
+P 3000 5750
+F 0 "RV4" V 2825 5750 50  0000 C CNN
+F 1 "10k" V 2900 5750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 3000 5750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 5750 2650 5750
+Wire Wire Line
+	2650 5750 2650 5650
+Connection ~ 2800 5750
+Wire Wire Line
+	2800 5600 3000 5600
+Text HLabel 3200 5750 2    60   Input ~ 0
+GND
+Wire Wire Line
+	3200 5750 3150 5750
+$Comp
+L LM3915 U15
+U 1 1 5B01D5F9
+P 5350 2050
+F 0 "U15" H 5350 2950 60  0000 C CNN
+F 1 "LM3915" H 5350 1150 60  0000 C CNN
+F 2 "LIBRARIIES:DIP-18_W7.62mm_Socket" H 5350 2200 60  0001 C CNN
+F 3 "" H 5350 2200 60  0001 C CNN
+	1    5350 2050
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5050 2700 3    60   Input ~ 0
+12V
+Text HLabel 4900 2700 3    60   Input ~ 0
+GND
+Text HLabel 5150 3350 0    60   Input ~ 0
+GND
+Text HLabel 5350 2700 3    60   Input ~ 0
+Audio50Hz
+$Comp
+L R R93
+U 1 1 5B01D603
+P 5650 2900
+F 0 "R93" V 5730 2900 50  0000 C CNN
+F 1 "1.2k" V 5650 2900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5580 2900 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5650 2900 50  0001 C CNN
+	1    5650 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 5950 2700 3    60   Input ~ 0
+12V
+$Comp
+L LED D41
+U 1 1 5B01D60A
+P 3950 950
+F 0 "D41" H 3950 1050 50  0000 C CNN
+F 1 "LED" H 3950 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3950 950 50  0001 C CNN
+F 3 "" H 3950 950 50  0001 C CNN
+	1    3950 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D43
+U 1 1 5B01D610
+P 4250 950
+F 0 "D43" H 4250 1050 50  0000 C CNN
+F 1 "LED" H 4250 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4250 950 50  0001 C CNN
+F 3 "" H 4250 950 50  0001 C CNN
+	1    4250 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D39
+U 1 1 5B01D616
+P 3650 950
+F 0 "D39" H 3650 1050 50  0000 C CNN
+F 1 "LED" H 3650 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3650 950 50  0001 C CNN
+F 3 "" H 3650 950 50  0001 C CNN
+	1    3650 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D45
+U 1 1 5B01D61C
+P 4550 950
+F 0 "D45" H 4550 1050 50  0000 C CNN
+F 1 "LED" H 4550 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4550 950 50  0001 C CNN
+F 3 "" H 4550 950 50  0001 C CNN
+	1    4550 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D47
+U 1 1 5B01D622
+P 4850 950
+F 0 "D47" H 4850 1050 50  0000 C CNN
+F 1 "LED" H 4850 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4850 950 50  0001 C CNN
+F 3 "" H 4850 950 50  0001 C CNN
+	1    4850 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D49
+U 1 1 5B01D628
+P 5150 950
+F 0 "D49" H 5150 1050 50  0000 C CNN
+F 1 "LED" H 5150 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5150 950 50  0001 C CNN
+F 3 "" H 5150 950 50  0001 C CNN
+	1    5150 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D51
+U 1 1 5B01D62E
+P 5450 950
+F 0 "D51" H 5450 1050 50  0000 C CNN
+F 1 "LED" H 5450 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5450 950 50  0001 C CNN
+F 3 "" H 5450 950 50  0001 C CNN
+	1    5450 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D53
+U 1 1 5B01D634
+P 5750 950
+F 0 "D53" H 5750 1050 50  0000 C CNN
+F 1 "LED" H 5750 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5750 950 50  0001 C CNN
+F 3 "" H 5750 950 50  0001 C CNN
+	1    5750 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D55
+U 1 1 5B01D63A
+P 6050 950
+F 0 "D55" H 6050 1050 50  0000 C CNN
+F 1 "LED" H 6050 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6050 950 50  0001 C CNN
+F 3 "" H 6050 950 50  0001 C CNN
+	1    6050 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D57
+U 1 1 5B01D640
+P 6350 950
+F 0 "D57" H 6350 1050 50  0000 C CNN
+F 1 "LED" H 6350 850 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6350 950 50  0001 C CNN
+F 3 "" H 6350 950 50  0001 C CNN
+	1    6350 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 2700 4750 2800
+Wire Wire Line
+	4750 2800 3650 2800
+Wire Wire Line
+	3650 2800 3650 1100
+Wire Wire Line
+	3950 1100 3950 1400
+Wire Wire Line
+	3950 1400 4750 1400
+Wire Wire Line
+	4250 1100 4250 1350
+Wire Wire Line
+	4250 1350 4900 1350
+Wire Wire Line
+	4900 1350 4900 1400
+Wire Wire Line
+	4550 1100 4550 1300
+Wire Wire Line
+	4550 1300 5050 1300
+Wire Wire Line
+	5050 1300 5050 1400
+Wire Wire Line
+	4850 1100 4850 1250
+Wire Wire Line
+	4850 1250 5200 1250
+Wire Wire Line
+	5200 1250 5200 1400
+Wire Wire Line
+	5150 1100 5150 1200
+Wire Wire Line
+	5150 1200 5350 1200
+Wire Wire Line
+	5350 1200 5350 1400
+Wire Wire Line
+	5450 1100 5450 1400
+Wire Wire Line
+	5450 1400 5500 1400
+Wire Wire Line
+	5750 1100 5750 1350
+Wire Wire Line
+	5750 1350 5650 1350
+Wire Wire Line
+	5650 1350 5650 1400
+Wire Wire Line
+	6050 1100 6050 1300
+Wire Wire Line
+	6050 1300 5800 1300
+Wire Wire Line
+	5800 1300 5800 1400
+Wire Wire Line
+	6350 1100 6350 1350
+Wire Wire Line
+	6350 1350 5950 1350
+Wire Wire Line
+	5950 1350 5950 1400
+Wire Wire Line
+	5500 2700 5650 2700
+Wire Wire Line
+	5650 2700 5650 2750
+$Comp
+L POT RV6
+U 1 1 5B01D66E
+P 6000 3150
+F 0 "RV6" V 5825 3150 50  0000 C CNN
+F 1 "10k" V 5900 3150 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 6000 3150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3150 5650 3150
+Wire Wire Line
+	5650 3150 5650 3050
+Connection ~ 5800 3150
+Wire Wire Line
+	5800 3000 6000 3000
+Text HLabel 6200 3150 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6200 3150 6150 3150
+Wire Wire Line
+	3500 3400 3500 700 
+Connection ~ 3500 3400
+Connection ~ 3500 700 
+Wire Wire Line
+	650  3400 6700 3400
+Wire Wire Line
+	3650 800  3650 700 
+Connection ~ 3650 700 
+Wire Wire Line
+	3950 800  3950 700 
+Connection ~ 3950 700 
+Wire Wire Line
+	4250 800  4250 750 
+Connection ~ 4250 750 
+Wire Wire Line
+	4550 800  4550 750 
+Connection ~ 4550 750 
+Wire Wire Line
+	4850 800  4850 750 
+Connection ~ 4850 750 
+Wire Wire Line
+	5150 800  5150 750 
+Connection ~ 5150 750 
+Wire Wire Line
+	5450 800  5450 750 
+Connection ~ 5450 750 
+$Comp
+L LM3915 U17
+U 1 1 5B01F28B
+P 8350 2100
+F 0 "U17" H 8350 3000 60  0000 C CNN
+F 1 "LM3915" H 8350 1200 60  0000 C CNN
+F 2 "LIBRARIIES:DIP-18_W7.62mm_Socket" H 8350 2250 60  0001 C CNN
+F 3 "" H 8350 2250 60  0001 C CNN
+	1    8350 2100
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8050 2750 3    60   Input ~ 0
+12V
+Text HLabel 7900 2750 3    60   Input ~ 0
+GND
+Text HLabel 8150 3400 0    60   Input ~ 0
+GND
+Text HLabel 8350 2750 3    60   Input ~ 0
+Audio200Hz
+$Comp
+L R R95
+U 1 1 5B01F295
+P 8650 2950
+F 0 "R95" V 8730 2950 50  0000 C CNN
+F 1 "1.2k" V 8650 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8580 2950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8650 2950 50  0001 C CNN
+	1    8650 2950
+	1    0    0    -1  
+$EndComp
+Text HLabel 8950 2750 3    60   Input ~ 0
+12V
+$Comp
+L LED D61
+U 1 1 5B01F29C
+P 6950 1000
+F 0 "D61" H 6950 1100 50  0000 C CNN
+F 1 "LED" H 6950 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6950 1000 50  0001 C CNN
+F 3 "" H 6950 1000 50  0001 C CNN
+	1    6950 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D63
+U 1 1 5B01F2A2
+P 7250 1000
+F 0 "D63" H 7250 1100 50  0000 C CNN
+F 1 "LED" H 7250 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7250 1000 50  0001 C CNN
+F 3 "" H 7250 1000 50  0001 C CNN
+	1    7250 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D59
+U 1 1 5B01F2A8
+P 6650 1000
+F 0 "D59" H 6650 1100 50  0000 C CNN
+F 1 "LED" H 6650 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6650 1000 50  0001 C CNN
+F 3 "" H 6650 1000 50  0001 C CNN
+	1    6650 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D65
+U 1 1 5B01F2AE
+P 7550 1000
+F 0 "D65" H 7550 1100 50  0000 C CNN
+F 1 "LED" H 7550 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7550 1000 50  0001 C CNN
+F 3 "" H 7550 1000 50  0001 C CNN
+	1    7550 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D67
+U 1 1 5B01F2B4
+P 7850 1000
+F 0 "D67" H 7850 1100 50  0000 C CNN
+F 1 "LED" H 7850 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7850 1000 50  0001 C CNN
+F 3 "" H 7850 1000 50  0001 C CNN
+	1    7850 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D69
+U 1 1 5B01F2BA
+P 8150 1000
+F 0 "D69" H 8150 1100 50  0000 C CNN
+F 1 "LED" H 8150 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8150 1000 50  0001 C CNN
+F 3 "" H 8150 1000 50  0001 C CNN
+	1    8150 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D71
+U 1 1 5B01F2C0
+P 8450 1000
+F 0 "D71" H 8450 1100 50  0000 C CNN
+F 1 "LED" H 8450 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8450 1000 50  0001 C CNN
+F 3 "" H 8450 1000 50  0001 C CNN
+	1    8450 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D73
+U 1 1 5B01F2C6
+P 8750 1000
+F 0 "D73" H 8750 1100 50  0000 C CNN
+F 1 "LED" H 8750 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8750 1000 50  0001 C CNN
+F 3 "" H 8750 1000 50  0001 C CNN
+	1    8750 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D75
+U 1 1 5B01F2CC
+P 9050 1000
+F 0 "D75" H 9050 1100 50  0000 C CNN
+F 1 "LED" H 9050 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 9050 1000 50  0001 C CNN
+F 3 "" H 9050 1000 50  0001 C CNN
+	1    9050 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D77
+U 1 1 5B01F2D2
+P 9350 1000
+F 0 "D77" H 9350 1100 50  0000 C CNN
+F 1 "LED" H 9350 900 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 9350 1000 50  0001 C CNN
+F 3 "" H 9350 1000 50  0001 C CNN
+	1    9350 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2750 7750 2850
+Wire Wire Line
+	7750 2850 6650 2850
+Wire Wire Line
+	6650 2850 6650 1150
+Wire Wire Line
+	6950 1150 6950 1450
+Wire Wire Line
+	6950 1450 7750 1450
+Wire Wire Line
+	7250 1150 7250 1400
+Wire Wire Line
+	7250 1400 7900 1400
+Wire Wire Line
+	7900 1400 7900 1450
+Wire Wire Line
+	7550 1150 7550 1350
+Wire Wire Line
+	7550 1350 8050 1350
+Wire Wire Line
+	8050 1350 8050 1450
+Wire Wire Line
+	7850 1150 7850 1300
+Wire Wire Line
+	7850 1300 8200 1300
+Wire Wire Line
+	8200 1300 8200 1450
+Wire Wire Line
+	8150 1150 8150 1250
+Wire Wire Line
+	8150 1250 8350 1250
+Wire Wire Line
+	8350 1250 8350 1450
+Wire Wire Line
+	8450 1150 8450 1450
+Wire Wire Line
+	8450 1450 8500 1450
+Wire Wire Line
+	8750 1150 8750 1400
+Wire Wire Line
+	8750 1400 8650 1400
+Wire Wire Line
+	8650 1400 8650 1450
+Wire Wire Line
+	9050 1150 9050 1350
+Wire Wire Line
+	9050 1350 8800 1350
+Wire Wire Line
+	8800 1350 8800 1450
+Wire Wire Line
+	9350 1150 9350 1400
+Wire Wire Line
+	9350 1400 8950 1400
+Wire Wire Line
+	8950 1400 8950 1450
+Wire Wire Line
+	8500 2750 8650 2750
+Wire Wire Line
+	8650 2750 8650 2800
+$Comp
+L POT RV10
+U 1 1 5B01F2F6
+P 9000 3200
+F 0 "RV10" V 8825 3200 50  0000 C CNN
+F 1 "10k" V 8900 3200 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 9000 3200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 9000 3200 50  0001 C CNN
+	1    9000 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 3200 8650 3200
+Wire Wire Line
+	8650 3200 8650 3100
+Connection ~ 8800 3200
+Wire Wire Line
+	9000 3050 8850 3050
+Text HLabel 9200 3200 2    60   Input ~ 0
+GND
+Wire Wire Line
+	9200 3200 9150 3200
+$Comp
+L LM3915 U16
+U 1 1 5B01F6FB
+P 5450 4650
+F 0 "U16" H 5450 5550 60  0000 C CNN
+F 1 "LM3915" H 5450 3750 60  0000 C CNN
+F 2 "LIBRARIIES:DIP-18_W7.62mm_Socket" H 5450 4800 60  0001 C CNN
+F 3 "" H 5450 4800 60  0001 C CNN
+	1    5450 4650
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5150 5300 3    60   Input ~ 0
+12V
+Text HLabel 5000 5300 3    60   Input ~ 0
+GND
+Text HLabel 5450 5300 3    60   Input ~ 0
+Audio1kHz
+$Comp
+L R R94
+U 1 1 5B01F705
+P 5750 5500
+F 0 "R94" V 5830 5500 50  0000 C CNN
+F 1 "1.2k" V 5750 5500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5680 5500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5750 5500 50  0001 C CNN
+	1    5750 5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 6050 5300 3    60   Input ~ 0
+12V
+$Comp
+L LED D42
+U 1 1 5B01F70C
+P 4050 3550
+F 0 "D42" H 4050 3650 50  0000 C CNN
+F 1 "LED" H 4050 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4050 3550 50  0001 C CNN
+F 3 "" H 4050 3550 50  0001 C CNN
+	1    4050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D44
+U 1 1 5B01F712
+P 4350 3550
+F 0 "D44" H 4350 3650 50  0000 C CNN
+F 1 "LED" H 4350 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4350 3550 50  0001 C CNN
+F 3 "" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D40
+U 1 1 5B01F718
+P 3750 3550
+F 0 "D40" H 3750 3650 50  0000 C CNN
+F 1 "LED" H 3750 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 3750 3550 50  0001 C CNN
+F 3 "" H 3750 3550 50  0001 C CNN
+	1    3750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D46
+U 1 1 5B01F71E
+P 4650 3550
+F 0 "D46" H 4650 3650 50  0000 C CNN
+F 1 "LED" H 4650 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4650 3550 50  0001 C CNN
+F 3 "" H 4650 3550 50  0001 C CNN
+	1    4650 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D48
+U 1 1 5B01F724
+P 4950 3550
+F 0 "D48" H 4950 3650 50  0000 C CNN
+F 1 "LED" H 4950 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4950 3550 50  0001 C CNN
+F 3 "" H 4950 3550 50  0001 C CNN
+	1    4950 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D50
+U 1 1 5B01F72A
+P 5250 3550
+F 0 "D50" H 5250 3650 50  0000 C CNN
+F 1 "LED" H 5250 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5250 3550 50  0001 C CNN
+F 3 "" H 5250 3550 50  0001 C CNN
+	1    5250 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D52
+U 1 1 5B01F730
+P 5550 3550
+F 0 "D52" H 5550 3650 50  0000 C CNN
+F 1 "LED" H 5550 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5550 3550 50  0001 C CNN
+F 3 "" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D54
+U 1 1 5B01F736
+P 5850 3550
+F 0 "D54" H 5850 3650 50  0000 C CNN
+F 1 "LED" H 5850 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5850 3550 50  0001 C CNN
+F 3 "" H 5850 3550 50  0001 C CNN
+	1    5850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D56
+U 1 1 5B01F73C
+P 6150 3550
+F 0 "D56" H 6150 3650 50  0000 C CNN
+F 1 "LED" H 6150 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6150 3550 50  0001 C CNN
+F 3 "" H 6150 3550 50  0001 C CNN
+	1    6150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D58
+U 1 1 5B01F742
+P 6450 3550
+F 0 "D58" H 6450 3650 50  0000 C CNN
+F 1 "LED" H 6450 3450 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6450 3550 50  0001 C CNN
+F 3 "" H 6450 3550 50  0001 C CNN
+	1    6450 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 5300 4850 5400
+Wire Wire Line
+	4850 5400 3750 5400
+Wire Wire Line
+	3750 5400 3750 3700
+Wire Wire Line
+	4050 3700 4050 4000
+Wire Wire Line
+	4050 4000 4850 4000
+Wire Wire Line
+	4350 3700 4350 3950
+Wire Wire Line
+	4350 3950 5000 3950
+Wire Wire Line
+	5000 3950 5000 4000
+Wire Wire Line
+	4650 3700 4650 3900
+Wire Wire Line
+	4650 3900 5150 3900
+Wire Wire Line
+	5150 3900 5150 4000
+Wire Wire Line
+	4950 3700 4950 3850
+Wire Wire Line
+	4950 3850 5300 3850
+Wire Wire Line
+	5300 3850 5300 4000
+Wire Wire Line
+	5250 3700 5250 3800
+Wire Wire Line
+	5250 3800 5450 3800
+Wire Wire Line
+	5450 3800 5450 4000
+Wire Wire Line
+	5550 3700 5550 4000
+Wire Wire Line
+	5550 4000 5600 4000
+Wire Wire Line
+	5850 3700 5850 3950
+Wire Wire Line
+	5850 3950 5750 3950
+Wire Wire Line
+	5750 3950 5750 4000
+Wire Wire Line
+	6150 3700 6150 3900
+Wire Wire Line
+	6150 3900 5900 3900
+Wire Wire Line
+	5900 3900 5900 4000
+Wire Wire Line
+	6450 3700 6450 3950
+Wire Wire Line
+	6450 3950 6050 3950
+Wire Wire Line
+	6050 3950 6050 4000
+Wire Wire Line
+	5600 5300 5750 5300
+Wire Wire Line
+	5750 5300 5750 5350
+$Comp
+L POT RV7
+U 1 1 5B01F766
+P 6100 5750
+F 0 "RV7" V 5925 5750 50  0000 C CNN
+F 1 "4.7k" V 6000 5750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 6100 5750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 6100 5750 50  0001 C CNN
+	1    6100 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 5750 5750 5750
+Wire Wire Line
+	5750 5750 5750 5650
+Connection ~ 5900 5750
+Wire Wire Line
+	5900 5600 6100 5600
+Text HLabel 6300 5750 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6300 5750 6250 5750
+$Comp
+L LM3915 U18
+U 1 1 5B01FA49
+P 8400 4750
+F 0 "U18" H 8400 5650 60  0000 C CNN
+F 1 "LM3915" H 8400 3850 60  0000 C CNN
+F 2 "LIBRARIIES:DIP-18_W7.62mm_Socket" H 8400 4900 60  0001 C CNN
+F 3 "" H 8400 4900 60  0001 C CNN
+	1    8400 4750
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8100 5400 3    60   Input ~ 0
+12V
+Text HLabel 7950 5400 3    60   Input ~ 0
+GND
+Text HLabel 8250 6100 3    60   Input ~ 0
+GND
+Text HLabel 8400 5400 3    60   Input ~ 0
+Audio2.5kHz
+$Comp
+L R R96
+U 1 1 5B01FA53
+P 8700 5600
+F 0 "R96" V 8780 5600 50  0000 C CNN
+F 1 "1.2k" V 8700 5600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8630 5600 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8700 5600 50  0001 C CNN
+	1    8700 5600
+	1    0    0    -1  
+$EndComp
+Text HLabel 9000 5400 3    60   Input ~ 0
+12V
+$Comp
+L LED D62
+U 1 1 5B01FA5A
+P 7000 3650
+F 0 "D62" H 7000 3750 50  0000 C CNN
+F 1 "LED" H 7000 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7000 3650 50  0001 C CNN
+F 3 "" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D64
+U 1 1 5B01FA60
+P 7300 3650
+F 0 "D64" H 7300 3750 50  0000 C CNN
+F 1 "LED" H 7300 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7300 3650 50  0001 C CNN
+F 3 "" H 7300 3650 50  0001 C CNN
+	1    7300 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D60
+U 1 1 5B01FA66
+P 6700 3650
+F 0 "D60" H 6700 3750 50  0000 C CNN
+F 1 "LED" H 6700 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 6700 3650 50  0001 C CNN
+F 3 "" H 6700 3650 50  0001 C CNN
+	1    6700 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D66
+U 1 1 5B01FA6C
+P 7600 3650
+F 0 "D66" H 7600 3750 50  0000 C CNN
+F 1 "LED" H 7600 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7600 3650 50  0001 C CNN
+F 3 "" H 7600 3650 50  0001 C CNN
+	1    7600 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D68
+U 1 1 5B01FA72
+P 7900 3650
+F 0 "D68" H 7900 3750 50  0000 C CNN
+F 1 "LED" H 7900 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7900 3650 50  0001 C CNN
+F 3 "" H 7900 3650 50  0001 C CNN
+	1    7900 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D70
+U 1 1 5B01FA78
+P 8200 3650
+F 0 "D70" H 8200 3750 50  0000 C CNN
+F 1 "LED" H 8200 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8200 3650 50  0001 C CNN
+F 3 "" H 8200 3650 50  0001 C CNN
+	1    8200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D72
+U 1 1 5B01FA7E
+P 8500 3650
+F 0 "D72" H 8500 3750 50  0000 C CNN
+F 1 "LED" H 8500 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8500 3650 50  0001 C CNN
+F 3 "" H 8500 3650 50  0001 C CNN
+	1    8500 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D74
+U 1 1 5B01FA84
+P 8800 3650
+F 0 "D74" H 8800 3750 50  0000 C CNN
+F 1 "LED" H 8800 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 8800 3650 50  0001 C CNN
+F 3 "" H 8800 3650 50  0001 C CNN
+	1    8800 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D76
+U 1 1 5B01FA8A
+P 9100 3650
+F 0 "D76" H 9100 3750 50  0000 C CNN
+F 1 "LED" H 9100 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 9100 3650 50  0001 C CNN
+F 3 "" H 9100 3650 50  0001 C CNN
+	1    9100 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D78
+U 1 1 5B01FA90
+P 9400 3650
+F 0 "D78" H 9400 3750 50  0000 C CNN
+F 1 "LED" H 9400 3550 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 9400 3650 50  0001 C CNN
+F 3 "" H 9400 3650 50  0001 C CNN
+	1    9400 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 5400 7800 5500
+Wire Wire Line
+	7800 5500 6700 5500
+Wire Wire Line
+	6700 5500 6700 3800
+Wire Wire Line
+	7000 3800 7000 4100
+Wire Wire Line
+	7000 4100 7800 4100
+Wire Wire Line
+	7300 3800 7300 4050
+Wire Wire Line
+	7300 4050 7950 4050
+Wire Wire Line
+	7950 4050 7950 4100
+Wire Wire Line
+	7600 3800 7600 4000
+Wire Wire Line
+	7600 4000 8100 4000
+Wire Wire Line
+	8100 4000 8100 4100
+Wire Wire Line
+	7900 3800 7900 3950
+Wire Wire Line
+	7900 3950 8250 3950
+Wire Wire Line
+	8250 3950 8250 4100
+Wire Wire Line
+	8200 3800 8200 3900
+Wire Wire Line
+	8200 3900 8400 3900
+Wire Wire Line
+	8400 3900 8400 4100
+Wire Wire Line
+	8500 3800 8500 4100
+Wire Wire Line
+	8500 4100 8550 4100
+Wire Wire Line
+	8800 3800 8800 4050
+Wire Wire Line
+	8800 4050 8700 4050
+Wire Wire Line
+	8700 4050 8700 4100
+Wire Wire Line
+	9100 3800 9100 4000
+Wire Wire Line
+	9100 4000 8850 4000
+Wire Wire Line
+	8850 4000 8850 4100
+Wire Wire Line
+	9400 3800 9400 4050
+Wire Wire Line
+	9400 4050 9000 4050
+Wire Wire Line
+	9000 4050 9000 4100
+Wire Wire Line
+	8550 5400 8700 5400
+Wire Wire Line
+	8700 5400 8700 5450
+$Comp
+L POT RV11
+U 1 1 5B01FAB4
+P 9050 5850
+F 0 "RV11" V 8875 5850 50  0000 C CNN
+F 1 "10k" V 8950 5850 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 9050 5850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 9050 5850 50  0001 C CNN
+	1    9050 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 5850 8700 5850
+Wire Wire Line
+	8700 5850 8700 5750
+Connection ~ 8850 5850
+Wire Wire Line
+	8850 5700 9050 5700
+Text HLabel 9250 5850 2    60   Input ~ 0
+GND
+Wire Wire Line
+	9250 5850 9200 5850
+Wire Wire Line
+	6350 800  6350 750 
+Connection ~ 6350 750 
+Wire Wire Line
+	6050 800  6050 750 
+Connection ~ 6050 750 
+Wire Wire Line
+	5750 800  5750 750 
+Connection ~ 5750 750 
+Wire Wire Line
+	6650 850  6650 750 
+Connection ~ 6650 750 
+Wire Wire Line
+	6950 850  6950 750 
+Connection ~ 6950 750 
+Wire Wire Line
+	7250 850  7250 750 
+Connection ~ 7250 750 
+Wire Wire Line
+	7550 850  7550 750 
+Connection ~ 7550 750 
+Wire Wire Line
+	7850 850  7850 750 
+Connection ~ 7850 750 
+Wire Wire Line
+	8150 850  8150 750 
+Connection ~ 8150 750 
+Wire Wire Line
+	8450 850  8450 750 
+Connection ~ 8450 750 
+Wire Wire Line
+	8750 850  8750 750 
+Connection ~ 8750 750 
+Wire Wire Line
+	9050 850  9050 750 
+Connection ~ 9050 750 
+Wire Wire Line
+	9350 850  9350 750 
+Connection ~ 9350 750 
+Connection ~ 3750 3400
+Connection ~ 4050 3400
+Connection ~ 4350 3400
+Connection ~ 4650 3400
+Connection ~ 4950 3400
+Connection ~ 5250 3400
+Connection ~ 5550 3400
+Connection ~ 5850 3400
+Connection ~ 6150 3400
+Wire Wire Line
+	6700 3400 6700 3500
+Connection ~ 6450 3400
+Wire Wire Line
+	6700 3500 9400 3500
+Connection ~ 7000 3500
+Connection ~ 7300 3500
+Connection ~ 7600 3500
+Connection ~ 7900 3500
+Connection ~ 8200 3500
+Connection ~ 8500 3500
+Connection ~ 8800 3500
+Connection ~ 9100 3500
+$Sheet
+S 9800 2800 1000 700 
+U 5B025A0E
+F0 "Turpinajums" 60
+F1 "Papildinajums.sch" 60
+F2 "12V" I L 9800 2850 60 
+F3 "GND" I R 10800 2950 60 
+F4 "Audio4.5kHz" I L 9800 3050 60 
+F5 "LED_Supply" I R 10800 3450 60 
+F6 "Audio25kHz" I L 9800 3300 60 
+F7 "Audio10kHz" I L 9800 3150 60 
+$EndSheet
+Wire Wire Line
+	9800 2850 9700 2850
+Wire Wire Line
+	9700 2850 9700 2250
+Wire Wire Line
+	9700 2250 9850 2250
+Connection ~ 9850 2250
+Wire Wire Line
+	11050 2250 11100 2250
+Connection ~ 11100 2250
+Wire Wire Line
+	11050 2250 11050 2950
+Wire Wire Line
+	11050 2950 10800 2950
+Text HLabel 9700 3050 0    60   Input ~ 0
+Audio4.5kHz
+Wire Wire Line
+	9800 3050 9700 3050
+Text HLabel 9650 3900 3    60   Input ~ 0
+Audio10kHz
+Text HLabel 9800 3900 3    60   Input ~ 0
+Audio25kHz
+Wire Wire Line
+	9800 3150 9650 3150
+Wire Wire Line
+	9650 3150 9650 3900
+Wire Wire Line
+	9800 3300 9750 3300
+Wire Wire Line
+	9750 3300 9750 3900
+Wire Wire Line
+	9750 3900 9800 3900
+Wire Wire Line
+	9650 550  9650 750 
+Wire Wire Line
+	9650 550  11150 550 
+Wire Wire Line
+	11150 550  11150 3450
+Wire Wire Line
+	11150 3450 10800 3450
+Connection ~ 9650 750 
+$Comp
+L POT RV1
+U 1 1 5B0A2AFE
+P 2100 5750
+F 0 "RV1" V 1925 5750 50  0000 C CNN
+F 1 "10k" V 2000 5750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 2100 5750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 5550 1950 5750
+Wire Wire Line
+	2100 5900 2200 5900
+Wire Wire Line
+	2200 5900 2200 5950
+Wire Wire Line
+	2200 5300 2200 5550
+Wire Wire Line
+	2200 5550 1950 5550
+Wire Wire Line
+	2100 5550 2100 5600
+Connection ~ 2100 5550
+$Comp
+L POT RV8
+U 1 1 5B0A42FC
+P 8150 5850
+F 0 "RV8" V 7975 5850 50  0000 C CNN
+F 1 "10k" V 8050 5850 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 8150 5850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 8150 5850 50  0001 C CNN
+	1    8150 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 5400 8250 5650
+Wire Wire Line
+	8250 5650 8000 5650
+Wire Wire Line
+	8000 5650 8000 5850
+Wire Wire Line
+	8150 6000 8150 6100
+Wire Wire Line
+	8150 6100 8250 6100
+Wire Wire Line
+	8150 5700 8150 5650
+Connection ~ 8150 5650
+$Comp
+L POT RV9
+U 1 1 5B0A4FAB
+P 8200 3200
+F 0 "RV9" V 8025 3200 50  0000 C CNN
+F 1 "10k" V 8100 3200 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 8200 3200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L POT RV5
+U 1 1 5B0A55F9
+P 5200 3150
+F 0 "RV5" V 5025 3150 50  0000 C CNN
+F 1 "10k" V 5100 3150 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 5200 3150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 5200 3150 50  0001 C CNN
+	1    5200 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L POT RV2
+U 1 1 5B0A5AC2
+P 2200 3050
+F 0 "RV2" V 2025 3050 50  0000 C CNN
+F 1 "10k" V 2100 3050 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 2200 3050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 2200 3050 50  0001 C CNN
+	1    2200 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 3200 2200 3300
+Wire Wire Line
+	2200 3300 2100 3300
+Wire Wire Line
+	2200 2900 2200 2600
+Wire Wire Line
+	2050 3050 2050 2850
+Wire Wire Line
+	2050 2850 2200 2850
+Connection ~ 2200 2850
+Wire Wire Line
+	5150 3350 5200 3350
+Wire Wire Line
+	5200 3350 5200 3300
+Wire Wire Line
+	5200 2700 5200 3000
+Wire Wire Line
+	5200 2900 5100 2900
+Wire Wire Line
+	5100 2900 5100 3050
+Wire Wire Line
+	5100 3050 5050 3050
+Wire Wire Line
+	5050 3050 5050 3150
+Connection ~ 5200 2900
+Wire Wire Line
+	8150 3400 8200 3400
+Wire Wire Line
+	8200 3400 8200 3350
+Wire Wire Line
+	8200 3050 8200 2750
+Wire Wire Line
+	8200 3000 8050 3000
+Wire Wire Line
+	8050 3000 8050 3200
+Connection ~ 8200 3000
+Wire Wire Line
+	10900 1250 10900 1400
+Connection ~ 10900 1400
+Wire Wire Line
+	8800 3100 8700 3100
+Wire Wire Line
+	8700 3100 8700 3200
+Connection ~ 8700 3200
+Wire Wire Line
+	8800 3100 8800 2750
+Wire Wire Line
+	8850 3050 8850 3150
+Wire Wire Line
+	8850 3150 8800 3150
+Wire Wire Line
+	8800 3150 8800 3200
+Wire Wire Line
+	5800 3000 5800 3150
+Wire Wire Line
+	5800 2700 5800 2950
+Wire Wire Line
+	5800 2950 5750 2950
+Wire Wire Line
+	5750 2950 5750 3150
+Connection ~ 5750 3150
+Wire Wire Line
+	2800 2900 2800 3050
+Wire Wire Line
+	2800 2600 2800 2850
+Wire Wire Line
+	2800 2850 2750 2850
+Wire Wire Line
+	2750 2850 2750 3050
+Connection ~ 2750 3050
+Wire Wire Line
+	2800 5300 2800 5550
+Wire Wire Line
+	2800 5550 2750 5550
+Wire Wire Line
+	2750 5550 2750 5750
+Connection ~ 2750 5750
+Wire Wire Line
+	2800 5600 2800 5750
+Wire Wire Line
+	5900 5600 5900 5750
+Wire Wire Line
+	5900 5300 5900 5550
+Wire Wire Line
+	5900 5550 5850 5550
+Wire Wire Line
+	5850 5550 5850 5750
+Connection ~ 5850 5750
+Wire Wire Line
+	8850 5400 8850 5650
+Wire Wire Line
+	8850 5650 8800 5650
+Wire Wire Line
+	8800 5650 8800 5850
+Connection ~ 8800 5850
+Wire Wire Line
+	8850 5700 8850 5850
+Text HLabel 5300 6100 3    60   Input ~ 0
+GND
+$Comp
+L POT RV16
+U 1 1 5B0E990A
+P 5200 5850
+F 0 "RV16" V 5025 5850 50  0000 C CNN
+F 1 "10k" V 5100 5850 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 5200 5850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 5200 5850 50  0001 C CNN
+	1    5200 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 5550 5050 5850
+Wire Wire Line
+	5200 6000 5200 6100
+Wire Wire Line
+	5200 6100 5300 6100
+Wire Wire Line
+	5200 5700 5200 5650
+Wire Wire Line
+	5300 5300 5300 5650
+Wire Wire Line
+	5300 5650 5200 5650
+Wire Wire Line
+	5300 5550 5050 5550
+Connection ~ 5300 5550
+$EndSCHEMATC
