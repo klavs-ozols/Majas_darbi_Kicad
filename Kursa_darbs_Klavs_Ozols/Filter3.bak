@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Kursa_darbs_Klavs_Ozols-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -58,7 +59,7 @@ U 1 1 5B0072F9
 P 4050 2550
 F 0 "U7" H 4050 2750 50  0000 L CNN
 F 1 "TL074" H 4050 2350 50  0000 L CNN
-F 2 "TL074:DIL14" H 4000 2650 50  0001 C CNN
+F 2 "TL074:SO14" H 4000 2650 50  0001 C CNN
 F 3 "" H 4100 2750 50  0001 C CNN
 	1    4050 2550
 	1    0    0    -1  
@@ -69,7 +70,7 @@ U 2 1 5B007334
 P 6000 2450
 F 0 "U7" H 6000 2650 50  0000 L CNN
 F 1 "TL074" H 6000 2250 50  0000 L CNN
-F 2 "TL074:DIL14" H 5950 2550 50  0001 C CNN
+F 2 "TL074:SO14" H 5950 2550 50  0001 C CNN
 F 3 "" H 6050 2650 50  0001 C CNN
 	2    6000 2450
 	1    0    0    -1  
@@ -80,7 +81,7 @@ U 1 1 5B007377
 P 3150 2300
 F 0 "R14" V 3230 2300 50  0000 C CNN
 F 1 "5.1k" V 3150 2300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3080 2300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3080 2300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3150 2300 50  0001 C CNN
 	1    3150 2300
 	1    0    0    -1  
@@ -91,8 +92,8 @@ U 1 1 5B0073DB
 P 2750 2650
 F 0 "R13" V 2830 2650 50  0000 C CNN
 F 1 "6.8k" V 2750 2650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2680 2650 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2750 2650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2680 2650 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 2750 2650 50  0001 C CNN
 	1    2750 2650
 	0    1    1    0   
 $EndComp
@@ -102,8 +103,8 @@ U 1 1 5B007444
 P 3600 2850
 F 0 "R15" V 3680 2850 50  0000 C CNN
 F 1 "62k" V 3600 2850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 3530 2850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 3600 2850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3530 2850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 3600 2850 50  0001 C CNN
 	1    3600 2850
 	1    0    0    -1  
 $EndComp
@@ -113,8 +114,8 @@ U 1 1 5B007546
 P 3350 2650
 F 0 "C19" H 3375 2750 50  0000 L CNN
 F 1 "47 nF" H 3375 2550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 3388 2500 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 3350 2650 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3388 2500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/vjcommercialseries-222796.pdf" H 3350 2650 50  0001 C CNN
 	1    3350 2650
 	0    1    1    0   
 $EndComp
@@ -125,16 +126,14 @@ Wire Wire Line
 	3500 2650 3750 2650
 Connection ~ 3600 2650
 Wire Wire Line
-	2400 2100 4550 2100
-Wire Wire Line
-	3750 2100 3750 2450
+	3750 2050 3750 2450
 $Comp
 L C C20
 U 1 1 5B00765F
 P 3350 3050
 F 0 "C20" H 3375 3150 50  0000 L CNN
 F 1 "47 nF" H 3375 2950 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 3388 2900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3388 2900 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 3350 3050 50  0001 C CNN
 	1    3350 3050
 	0    1    1    0   
@@ -147,9 +146,8 @@ Text HLabel 2350 2650 0    60   Input ~ 0
 Audio
 Wire Wire Line
 	2600 2650 2350 2650
-Text HLabel 2400 2100 0    60   Input ~ 0
+Text HLabel 2400 2050 0    60   Input ~ 0
 GND
-Connection ~ 3150 2100
 Text HLabel 3200 1750 0    60   Input ~ 0
 +8V
 Text HLabel 3300 3450 0    60   Input ~ 0
@@ -168,7 +166,7 @@ U 1 1 5B0077A8
 P 4750 2550
 F 0 "R16" V 4830 2550 50  0000 C CNN
 F 1 "6.8k" V 4750 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4680 2550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 2550 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 4750 2550 50  0001 C CNN
 	1    4750 2550
 	0    1    1    0   
@@ -185,8 +183,8 @@ U 1 1 5B007875
 P 5200 2550
 F 0 "C21" H 5225 2650 50  0000 L CNN
 F 1 "47 nF" H 5225 2450 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5238 2400 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5200 2550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5238 2400 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/vjcommercialseries-222796.pdf" H 5200 2550 50  0001 C CNN
 	1    5200 2550
 	0    1    1    0   
 $EndComp
@@ -196,8 +194,8 @@ U 1 1 5B0078C6
 P 4950 2250
 F 0 "R17" V 5030 2250 50  0000 C CNN
 F 1 "5.1k" V 4950 2250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 4880 2250 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 4950 2250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4880 2250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 4950 2250 50  0001 C CNN
 	1    4950 2250
 	1    0    0    -1  
 $EndComp
@@ -207,8 +205,8 @@ U 1 1 5B00791A
 P 5200 2950
 F 0 "C22" H 5225 3050 50  0000 L CNN
 F 1 "47 nF" H 5225 2850 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5238 2800 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/212/KEM_C1046_AXIAL_MOLDED_X7R-1145195.pdf" H 5200 2950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5238 2800 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/vjcommercialseries-222796.pdf" H 5200 2950 50  0001 C CNN
 	1    5200 2950
 	0    1    1    0   
 $EndComp
@@ -218,8 +216,8 @@ U 1 1 5B00796F
 P 5500 2750
 F 0 "R18" V 5580 2750 50  0000 C CNN
 F 1 "62k" V 5500 2750 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5430 2750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5500 2750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5430 2750 50  0001 C CNN
+F 3 "hhttps://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 5500 2750 50  0001 C CNN
 	1    5500 2750
 	1    0    0    -1  
 $EndComp
@@ -243,11 +241,8 @@ Connection ~ 5500 2550
 Wire Wire Line
 	5700 2050 5700 2350
 Wire Wire Line
-	4550 2050 5700 2050
-Wire Wire Line
-	4550 2100 4550 2050
+	2400 2050 5700 2050
 Connection ~ 4950 2050
-Connection ~ 3750 2100
 Wire Wire Line
 	5900 1750 5900 2150
 Connection ~ 3950 1750
@@ -264,11 +259,13 @@ Wire Wire Line
 Wire Wire Line
 	3600 2700 3600 2650
 Wire Wire Line
-	3150 2100 3150 2150
+	3150 2050 3150 2150
 Wire Wire Line
 	3150 2450 3150 3050
 Wire Wire Line
 	4950 2050 4950 2100
 Wire Wire Line
 	4950 2400 4950 2950
+Connection ~ 3150 2050
+Connection ~ 3750 2050
 $EndSCHEMATC

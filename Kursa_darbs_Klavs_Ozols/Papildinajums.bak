@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Kursa_darbs_Klavs_Ozols-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -77,8 +78,8 @@ U 1 1 5B025DA6
 P 2400 2900
 F 0 "R99" V 2480 2900 50  0000 C CNN
 F 1 "1.2k" V 2400 2900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2330 2900 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2400 2900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2330 2900 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 2400 2900 50  0001 C CNN
 	1    2400 2900
 	0    1    1    0   
 $EndComp
@@ -88,24 +89,21 @@ U 1 1 5B025DEA
 P 1850 2900
 F 0 "RV14" V 1675 2900 50  0000 C CNN
 F 1 "10k" V 1750 2900 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 1850 2900 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 1850 2900 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 1850 2900 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 1850 2900 50  0001 C CNN
 	1    1850 2900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2250 2900 2000 2900
 Wire Wire Line
-	1850 2750 2100 2750
-Wire Wire Line
-	2100 2750 2100 2900
-Connection ~ 2100 2900
+	1850 2750 2150 2750
 Wire Wire Line
 	1700 2900 1450 2900
 Text HLabel 1450 2900 0    60   Input ~ 0
 GND
 Wire Wire Line
-	2150 2900 2150 3050
+	2150 2750 2150 3050
 Wire Wire Line
 	2150 3050 2800 3050
 Connection ~ 2150 2900
@@ -337,8 +335,8 @@ U 1 1 5B026D75
 P 7300 2800
 F 0 "R100" V 7380 2800 50  0000 C CNN
 F 1 "1.2k" V 7300 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 7230 2800 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 7300 2800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7230 2800 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 7300 2800 50  0001 C CNN
 	1    7300 2800
 	0    1    1    0   
 $EndComp
@@ -348,24 +346,21 @@ U 1 1 5B026D7B
 P 6750 2800
 F 0 "RV15" V 6575 2800 50  0000 C CNN
 F 1 "10k" V 6650 2800 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 6750 2800 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 6750 2800 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 6750 2800 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 6750 2800 50  0001 C CNN
 	1    6750 2800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7150 2800 6900 2800
 Wire Wire Line
-	6750 2650 7000 2650
-Wire Wire Line
-	7000 2650 7000 2800
-Connection ~ 7000 2800
+	6750 2650 7050 2650
 Wire Wire Line
 	6600 2800 6350 2800
 Text HLabel 6350 2800 0    60   Input ~ 0
 GND
 Wire Wire Line
-	7050 2800 7050 2950
+	7050 2650 7050 2950
 Wire Wire Line
 	7050 2950 7700 2950
 Connection ~ 7050 2800
@@ -597,8 +592,8 @@ U 1 1 5B027067
 P 2050 6200
 F 0 "R98" V 2130 6200 50  0000 C CNN
 F 1 "1.2k" V 2050 6200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 1980 6200 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2050 6200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1980 6200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 2050 6200 50  0001 C CNN
 	1    2050 6200
 	0    1    1    0   
 $EndComp
@@ -608,22 +603,17 @@ U 1 1 5B02706D
 P 1500 6200
 F 0 "RV13" V 1325 6200 50  0000 C CNN
 F 1 "10k" V 1400 6200 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 1500 6200 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 1500 6200 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 1500 6200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 1500 6200 50  0001 C CNN
 	1    1500 6200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1900 6200 1650 6200
 Wire Wire Line
-	1500 6050 1750 6050
-Wire Wire Line
-	1750 6050 1750 6200
-Connection ~ 1750 6200
-Wire Wire Line
 	1050 6200 1350 6200
 Wire Wire Line
-	1800 6200 1800 6350
+	1800 6050 1800 6350
 Wire Wire Line
 	1800 6350 2450 6350
 Connection ~ 1800 6200
@@ -838,8 +828,8 @@ U 1 1 5B0EB2E6
 P 1600 5700
 F 0 "RV17" V 1425 5700 50  0000 C CNN
 F 1 "10k" V 1500 5700 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 1600 5700 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 1600 5700 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 1600 5700 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 1600 5700 50  0001 C CNN
 	1    1600 5700
 	0    -1   -1   0   
 $EndComp
@@ -857,8 +847,8 @@ U 1 1 5B0EB5C3
 P 1850 2450
 F 0 "RV18" V 1675 2450 50  0000 C CNN
 F 1 "10k" V 1750 2450 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 1850 2450 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 1850 2450 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 1850 2450 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 1850 2450 50  0001 C CNN
 	1    1850 2450
 	0    -1   -1   0   
 $EndComp
@@ -873,21 +863,17 @@ GND
 $Comp
 L POT RV19
 U 1 1 5B0EB73E
-P 6750 2300
-F 0 "RV19" V 6575 2300 50  0000 C CNN
-F 1 "10k" V 6650 2300 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 6750 2300 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 6750 2300 50  0001 C CNN
-	1    6750 2300
+P 6750 2350
+F 0 "RV19" V 6575 2350 50  0000 C CNN
+F 1 "10k" V 6650 2350 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 6750 2350 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 6750 2350 50  0001 C CNN
+	1    6750 2350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7150 2300 6900 2300
-Wire Wire Line
 	6750 2150 7150 2150
-Wire Wire Line
-	6300 2300 6600 2300
-Text HLabel 6300 2300 0    60   Input ~ 0
+Text HLabel 6300 2350 0    60   Input ~ 0
 GND
 Wire Wire Line
 	2250 2300 2250 2450
@@ -900,8 +886,14 @@ Wire Wire Line
 	2100 5550 2100 5750
 Connection ~ 2100 5750
 Wire Wire Line
-	7150 2350 7700 2350
+	6900 2350 7700 2350
 Wire Wire Line
 	7150 2150 7150 2350
-Connection ~ 7150 2300
+Wire Wire Line
+	1500 6050 1800 6050
+Wire Wire Line
+	6300 2350 6600 2350
+Wire Wire Line
+	6750 2200 6750 2150
+Connection ~ 7150 2350
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Kursa_darbs_Klavs_Ozols-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -77,8 +78,8 @@ U 1 1 5B016846
 P 2650 2800
 F 0 "R91" V 2730 2800 50  0000 C CNN
 F 1 "1.2k" V 2650 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2580 2800 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2650 2800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 2800 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 2650 2800 50  0001 C CNN
 	1    2650 2800
 	1    0    0    -1  
 $EndComp
@@ -278,7 +279,7 @@ U 1 1 5B0195E5
 P 10050 1850
 F 0 "C66" H 10075 1950 50  0000 L CNN
 F 1 "10uF" H 10075 1750 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 10050 1850 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 10050 1850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 10050 1850 50  0001 C CNN
 	1    10050 1850
 	0    -1   -1   0   
@@ -289,7 +290,7 @@ U 1 1 5B019657
 P 10050 750
 F 0 "C65" H 10075 850 50  0000 L CNN
 F 1 "10 uF" H 10075 650 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 10050 750 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 10050 750 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 10050 750 50  0001 C CNN
 	1    10050 750 
 	0    -1   -1   0   
@@ -320,8 +321,8 @@ U 1 1 5B0199A9
 P 10350 950
 F 0 "R97" V 10430 950 50  0000 C CNN
 F 1 "240" V 10350 950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 10280 950 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 10350 950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10280 950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 10350 950 50  0001 C CNN
 	1    10350 950 
 	0    1    1    0   
 $EndComp
@@ -345,8 +346,8 @@ U 1 1 5B019D07
 P 10750 1250
 F 0 "RV12" V 10575 1250 50  0000 C CNN
 F 1 "4.7k" V 10650 1250 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 10750 1250 50  0001 C CNN
-F 3 "" H 10750 1250 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 10750 1250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 10750 1250 50  0001 C CNN
 	1    10750 1250
 	0    1    1    0   
 $EndComp
@@ -364,8 +365,8 @@ U 1 1 5B01BACC
 P 3000 3050
 F 0 "RV3" V 2825 3050 50  0000 C CNN
 F 1 "10k" V 2900 3050 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 3000 3050 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 3000 3050 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 3000 3050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 3000 3050 50  0001 C CNN
 	1    3000 3050
 	0    -1   -1   0   
 $EndComp
@@ -405,8 +406,8 @@ U 1 1 5B01C674
 P 2650 5500
 F 0 "R92" V 2730 5500 50  0000 C CNN
 F 1 "1.2k" V 2650 5500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 2580 5500 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 2650 5500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 5500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 2650 5500 50  0001 C CNN
 	1    2650 5500
 	1    0    0    -1  
 $EndComp
@@ -597,8 +598,8 @@ U 1 1 5B01C6DF
 P 3000 5750
 F 0 "RV4" V 2825 5750 50  0000 C CNN
 F 1 "10k" V 2900 5750 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 3000 5750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 3000 5750 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 3000 5750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 3000 5750 50  0001 C CNN
 	1    3000 5750
 	0    -1   -1   0   
 $EndComp
@@ -638,8 +639,8 @@ U 1 1 5B01D603
 P 5650 2900
 F 0 "R93" V 5730 2900 50  0000 C CNN
 F 1 "1.2k" V 5650 2900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5580 2900 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5650 2900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 2900 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 5650 2900 50  0001 C CNN
 	1    5650 2900
 	1    0    0    -1  
 $EndComp
@@ -821,8 +822,8 @@ U 1 1 5B01D66E
 P 6000 3150
 F 0 "RV6" V 5825 3150 50  0000 C CNN
 F 1 "10k" V 5900 3150 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 6000 3150 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 6000 3150 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 6000 3150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 6000 3150 50  0001 C CNN
 	1    6000 3150
 	0    -1   -1   0   
 $EndComp
@@ -889,8 +890,8 @@ U 1 1 5B01F295
 P 8650 2950
 F 0 "R95" V 8730 2950 50  0000 C CNN
 F 1 "1.2k" V 8650 2950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8580 2950 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8650 2950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8580 2950 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 8650 2950 50  0001 C CNN
 	1    8650 2950
 	1    0    0    -1  
 $EndComp
@@ -1072,8 +1073,8 @@ U 1 1 5B01F2F6
 P 9000 3200
 F 0 "RV10" V 8825 3200 50  0000 C CNN
 F 1 "10k" V 8900 3200 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 9000 3200 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 9000 3200 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 9000 3200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 9000 3200 50  0001 C CNN
 	1    9000 3200
 	0    -1   -1   0   
 $EndComp
@@ -1111,8 +1112,8 @@ U 1 1 5B01F705
 P 5750 5500
 F 0 "R94" V 5830 5500 50  0000 C CNN
 F 1 "1.2k" V 5750 5500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5680 5500 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 5750 5500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5680 5500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 5750 5500 50  0001 C CNN
 	1    5750 5500
 	1    0    0    -1  
 $EndComp
@@ -1294,8 +1295,8 @@ U 1 1 5B01F766
 P 6100 5750
 F 0 "RV7" V 5925 5750 50  0000 C CNN
 F 1 "4.7k" V 6000 5750 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 6100 5750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 6100 5750 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 6100 5750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 6100 5750 50  0001 C CNN
 	1    6100 5750
 	0    -1   -1   0   
 $EndComp
@@ -1335,8 +1336,8 @@ U 1 1 5B01FA53
 P 8700 5600
 F 0 "R96" V 8780 5600 50  0000 C CNN
 F 1 "1.2k" V 8700 5600 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 8630 5600 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/219/MOS-16613.pdf" H 8700 5600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8630 5600 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/219/RN73-11994.pdf" H 8700 5600 50  0001 C CNN
 	1    8700 5600
 	1    0    0    -1  
 $EndComp
@@ -1518,8 +1519,8 @@ U 1 1 5B01FAB4
 P 9050 5850
 F 0 "RV11" V 8875 5850 50  0000 C CNN
 F 1 "10k" V 8950 5850 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 9050 5850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 9050 5850 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 9050 5850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 9050 5850 50  0001 C CNN
 	1    9050 5850
 	0    -1   -1   0   
 $EndComp
@@ -1654,8 +1655,8 @@ U 1 1 5B0A2AFE
 P 2100 5750
 F 0 "RV1" V 1925 5750 50  0000 C CNN
 F 1 "10k" V 2000 5750 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 2100 5750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 2100 5750 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 2100 5750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 2100 5750 50  0001 C CNN
 	1    2100 5750
 	-1   0    0    1   
 $EndComp
@@ -1678,8 +1679,8 @@ U 1 1 5B0A42FC
 P 8150 5850
 F 0 "RV8" V 7975 5850 50  0000 C CNN
 F 1 "10k" V 8050 5850 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 8150 5850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 8150 5850 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 8150 5850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 8150 5850 50  0001 C CNN
 	1    8150 5850
 	-1   0    0    1   
 $EndComp
@@ -1702,8 +1703,8 @@ U 1 1 5B0A4FAB
 P 8200 3200
 F 0 "RV9" V 8025 3200 50  0000 C CNN
 F 1 "10k" V 8100 3200 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 8200 3200 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 8200 3200 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 8200 3200 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 8200 3200 50  0001 C CNN
 	1    8200 3200
 	-1   0    0    1   
 $EndComp
@@ -1713,8 +1714,8 @@ U 1 1 5B0A55F9
 P 5200 3150
 F 0 "RV5" V 5025 3150 50  0000 C CNN
 F 1 "10k" V 5100 3150 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 5200 3150 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 5200 3150 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 5200 3150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 5200 3150 50  0001 C CNN
 	1    5200 3150
 	-1   0    0    1   
 $EndComp
@@ -1724,8 +1725,8 @@ U 1 1 5B0A5AC2
 P 2200 3050
 F 0 "RV2" V 2025 3050 50  0000 C CNN
 F 1 "10k" V 2100 3050 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 2200 3050 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 2200 3050 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 2200 3050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 2200 3050 50  0001 C CNN
 	1    2200 3050
 	-1   0    0    1   
 $EndComp
@@ -1835,8 +1836,8 @@ U 1 1 5B0E990A
 P 5200 5850
 F 0 "RV16" V 5025 5850 50  0000 C CNN
 F 1 "10k" V 5100 5850 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_T7YA_Horizontal" H 5200 5850 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/t7-91033.pdf" H 5200 5850 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_TS53YJ" H 5200 5850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/ts53-239982.pdf" H 5200 5850 50  0001 C CNN
 	1    5200 5850
 	-1   0    0    1   
 $EndComp

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Klavs/Desktop/veA/2_kurss_2_sem_EL_bak/Plasu_izgatavosanas_kurss/Majas_darbi_Kicad/Kursa_darbs_Klavs_Ozols/Kursa_darbs_Klavs_Ozols.sch)
-    (date "09.06.2018. 14:06:27")
+    (date "09.06.2018. 14:07:45")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

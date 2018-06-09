@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Kursa_darbs_Klavs_Ozols-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -73,8 +74,8 @@ U 1 1 5AFF728E
 P 1900 1400
 F 0 "C5" H 1925 1500 50  0000 L CNN
 F 1 "100 nF" H 1925 1300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 1938 1250 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 1900 1400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1938 1250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" H 1900 1400 50  0001 C CNN
 	1    1900 1400
 	1    0    0    -1  
 $EndComp
@@ -84,8 +85,8 @@ U 1 1 5AFF72B4
 P 2850 1400
 F 0 "C6" H 2875 1500 50  0000 L CNN
 F 1 "100 nF" H 2875 1300 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2888 1250 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/maseries-1211360.pdf" H 2850 1400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 2888 1250 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" H 2850 1400 50  0001 C CNN
 	1    2850 1400
 	1    0    0    -1  
 $EndComp
@@ -120,8 +121,8 @@ U 1 1 5AFF7338
 P 4550 1450
 F 0 "U3" H 4550 1950 50  0000 L BNN
 F 1 "ICL7660SIPAZ" H 4350 700 50  0000 L BNN
-F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4550 1450 50  0001 L BNN
-F 3 "Good" H 4550 1450 50  0001 L BNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4550 1450 50  0001 L BNN
+F 3 "https://eu.mouser.com/datasheet/2/698/icl7660-1302119.pdf" H 4550 1450 50  0001 L BNN
 F 4 "ICL7660SIPAZ" H 4550 1450 50  0001 L BNN "Field4"
 F 5 "Intersil" H 4550 1450 50  0001 L BNN "Field5"
 F 6 "DIP-8 Intersil" H 4550 1450 50  0001 L BNN "Field6"
@@ -140,8 +141,8 @@ U 1 1 5AFF73F4
 P 3550 1500
 F 0 "C7" H 3575 1600 50  0000 L CNN
 F 1 "10 uF" H 3300 1400 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3550 1500 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3550 1500 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 3550 1500 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/315/ABA0000C1251-1138508.pdf" H 3550 1500 50  0001 C CNN
 	1    3550 1500
 	1    0    0    -1  
 $EndComp
@@ -161,22 +162,18 @@ Wire Wire Line
 	2350 2050 3850 2050
 Connection ~ 2350 1800
 Wire Wire Line
-	3850 2050 3850 2300
-Wire Wire Line
-	3850 2300 5550 2300
+	3700 2300 5550 2300
 $Comp
 L CP1 C14
 U 1 1 5AFF755C
 P 5850 1300
 F 0 "C14" H 5875 1400 50  0000 L CNN
 F 1 "470 uF" H 5875 1200 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5850 1300 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 5850 1300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5850 1300 50  0001 C CNN
 	1    5850 1300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5250 1050 6750 1050
 Wire Wire Line
 	3600 1050 3600 650 
 Wire Wire Line
@@ -193,8 +190,8 @@ U 1 1 5B005DCE
 P 4550 3000
 F 0 "U4" H 4550 3500 50  0000 L BNN
 F 1 "ICL7660SIPAZ" H 4350 2250 50  0000 L BNN
-F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4550 3000 50  0001 L BNN
-F 3 "Good" H 4550 3000 50  0001 L BNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4550 3000 50  0001 L BNN
+F 3 "https://eu.mouser.com/datasheet/2/698/icl7660-1302119.pdf" H 4550 3000 50  0001 L BNN
 F 4 "ICL7660SIPAZ" H 4550 3000 50  0001 L BNN "Field4"
 F 5 "Intersil" H 4550 3000 50  0001 L BNN "Field5"
 F 6 "DIP-8 Intersil" H 4550 3000 50  0001 L BNN "Field6"
@@ -209,8 +206,8 @@ U 1 1 5B005E60
 P 3600 3050
 F 0 "C8" H 3625 3150 50  0000 L CNN
 F 1 "10 uF" H 3350 2950 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3600 3050 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3600 3050 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 3600 3050 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/315/ABA0000C1251-1138508.pdf" H 3600 3050 50  0001 C CNN
 	1    3600 3050
 	1    0    0    -1  
 $EndComp
@@ -241,7 +238,7 @@ U 1 1 5B0060F9
 P 5700 2850
 F 0 "C12" H 5725 2950 50  0000 L CNN
 F 1 "470 uF" H 5725 2750 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5700 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 5700 2850 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5700 2850 50  0001 C CNN
 	1    5700 2850
 	-1   0    0    1   
@@ -261,8 +258,8 @@ U 1 1 5B021872
 P 4550 4650
 F 0 "U5" H 4550 5150 50  0000 L BNN
 F 1 "ICL7660SIPAZ" H 4350 3900 50  0000 L BNN
-F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4550 4650 50  0001 L BNN
-F 3 "Good" H 4550 4650 50  0001 L BNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4550 4650 50  0001 L BNN
+F 3 "https://eu.mouser.com/datasheet/2/698/icl7660-1302119.pdf" H 4550 4650 50  0001 L BNN
 F 4 "ICL7660SIPAZ" H 4550 4650 50  0001 L BNN "Field4"
 F 5 "Intersil" H 4550 4650 50  0001 L BNN "Field5"
 F 6 "DIP-8 Intersil" H 4550 4650 50  0001 L BNN "Field6"
@@ -277,8 +274,8 @@ U 1 1 5B02190F
 P 3600 4750
 F 0 "C9" H 3625 4850 50  0000 L CNN
 F 1 "10 uF" H 3350 4650 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3600 4750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3600 4750 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 3600 4750 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/315/ABA0000C1251-1138508.pdf" H 3600 4750 50  0001 C CNN
 	1    3600 4750
 	1    0    0    -1  
 $EndComp
@@ -288,15 +285,13 @@ U 1 1 5B02199A
 P 5650 4450
 F 0 "C11" H 5675 4550 50  0000 L CNN
 F 1 "470 uF" H 5675 4350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5650 4450 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 5650 4450 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5650 4450 50  0001 C CNN
 	1    5650 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5250 4250 6700 4250
-Wire Wire Line
-	5400 4550 5400 5550
 Wire Wire Line
 	5400 5550 3300 5550
 Connection ~ 3300 5550
@@ -326,8 +321,8 @@ U 1 1 5B038826
 P 4600 6350
 F 0 "U6" H 4600 6850 50  0000 L BNN
 F 1 "ICL7660SIPAZ" H 4400 5600 50  0000 L BNN
-F 2 "ICL7660SIPAZ:DIP254P762X533-8" H 4600 6350 50  0001 L BNN
-F 3 "Good" H 4600 6350 50  0001 L BNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4600 6350 50  0001 L BNN
+F 3 "https://eu.mouser.com/datasheet/2/698/icl7660-1302119.pdf" H 4600 6350 50  0001 L BNN
 F 4 "ICL7660SIPAZ" H 4600 6350 50  0001 L BNN "Field4"
 F 5 "Intersil" H 4600 6350 50  0001 L BNN "Field5"
 F 6 "DIP-8 Intersil" H 4600 6350 50  0001 L BNN "Field6"
@@ -342,8 +337,8 @@ U 1 1 5B0388A0
 P 3700 6400
 F 0 "C10" H 3725 6500 50  0000 L CNN
 F 1 "10 uF" H 3450 6300 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3700 6400 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/293/e-upx-876312.pdf" H 3700 6400 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 3700 6400 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/315/ABA0000C1251-1138508.pdf" H 3700 6400 50  0001 C CNN
 	1    3700 6400
 	1    0    0    -1  
 $EndComp
@@ -353,15 +348,11 @@ U 1 1 5B038988
 P 5750 6100
 F 0 "C13" H 5775 6200 50  0000 L CNN
 F 1 "470 uF" H 5775 6000 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5750 6100 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/427/517d-239964.pdf" H 5750 6100 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 5750 6100 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/315/ABA0000C1145-947633.pdf" H 5750 6100 50  0001 C CNN
 	1    5750 6100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5400 7200 5400 6200
-Wire Wire Line
-	5400 6200 5500 6200
 Wire Wire Line
 	3300 2050 3300 7200
 Wire Wire Line
@@ -386,18 +377,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 5950 5300 5900
 Wire Wire Line
-	5300 5900 5900 5900
-Text HLabel 6000 5850 2    60   Output ~ 0
+	5300 5900 6000 5900
+Text HLabel 6000 5900 2    60   Output ~ 0
 -8V_3
-Wire Wire Line
-	5900 5900 5900 5850
-Wire Wire Line
-	5900 5850 6000 5850
 Text HLabel 6000 5650 2    60   Output ~ 0
 +8V_3
-Wire Wire Line
-	6000 5650 3300 5650
-Connection ~ 3300 5650
 NoConn ~ 3850 1250
 NoConn ~ 3850 1650
 NoConn ~ 3850 1850
@@ -414,11 +398,7 @@ NoConn ~ 3900 6750
 Wire Wire Line
 	3150 5950 3900 5950
 Wire Wire Line
-	5750 1150 5750 1050
-Connection ~ 5750 1050
-Wire Wire Line
 	5550 1450 5850 1450
-Connection ~ 5550 1450
 Wire Wire Line
 	5550 2300 5550 1450
 Wire Wire Line
@@ -426,44 +406,34 @@ Wire Wire Line
 Connection ~ 5650 2600
 Wire Wire Line
 	5450 3000 5700 3000
-Connection ~ 5450 3000
 Wire Wire Line
 	5450 3900 5450 3000
 Wire Wire Line
-	5650 5900 5650 5950
-Connection ~ 5650 5900
-Wire Wire Line
-	5500 6250 5750 6250
-Wire Wire Line
-	5500 6200 5500 6250
+	5400 6250 5750 6250
 Wire Wire Line
 	5650 4300 5650 4250
 Connection ~ 5650 4250
 Wire Wire Line
-	5650 4600 5500 4600
-Wire Wire Line
-	5500 4600 5500 4550
-Wire Wire Line
-	5500 4550 5400 4550
+	5400 4600 5650 4600
 Wire Wire Line
 	5650 2700 5700 2700
-Wire Wire Line
-	5850 1150 5750 1150
-Wire Wire Line
-	5650 5950 5750 5950
 Connection ~ 3150 1200
-$Comp
-L PWR_FLAG #FLG04
-U 1 1 5B13D791
-P 2550 1600
-F 0 "#FLG04" H 2550 1675 50  0001 C CNN
-F 1 "PWR_FLAG" H 2550 1750 50  0000 C CNN
-F 2 "" H 2550 1600 50  0001 C CNN
-F 3 "" H 2550 1600 50  0001 C CNN
-	1    2550 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2550 1600 2350 1600
-Connection ~ 2350 1600
+	5400 7200 5400 6250
+Wire Wire Line
+	5400 5550 5400 4600
+Wire Wire Line
+	5750 5950 5750 5900
+Connection ~ 5750 5900
+Wire Wire Line
+	5250 1050 6750 1050
+Wire Wire Line
+	5850 1150 5850 1050
+Connection ~ 5850 1050
+Wire Wire Line
+	6000 5650 3150 5650
+Connection ~ 3150 5650
+Wire Wire Line
+	3700 2300 3700 2050
+Connection ~ 3700 2050
 $EndSCHEMATC

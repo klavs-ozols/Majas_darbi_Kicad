@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Kursa_darbs_Klavs_Ozols-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -397,9 +398,9 @@ F18 "-8V_3" I L 7650 1150 60
 F19 "Audio4.5kHz-R" O R 10000 2150 60 
 F20 "Audio10kHz" I L 7650 2500 60 
 F21 "Audio10kHz-R" O R 10000 2350 60 
-F22 "Audio25Hz" I L 7650 2650 60 
-F23 "Audio25kHz-R" O R 10000 2600 60 
-F24 "-8V_2" I L 7650 850 60 
+F22 "Audio25kHz-R" O R 10000 2600 60 
+F23 "-8V_2" I L 7650 850 60 
+F24 "Audio25kHz" I L 7650 2650 60 
 $EndSheet
 Entry Wire Line
 	6700 600  6800 700 
@@ -789,20 +790,10 @@ Wire Wire Line
 	1100 1300 900  1300
 Wire Wire Line
 	900  1300 900  1250
-Wire Wire Line
-	1350 5450 1150 5450
-Wire Wire Line
-	1150 5450 1150 2650
 Connection ~ 1400 2650
-Wire Wire Line
-	1750 5250 3700 5250
 Entry Wire Line
-	3950 5000 4050 5100
-Wire Wire Line
-	3950 5000 3700 5000
-Wire Wire Line
-	3700 5000 3700 5250
-Text Label 3700 5000 0    60   ~ 0
+	3950 5150 4050 5250
+Text Label 3700 5150 0    60   ~ 0
 Audio
 $Comp
 L Audio-Jack-3 J2
@@ -816,16 +807,122 @@ F 3 "https://eu.mouser.com/datasheet/2/222/STX3120-334667.pdf" H 1800 5250 50  0
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 5450 1350 5250
+	1750 5050 1850 5050
 Wire Wire Line
-	1750 5050 1800 5050
+	1850 5150 1750 5150
 Wire Wire Line
-	1800 5050 1800 5200
+	1850 5100 3700 5100
 Wire Wire Line
-	1800 5200 1750 5200
+	1850 5050 1850 5150
+Connection ~ 1850 5100
 Wire Wire Line
-	1750 5200 1750 5250
+	3950 5150 3700 5150
 Wire Wire Line
-	1750 5150 1800 5150
-Connection ~ 1800 5150
+	3700 5150 3700 5100
+Wire Wire Line
+	1150 2650 1150 5250
+Wire Wire Line
+	1150 5250 1350 5250
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5B160CE3
+P 850 1750
+F 0 "#FLG04" H 850 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 1900 50  0000 C CNN
+F 2 "" H 850 1750 50  0001 C CNN
+F 3 "" H 850 1750 50  0001 C CNN
+	1    850  1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 1600 950  1600
+Wire Wire Line
+	950  1600 950  1750
+Wire Wire Line
+	950  1750 850  1750
+Connection ~ 1100 1600
+$Comp
+L Conn_01x01 J3
+U 1 1 5B1CA91A
+P 1050 2150
+F 0 "J3" H 1200 2200 50  0000 C CNN
+F 1 "Conn_01x01" H 1350 2100 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1050 2150 50  0001 C CNN
+F 3 "" H 1050 2150 50  0001 C CNN
+	1    1050 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J4
+U 1 1 5B1CAB95
+P 1050 2350
+F 0 "J4" H 1050 2450 50  0000 C CNN
+F 1 "Conn_01x01" H 1350 2300 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1050 2350 50  0001 C CNN
+F 3 "" H 1050 2350 50  0001 C CNN
+	1    1050 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5B1CADCF
+P 1050 2550
+F 0 "J5" H 1150 2600 50  0000 C CNN
+F 1 "Conn_01x01" H 1350 2500 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1050 2550 50  0001 C CNN
+F 3 "" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J6
+U 1 1 5B1CB33C
+P 850 2850
+F 0 "J6" H 850 2950 50  0000 C CNN
+F 1 "Conn_01x01" H 950 2750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 2850 50  0001 C CNN
+F 3 "" H 850 2850 50  0001 C CNN
+	1    850  2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 2550 1250 2550
+Connection ~ 1400 2550
+Wire Wire Line
+	1400 2350 1250 2350
+Connection ~ 1400 2350
+Wire Wire Line
+	1400 2150 1250 2150
+Connection ~ 1400 2150
+Wire Wire Line
+	1150 2850 1050 2850
+Connection ~ 1150 2850
+$Comp
+L Conn_01x01 J7
+U 1 1 5B1CEB89
+P 850 3150
+F 0 "J7" H 850 3250 50  0000 C CNN
+F 1 "Conn_01x01" H 950 3050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 3150 50  0001 C CNN
+F 3 "" H 850 3150 50  0001 C CNN
+	1    850  3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J8
+U 1 1 5B1CEDD8
+P 850 3450
+F 0 "J8" H 850 3550 50  0000 C CNN
+F 1 "Conn_01x01" H 950 3350 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 3450 50  0001 C CNN
+F 3 "" H 850 3450 50  0001 C CNN
+	1    850  3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 3150 1150 3150
+Connection ~ 1150 3150
+Wire Wire Line
+	1050 3450 1150 3450
+Connection ~ 1150 3450
 $EndSCHEMATC
