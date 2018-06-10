@@ -1856,4 +1856,20 @@ Wire Wire Line
 Wire Wire Line
 	5300 5550 5050 5550
 Connection ~ 5300 5550
+$Comp
+L Conn_01x01 J10
+U 1 1 5B1D43C0
+P 8850 650
+F 0 "J10" H 9000 650 50  0000 C CNN
+F 1 "Conn_01x01" H 8850 550 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 8850 650 50  0001 C CNN
+F 3 "" H 8850 650 50  0001 C CNN
+	1    8850 650 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 650  9750 650 
+Wire Wire Line
+	9750 650  9750 750 
+Connection ~ 9750 750 
 $EndSCHEMATC

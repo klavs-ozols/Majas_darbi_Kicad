@@ -229,7 +229,7 @@ $EndComp
 Wire Wire Line
 	5050 1900 5050 2250
 Wire Wire Line
-	5050 1900 2050 1900
+	1950 1900 5050 1900
 Wire Wire Line
 	2450 2100 2450 1900
 Connection ~ 2450 1900
