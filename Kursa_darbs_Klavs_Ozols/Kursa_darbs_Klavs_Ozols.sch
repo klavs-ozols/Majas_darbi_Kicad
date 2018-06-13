@@ -650,15 +650,235 @@ F 3 "" H 1400 1050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x01 J11
-U 1 1 5B1D6E6E
-P 10850 1100
-F 0 "J11" H 10850 1200 50  0000 C CNN
-F 1 "Conn_01x01" H 10850 1000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10850 1100 50  0001 C CNN
-F 3 "" H 10850 1100 50  0001 C CNN
-	1    10850 1100
+L Conn_01x01 J15
+U 1 1 5B1DB775
+P 2250 4750
+F 0 "J15" H 2250 4850 50  0000 C CNN
+F 1 "Conn_01x01" H 2250 4650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2250 4750 50  0001 C CNN
+F 3 "" H 2250 4750 50  0001 C CNN
+	1    2250 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J16
+U 1 1 5B1DB9EA
+P 2550 4750
+F 0 "J16" H 2550 4850 50  0000 C CNN
+F 1 "Conn_01x01" H 2550 4650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2550 4750 50  0001 C CNN
+F 3 "" H 2550 4750 50  0001 C CNN
+	1    2550 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J17
+U 1 1 5B1DBC43
+P 2850 4750
+F 0 "J17" H 2850 4850 50  0000 C CNN
+F 1 "Conn_01x01" H 2850 4650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2850 4750 50  0001 C CNN
+F 3 "" H 2850 4750 50  0001 C CNN
+	1    2850 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J35
+U 1 1 5B1DDC4B
+P 7750 5600
+F 0 "J35" H 7750 5700 50  0000 C CNN
+F 1 "Conn_01x01" H 7750 5500 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7750 5600 50  0001 C CNN
+F 3 "" H 7750 5600 50  0001 C CNN
+	1    7750 5600
 	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J36
+U 1 1 5B1DE400
+P 7750 5900
+F 0 "J36" H 7750 6000 50  0000 C CNN
+F 1 "Conn_01x01" H 7750 5800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7750 5900 50  0001 C CNN
+F 3 "" H 7750 5900 50  0001 C CNN
+	1    7750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J45
+U 1 1 5B2093A4
+P 6500 5800
+F 0 "J45" H 6500 5900 50  0000 C CNN
+F 1 "Conn_01x01" H 6500 5700 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6500 5800 50  0001 C CNN
+F 3 "" H 6500 5800 50  0001 C CNN
+	1    6500 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J46
+U 1 1 5B209629
+P 6850 5800
+F 0 "J46" H 6850 5900 50  0000 C CNN
+F 1 "Conn_01x01" H 6850 5700 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6850 5800 50  0001 C CNN
+F 3 "" H 6850 5800 50  0001 C CNN
+	1    6850 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J44
+U 1 1 5B209AE8
+P 6800 5200
+F 0 "J44" H 6800 5300 50  0000 C CNN
+F 1 "Conn_01x01" H 6800 5100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6800 5200 50  0001 C CNN
+F 3 "" H 6800 5200 50  0001 C CNN
+	1    6800 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J43
+U 1 1 5B209D53
+P 6500 5200
+F 0 "J43" H 6500 5300 50  0000 C CNN
+F 1 "Conn_01x01" H 6500 5100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6500 5200 50  0001 C CNN
+F 3 "" H 6500 5200 50  0001 C CNN
+	1    6500 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J41
+U 1 1 5B20A1F1
+P 6500 4550
+F 0 "J41" H 6500 4650 50  0000 C CNN
+F 1 "Conn_01x01" H 6500 4450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6500 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J42
+U 1 1 5B20A464
+P 6800 4550
+F 0 "J42" H 6800 4650 50  0000 C CNN
+F 1 "Conn_01x01" H 6800 4450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6800 4550 50  0001 C CNN
+F 3 "" H 6800 4550 50  0001 C CNN
+	1    6800 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J39
+U 1 1 5B20AEB3
+P 6450 4000
+F 0 "J39" H 6450 4100 50  0000 C CNN
+F 1 "Conn_01x01" H 6450 3900 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6450 4000 50  0001 C CNN
+F 3 "" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J40
+U 1 1 5B20B126
+P 6750 4000
+F 0 "J40" H 6750 4100 50  0000 C CNN
+F 1 "Conn_01x01" H 6750 3900 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6750 4000 50  0001 C CNN
+F 3 "" H 6750 4000 50  0001 C CNN
+	1    6750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J20
+U 1 1 5B20B39A
+P 6400 3400
+F 0 "J20" H 6400 3500 50  0000 C CNN
+F 1 "Conn_01x01" H 6400 3300 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6400 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J34
+U 1 1 5B20B61B
+P 6700 3450
+F 0 "J34" H 6700 3550 50  0000 C CNN
+F 1 "Conn_01x01" H 6700 3350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6700 3450 50  0001 C CNN
+F 3 "" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J13
+U 1 1 5B20BAE5
+P 6300 2050
+F 0 "J13" H 6300 2150 50  0000 C CNN
+F 1 "Conn_01x01" H 6300 1950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6300 2050 50  0001 C CNN
+F 3 "" H 6300 2050 50  0001 C CNN
+	1    6300 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J14
+U 1 1 5B20BFD0
+P 6550 2050
+F 0 "J14" H 6550 2150 50  0000 C CNN
+F 1 "Conn_01x01" H 6550 1950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6550 2050 50  0001 C CNN
+F 3 "" H 6550 2050 50  0001 C CNN
+	1    6550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J12
+U 1 1 5B20C26C
+P 6550 1100
+F 0 "J12" H 6550 1200 50  0000 C CNN
+F 1 "Conn_01x01" H 6550 1000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6550 1100 50  0001 C CNN
+F 3 "" H 6550 1100 50  0001 C CNN
+	1    6550 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J11
+U 1 1 5B20C509
+P 6300 1100
+F 0 "J11" H 6300 1200 50  0000 C CNN
+F 1 "Conn_01x01" H 6300 1000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6300 1100 50  0001 C CNN
+F 3 "" H 6300 1100 50  0001 C CNN
+	1    6300 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J18
+U 1 1 5B20D5CD
+P 6300 2700
+F 0 "J18" H 6300 2800 50  0000 C CNN
+F 1 "Conn_01x01" H 6300 2600 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6300 2700 50  0001 C CNN
+F 3 "" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 J19
+U 1 1 5B20D868
+P 6600 2700
+F 0 "J19" H 6750 2700 50  0000 C CNN
+F 1 "Conn_01x01" H 6600 2600 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6600 2700 50  0001 C CNN
+F 3 "" H 6600 2700 50  0001 C CNN
+	1    6600 2700
+	0    1    1    0   
 $EndComp
 Wire Bus Line
 	4050 600  4050 6350
@@ -951,108 +1171,6 @@ Wire Wire Line
 	1400 1250 1400 1400
 Connection ~ 1400 1400
 Wire Wire Line
-	10650 1100 10450 1100
-Wire Wire Line
-	10450 1100 10450 1050
-Wire Wire Line
-	10450 1050 10200 1050
-Wire Wire Line
-	10200 1050 10200 1150
-Connection ~ 10200 1150
-$Comp
-L Conn_01x01 J12
-U 1 1 5B1D7EF4
-P 10850 1350
-F 0 "J12" H 10850 1450 50  0000 C CNN
-F 1 "Conn_01x01" H 10850 1250 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10850 1350 50  0001 C CNN
-F 3 "" H 10850 1350 50  0001 C CNN
-	1    10850 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 1350 10450 1350
-Wire Wire Line
-	10450 1350 10450 1250
-Wire Wire Line
-	10450 1250 10200 1250
-Wire Wire Line
-	10200 1250 10200 1350
-Connection ~ 10200 1350
-$Comp
-L Conn_01x01 J13
-U 1 1 5B1D8526
-P 10900 1750
-F 0 "J13" H 10900 1850 50  0000 C CNN
-F 1 "Conn_01x01" H 10900 1650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10900 1750 50  0001 C CNN
-F 3 "" H 10900 1750 50  0001 C CNN
-	1    10900 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 1750 10450 1750
-Wire Wire Line
-	10450 1750 10450 1650
-Wire Wire Line
-	10450 1650 10200 1650
-Wire Wire Line
-	10200 1650 10200 1750
-Connection ~ 10200 1750
-$Comp
-L Conn_01x01 J14
-U 1 1 5B1D8DA3
-P 10850 2300
-F 0 "J14" H 10850 2400 50  0000 C CNN
-F 1 "Conn_01x01" H 10850 2200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10850 2300 50  0001 C CNN
-F 3 "" H 10850 2300 50  0001 C CNN
-	1    10850 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 2300 10450 2300
-Wire Wire Line
-	10450 2300 10450 2250
-Wire Wire Line
-	10450 2250 10200 2250
-Wire Wire Line
-	10200 2250 10200 2350
-Connection ~ 10200 2350
-$Comp
-L Conn_01x01 J15
-U 1 1 5B1DB775
-P 2250 4750
-F 0 "J15" H 2250 4850 50  0000 C CNN
-F 1 "Conn_01x01" H 2250 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2250 4750 50  0001 C CNN
-F 3 "" H 2250 4750 50  0001 C CNN
-	1    2250 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Conn_01x01 J16
-U 1 1 5B1DB9EA
-P 2550 4750
-F 0 "J16" H 2550 4850 50  0000 C CNN
-F 1 "Conn_01x01" H 2550 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2550 4750 50  0001 C CNN
-F 3 "" H 2550 4750 50  0001 C CNN
-	1    2550 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Conn_01x01 J17
-U 1 1 5B1DBC43
-P 2850 4750
-F 0 "J17" H 2850 4850 50  0000 C CNN
-F 1 "Conn_01x01" H 2850 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2850 4750 50  0001 C CNN
-F 3 "" H 2850 4750 50  0001 C CNN
-	1    2850 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	2250 4950 2250 5100
 Connection ~ 2250 5100
 Wire Wire Line
@@ -1061,88 +1179,80 @@ Connection ~ 2550 5100
 Wire Wire Line
 	2850 4950 2850 5100
 Connection ~ 2850 5100
-$Comp
-L Conn_01x01 J18
-U 1 1 5B1E08C0
-P 850 4350
-F 0 "J18" H 850 4450 50  0000 C CNN
-F 1 "Conn_01x01" H 850 4250 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 850 4350 50  0001 C CNN
-F 3 "" H 850 4350 50  0001 C CNN
-	1    850  4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x01 J19
-U 1 1 5B1E0B25
-P 850 4050
-F 0 "J19" H 850 4150 50  0000 C CNN
-F 1 "Conn_01x01" H 850 3950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 850 4050 50  0001 C CNN
-F 3 "" H 850 4050 50  0001 C CNN
-	1    850  4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x01 J20
-U 1 1 5B1E0D95
-P 850 3750
-F 0 "J20" H 850 3850 50  0000 C CNN
-F 1 "Conn_01x01" H 850 3650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 850 3750 50  0001 C CNN
-F 3 "" H 850 3750 50  0001 C CNN
-	1    850  3750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 3750 1150 3750
-Connection ~ 1150 3750
-Wire Wire Line
-	1050 4050 1150 4050
-Connection ~ 1150 4050
-Wire Wire Line
-	1050 4350 1150 4350
-Connection ~ 1150 4350
-$Comp
-L Conn_01x01 J34
-U 1 1 5B1D9F16
-P 850 4600
-F 0 "J34" H 850 4700 50  0000 C CNN
-F 1 "Conn_01x01" H 850 4500 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 850 4600 50  0001 C CNN
-F 3 "" H 850 4600 50  0001 C CNN
-	1    850  4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 4600 1150 4600
-Connection ~ 1150 4600
-$Comp
-L Conn_01x01 J35
-U 1 1 5B1DDC4B
-P 7750 5600
-F 0 "J35" H 7750 5700 50  0000 C CNN
-F 1 "Conn_01x01" H 7750 5500 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7750 5600 50  0001 C CNN
-F 3 "" H 7750 5600 50  0001 C CNN
-	1    7750 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J36
-U 1 1 5B1DE400
-P 7750 5900
-F 0 "J36" H 7750 6000 50  0000 C CNN
-F 1 "Conn_01x01" H 7750 5800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7750 5900 50  0001 C CNN
-F 3 "" H 7750 5900 50  0001 C CNN
-	1    7750 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 5600 7450 5600
 Connection ~ 7450 5600
 Wire Wire Line
 	7550 5900 7450 5900
 Connection ~ 7450 5900
+Wire Wire Line
+	6550 1300 6550 1450
+Connection ~ 6550 1450
+Wire Wire Line
+	6300 1300 6300 1450
+Connection ~ 6300 1450
+Wire Wire Line
+	6300 1850 6300 1700
+Connection ~ 6300 1700
+Wire Wire Line
+	6550 1850 6550 1700
+Connection ~ 6550 1700
+Wire Wire Line
+	6600 2500 6600 2350
+Connection ~ 6600 2350
+Wire Wire Line
+	6300 2500 6300 2350
+Connection ~ 6300 2350
+Wire Wire Line
+	6400 3200 6400 3000
+Connection ~ 6400 3000
+Wire Wire Line
+	6700 3250 6650 3250
+Wire Wire Line
+	6650 3250 6650 3000
+Connection ~ 6650 3000
+Wire Wire Line
+	6450 3800 6450 3650
+Connection ~ 6450 3650
+Wire Wire Line
+	6750 3800 6750 3650
+Connection ~ 6750 3650
+Wire Wire Line
+	6500 4350 6500 4250
+Connection ~ 6500 4250
+Wire Wire Line
+	6800 4350 6800 4250
+Connection ~ 6800 4250
+Wire Wire Line
+	6500 5000 6500 4850
+Connection ~ 6500 4850
+Wire Wire Line
+	6800 5000 6800 4850
+Connection ~ 6800 4850
+Wire Wire Line
+	6500 5600 6500 5450
+Connection ~ 6500 5450
+Wire Wire Line
+	6850 5600 6850 5450
+Connection ~ 6850 5450
+$Comp
+L Conn_01x01 J52
+U 1 1 5B20FDE1
+P 10900 900
+F 0 "J52" H 10900 1000 50  0000 C CNN
+F 1 "Conn_01x01" H 10900 800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10900 900 50  0001 C CNN
+F 3 "" H 10900 900 50  0001 C CNN
+	1    10900 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 900  10600 900 
+Wire Wire Line
+	10600 900  10600 700 
+Wire Wire Line
+	10600 700  10150 700 
+Wire Wire Line
+	10150 700  10150 950 
+Connection ~ 10150 950 
 $EndSCHEMATC

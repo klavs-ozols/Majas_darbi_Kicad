@@ -658,4 +658,88 @@ $EndComp
 Wire Wire Line
 	8300 3350 8300 3450
 Connection ~ 8300 3450
+$Comp
+L Conn_01x01 J38
+U 1 1 5B203C5E
+P 7500 3050
+F 0 "J38" H 7500 3150 50  0000 C CNN
+F 1 "Conn_01x01" H 7500 2950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7500 3050 50  0001 C CNN
+F 3 "" H 7500 3050 50  0001 C CNN
+	1    7500 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 2800 7500 2850
+Connection ~ 7500 2800
+$Comp
+L Conn_01x01 J47
+U 1 1 5B2115C6
+P 8300 1200
+F 0 "J47" H 8300 1300 50  0000 C CNN
+F 1 "Conn_01x01" H 8300 1100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 8300 1200 50  0001 C CNN
+F 3 "" H 8300 1200 50  0001 C CNN
+	1    8300 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J48
+U 1 1 5B211659
+P 8300 1500
+F 0 "J48" H 8300 1600 50  0000 C CNN
+F 1 "Conn_01x01" H 8300 1400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 8300 1500 50  0001 C CNN
+F 3 "" H 8300 1500 50  0001 C CNN
+	1    8300 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J49
+U 1 1 5B2116F3
+P 8300 1850
+F 0 "J49" H 8300 1950 50  0000 C CNN
+F 1 "Conn_01x01" H 8300 1750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 8300 1850 50  0001 C CNN
+F 3 "" H 8300 1850 50  0001 C CNN
+	1    8300 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 850  8700 850 
+Connection ~ 8700 850 
+Wire Wire Line
+	8500 1200 8700 1200
+Connection ~ 8700 1200
+$Comp
+L Conn_01x01 J50
+U 1 1 5B211B78
+P 8450 2450
+F 0 "J50" H 8450 2550 50  0000 C CNN
+F 1 "Conn_01x01" H 8450 2350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 8450 2450 50  0001 C CNN
+F 3 "" H 8450 2450 50  0001 C CNN
+	1    8450 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 2450 8650 2450
+Connection ~ 8750 2450
+$Comp
+L Conn_01x01 J51
+U 1 1 5B20E1AA
+P 8250 850
+F 0 "J51" H 8250 950 50  0000 C CNN
+F 1 "Conn_01x01" H 8250 750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 8250 850 50  0001 C CNN
+F 3 "" H 8250 850 50  0001 C CNN
+	1    8250 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 1850 8700 1850
+Connection ~ 8700 1850
+Wire Wire Line
+	8700 1500 8500 1500
+Connection ~ 8700 1500
 $EndSCHEMATC
