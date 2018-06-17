@@ -1255,4 +1255,202 @@ Wire Wire Line
 Wire Wire Line
 	10150 700  10150 950 
 Connection ~ 10150 950 
+$Comp
+L Conn_01x01 J57
+U 1 1 5B255C18
+P 850 3750
+F 0 "J57" H 850 3850 50  0000 C CNN
+F 1 "Conn_01x01" H 950 3650 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 3750 50  0001 C CNN
+F 3 "" H 850 3750 50  0001 C CNN
+	1    850  3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J59
+U 1 1 5B256229
+P 850 4000
+F 0 "J59" H 850 4100 50  0000 C CNN
+F 1 "Conn_01x01" H 950 3900 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 4000 50  0001 C CNN
+F 3 "" H 850 4000 50  0001 C CNN
+	1    850  4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J61
+U 1 1 5B2564BA
+P 850 4250
+F 0 "J61" H 850 4350 50  0000 C CNN
+F 1 "Conn_01x01" H 950 4150 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 4250 50  0001 C CNN
+F 3 "" H 850 4250 50  0001 C CNN
+	1    850  4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J63
+U 1 1 5B2569A6
+P 850 4550
+F 0 "J63" H 850 4650 50  0000 C CNN
+F 1 "Conn_01x01" H 950 4450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 4550 50  0001 C CNN
+F 3 "" H 850 4550 50  0001 C CNN
+	1    850  4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J65
+U 1 1 5B256C3D
+P 850 4800
+F 0 "J65" H 850 4900 50  0000 C CNN
+F 1 "Conn_01x01" H 950 4700 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 4800 50  0001 C CNN
+F 3 "" H 850 4800 50  0001 C CNN
+	1    850  4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J66
+U 1 1 5B256ED9
+P 850 5050
+F 0 "J66" H 850 5150 50  0000 C CNN
+F 1 "Conn_01x01" H 950 4950 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 5050 50  0001 C CNN
+F 3 "" H 850 5050 50  0001 C CNN
+	1    850  5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J67
+U 1 1 5B257178
+P 850 5350
+F 0 "J67" H 850 5450 50  0000 C CNN
+F 1 "Conn_01x01" H 950 5250 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 850 5350 50  0001 C CNN
+F 3 "" H 850 5350 50  0001 C CNN
+	1    850  5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J54
+U 1 1 5B257549
+P 1450 2950
+F 0 "J54" H 1450 3050 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 2850 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 2950 50  0001 C CNN
+F 3 "" H 1450 2950 50  0001 C CNN
+	1    1450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J55
+U 1 1 5B257A84
+P 1450 3250
+F 0 "J55" H 1450 3350 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 3150 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 3250 50  0001 C CNN
+F 3 "" H 1450 3250 50  0001 C CNN
+	1    1450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J56
+U 1 1 5B257D34
+P 1450 3550
+F 0 "J56" H 1450 3650 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 3450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 3550 50  0001 C CNN
+F 3 "" H 1450 3550 50  0001 C CNN
+	1    1450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J58
+U 1 1 5B257FDD
+P 1450 3850
+F 0 "J58" H 1450 3950 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 3750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 3850 50  0001 C CNN
+F 3 "" H 1450 3850 50  0001 C CNN
+	1    1450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J60
+U 1 1 5B2589FD
+P 1450 4150
+F 0 "J60" H 1450 4250 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 4050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 4150 50  0001 C CNN
+F 3 "" H 1450 4150 50  0001 C CNN
+	1    1450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J62
+U 1 1 5B258CBA
+P 1450 4450
+F 0 "J62" H 1450 4550 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 4350 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 4450 50  0001 C CNN
+F 3 "" H 1450 4450 50  0001 C CNN
+	1    1450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J64
+U 1 1 5B258F6C
+P 1450 4750
+F 0 "J64" H 1450 4850 50  0000 C CNN
+F 1 "Conn_01x01" H 1550 4650 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1450 4750 50  0001 C CNN
+F 3 "" H 1450 4750 50  0001 C CNN
+	1    1450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2950 1150 2950
+Connection ~ 1150 2950
+Wire Wire Line
+	1250 3250 1150 3250
+Connection ~ 1150 3250
+Wire Wire Line
+	1250 3550 1150 3550
+Connection ~ 1150 3550
+Wire Wire Line
+	1050 3750 1150 3750
+Connection ~ 1150 3750
+Wire Wire Line
+	1250 3850 1150 3850
+Connection ~ 1150 3850
+Wire Wire Line
+	1050 4000 1150 4000
+Connection ~ 1150 4000
+Wire Wire Line
+	1250 4150 1150 4150
+Connection ~ 1150 4150
+Wire Wire Line
+	1050 4250 1150 4250
+Connection ~ 1150 4250
+Wire Wire Line
+	1250 4450 1150 4450
+Connection ~ 1150 4450
+Wire Wire Line
+	1050 4550 1150 4550
+Connection ~ 1150 4550
+Wire Wire Line
+	1250 4750 1150 4750
+Connection ~ 1150 4750
+Wire Wire Line
+	1050 4800 1150 4800
+Connection ~ 1150 4800
+Wire Wire Line
+	1050 5050 1150 5050
+Connection ~ 1150 5050
+Wire Wire Line
+	1050 5350 1200 5350
+Wire Wire Line
+	1200 5350 1200 5250
+Connection ~ 1200 5250
 $EndSCHEMATC
